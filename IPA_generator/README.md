@@ -1,6 +1,6 @@
-#Objective
+# Objective
 
-For https://translate.google.com, for english-french translations, generate IPA.
+For https://translate.google.com, for English-French translations, generate IPA for English and French components.
 
 ## Prospective APIs
 - [DictionaryAPI](https://dictionaryapi.dev/)
