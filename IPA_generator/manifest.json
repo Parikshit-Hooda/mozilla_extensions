@@ -11,5 +11,10 @@
   ],
   "background": {
     "page": "background_stats.html"
+  },
+  "permissions": ["tabs"],
+  "browser_action": {
+    "default_title": "IPA Generator",
+    "default_popup": "popup/popup_test.html"
   }
 }
