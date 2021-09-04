@@ -5,8 +5,11 @@
   "description": "This Mozilla extension is set up to generate English and French IPA equivalents for qualified words",
   "content_scripts": [
     {
-      "matches": ["*://translate.google.*"],
+      "matches": ["*://translate.google.com/*"],
       "js": ["content_script1.js"]
     }
-  ]
+  ],
+  "background": {
+    "page": "background_stats.html"
+  }
 }
