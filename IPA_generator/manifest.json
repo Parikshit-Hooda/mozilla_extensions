@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "version": "0.0.0",
+  "name": "IPA Generator mozilla extension",
+  "description": "This Mozilla extension is set up to generate English and French IPA equivalents for qualified words",
+  "content_scripts": [
+    {
+      "matches": ["*://translate.google.*"],
+      "js": ["content_script1.js"]
+    }
+  ]
+}
