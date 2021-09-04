@@ -1,0 +1,6 @@
+DOM selctor that works for source text -> document.querySelector('[aria-label="Source text"]').nextElementSibling.innerHTML
+
+DOM selector that works for target text -(for french) -> document.querySelector('[lang="fr"]').childNodes[0].innerText
+
+DOM selector that works for target text -(for french) ->
+document.querySelector('[lang="es"]').childNodes[0].innerText
