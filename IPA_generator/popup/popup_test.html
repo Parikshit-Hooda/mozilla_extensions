@@ -6,6 +6,7 @@
   <title>Popup</title>
   <meta name="author" content="Parikshit-Hooda">
   <meta name="description" content="IPA_Generator popup page">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -13,11 +14,19 @@
     <div>
       <h4>IPA Popup</h4>
       </div>
+
+<hr>
+
     <div>
       <p>Source Language: English</p>
       <p>Current sentence: Text in English here. <span id ="testid">test val</span></p>
       <p>IPA: </p>
       </div>
+
+      <div id = "src_tgt_separator">
+          <hr>
+        </div>
+
       <div>
         <p id ="tl_p">Target Language: French</p>
         <p>Current sentence: Text in French here.</p>
@@ -30,7 +39,7 @@
     </div>
 
 <script src = "popup_test.js">
-// 
+//
 // document.getElementById('findipabtn').addEventListener("click", function() {
 //   document.getElementById('tl_p').innerHTML = "Target Language: Fr";
 // });
