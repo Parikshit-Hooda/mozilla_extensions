@@ -4,3 +4,17 @@ DOM selector that works for target text -(for french) -> document.querySelector(
 
 DOM selector that works for target text -(for french) ->
 document.querySelector('[lang="es"]').childNodes[0].innerText
+
+flow
+content script listens for click of button from popup.html.
+when btn clicked, content script transfers values to popup.html
+then, popup produces received message from content script in popup.html
+then, popup script makes calls to APIs to retrieve IPA
+
+
+"content_scripts": [
+  {
+    "matches": ["*://translate.google.com/*"],
+    "js": ["content_script1.js"]
+  }
+],

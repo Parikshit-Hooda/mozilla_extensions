@@ -3,16 +3,10 @@
   "version": "0.0.0",
   "name": "IPA Generator mozilla extension",
   "description": "This Mozilla extension is set up to generate English and French IPA equivalents for qualified words",
-  "content_scripts": [
-    {
-      "matches": ["*://translate.google.com/*"],
-      "js": ["content_script1.js"]
-    }
-  ],
   "background": {
     "page": "background_stats.html"
   },
-  "permissions": ["tabs"],
+  "permissions": ["tabs", "activeTab"],
   "browser_action": {
     "default_title": "IPA Generator",
     "default_popup": "popup/popup_test.html"

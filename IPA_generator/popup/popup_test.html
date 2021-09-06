@@ -6,9 +6,6 @@
   <title>Popup</title>
   <meta name="author" content="Parikshit-Hooda">
   <meta name="description" content="IPA_Generator popup page">
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-
-  <!-- <link href="css/style.css" rel="stylesheet"> -->
 </head>
 
 <body>
@@ -18,22 +15,108 @@
       </div>
     <div>
       <p>Source Language: English</p>
-      <p>Current sentence: Text in English here.</p>
+      <p>Current sentence: Text in English here. <span id ="testid">test val</span></p>
       <p>IPA: </p>
       </div>
       <div>
-        <p>Target Language: French</p>
+        <p id ="tl_p">Target Language: French</p>
         <p>Current sentence: Text in French here.</p>
         <p>IPA: </p>
         </div>
 
 <div>
-<button type="button" autofocus>Find IPA</button>
+<button type="button" autofocus id="findipabtn">Find IPA</button>
   </div>
-
-
     </div>
 
+<script src = "popup_test.js">
+// 
+// document.getElementById('findipabtn').addEventListener("click", function() {
+//   document.getElementById('tl_p').innerHTML = "Target Language: Fr";
+// });
+
+// document.body.style.border = "5px solid red";
+// console.log('popup.html script loaded')
+
+// browser.tabs.executeScript(current_tab, {
+// file: "../content_script1.js",})
+// .then(function () { browser.tabs.sendMessage(current_tab, {button: "clicked"}) })
+// .catch(console.error.bind(console));
+
+
+
+// function getIPA(){
+//
+//   var teststr =
+//   document.querySelector('[aria-label="Source text"]').nextElementSibling.innerHTML;
+//
+//   document.getelementbyid('testid').innertext = teststr;
+//
+//   browser.tabs.query({active: true, currentWindow: true}, function(tabs) {
+//       // query the active tab, which will be only one tab
+//       //and inject the script in it
+//       chrome.tabs.executeScript(tabs[0].id, {file: "../content_script1.js"});
+//   });
+    // browser.tabs.executeScript(current_tab, {
+    // file: "../content_script1.js",})
+    // .then(function () { browser.tabs.sendMessage(current_tab, {button: "clicked"}) })
+    // .catch(console.error.bind(console));
+// }
+
+// document.getElementById("findipabtn").addEventListener("click", getIPA);
+
+// (e) => {
+    // var query = browser.tabs.query({currentWindow: true, active : true});
+    // var tab = query.then(getTab,onError);
+
+    // function getTab(tabs) {
+//         for (let tab of tabs){
+//             send(tab.id);
+//         }
+//     }
+//
+//     function onError(error) {
+//       console.log(`Error: ${error}`);
+//     }
+//
+//     function send(tab){
+//         browser.tabs.executeScript(tab, {
+//         file: "/content_scripts/recorder.js",})
+//         .then(function () { browser.tabs.sendMessage(tab, {record: "start"}) })
+//         .catch(console.error.bind(console));
+//     }
+// });
+
+
+
+/*
+function injectTheScript3() {
+    chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+        // query the active tab, which will be only one tab
+        //and inject the script in it
+        chrome.tabs.executeScript(tabs[0].id, {file: "content_script3.js"});
+    });
+}
+
+document.getElementById('clickactivity3').addEventListener('click', injectTheScript3)
+*/
+
+// var query = browser.tabs.query({currentWindow: true, active : true});
+// var current_tab = query.then(getIPA, onError);
+//
+// function onError(error) {
+//   console.log(`Error: ${error}`);
+// }
+
+// function getIPA(current_tab){
+//     browser.tabs.executeScript(current_tab, {
+//     file: "../content_script1.js",})
+//     .then(function () { browser.tabs.sendMessage(current_tab, {button: "clicked"}) })
+//     .catch(console.error.bind(console));
+// }
+
+// }
+  </script>
   <!-- <script src="js/jquery-3.6.0.min.js"></script> -->
 </body>
 
