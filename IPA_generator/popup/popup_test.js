@@ -52,8 +52,9 @@ for (let tab of tabs) {
     // console.log(response.response);
     if(response.messageType == 1) {
       console.log("popup_test.js - source text recieved: " + response.sourceText);
+      console.log("popup_test.js - target text recieved: " + response.targetText);
     } else if (response.messageType == 0) {
-      console.log("popup_test.js - Invalid message type. Please send source text.");
+      console.log("popup_test.js - Invalid message type. Please send proper information.");
     } else {
       console.log("popup_test.js - Message type for Find IPA button clicked event invalid");
     }
