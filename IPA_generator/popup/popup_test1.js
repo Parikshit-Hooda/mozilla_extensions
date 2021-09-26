@@ -1,5 +1,4 @@
-console.log('popup_test.js access successful'); //popup_test.js check
-
+console.log('popup_test1.js access successful');
 
 // to inject -content_Script1 and only inject in targetted website.
 browser.tabs.query({currentWindow: true, active: true}, tabs => {
@@ -33,11 +32,9 @@ browser.tabs.query({currentWindow: true, active: true}, tabs => {
     }
 });
 
-document.getElementById('findipabtn').addEventListener("click", function() {
-  document.getElementById('tl_p').innerHTML = "Target Language: Fr";
-
-
+document.getElementById("findipabtn").addEventListener("click", function(){
+    browser.tabs.query({
+    currentWindow: true,
+    active: true
+  }).then(sendMessageToTabs).catch(onError);
 });
-  // document.body.style.color = "5px solid red";
-
-  // browser.runtime.sendMessage()
