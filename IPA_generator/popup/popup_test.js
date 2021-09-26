@@ -34,8 +34,36 @@ browser.tabs.query({currentWindow: true, active: true}, tabs => {
 });
 
 document.getElementById('findipabtn').addEventListener("click", function() {
-  document.getElementById('tl_p').innerHTML = "Target Language: Fr";
+  // document.getElementById('tl_p').innerHTML = "Target Language: Fr"; // successful - changes element innerHTML as simple test of event catching
 
+
+  //1. send message to content script
+  function onError(error) {
+  console.error(`Error: ${error}`);
+}
+
+function sendMessageToTabs(tabs) {
+for (let tab of tabs) {
+  browser.tabs.sendMessage(
+    tab.id,
+    {messageContent: "Find IPA button clicked"}
+  ).then(response => {
+    console.log("Message recieved from the content script:");
+    console.log(response.response);
+  }).catch(onError);
+}
+}
+
+  browser.tabs.query({
+  currentWindow: true,
+  active: true
+}).then(sendMessageToTabs).catch(onError);
+
+
+
+  //2. accept response contatining information about present state of Google Translate website. i.e., current source and target language,
+  // current text in source and target panel
+  //3. process response
 
 });
   // document.body.style.color = "5px solid red";

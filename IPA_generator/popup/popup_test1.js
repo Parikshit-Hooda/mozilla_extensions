@@ -32,9 +32,9 @@ browser.tabs.query({currentWindow: true, active: true}, tabs => {
     }
 });
 
-document.getElementById("findipabtn").addEventListener("click", function(){
-    browser.tabs.query({
-    currentWindow: true,
-    active: true
-  }).then(sendMessageToTabs).catch(onError);
-});
+// document.getElementById("findipabtn").addEventListener("click", function(){
+//     browser.tabs.query({
+//     currentWindow: true,
+//     active: true
+//   }).then(sendMessageToTabs).catch(onError);
+// });

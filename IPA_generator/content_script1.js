@@ -2,8 +2,8 @@
     document.querySelector('[aria-label="Source text"]').nextElementSibling.innerHTML;
 
     // var sendSrcString =
-    browser.runtime.sendMessage({
-      srcString: teststr
-    }, {msgSender: "from content_Scritp1.js"}, {sr: "not needed"});
-
-    console.log('teststr');
+    browser.runtime.onMessage.addListener(request => {
+      console.log("Message recieved from popup_test.js script");
+      console.log(request.messageContent);
+      return Promise.resolve({response: "Hi from content script"});
+    });
