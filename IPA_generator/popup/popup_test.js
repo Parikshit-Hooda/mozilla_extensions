@@ -46,10 +46,17 @@ function sendMessageToTabs(tabs) {
 for (let tab of tabs) {
   browser.tabs.sendMessage(
     tab.id,
-    {messageContent: "Find IPA button clicked"}
+    {messageContent: "Find IPA button clicked"} //successfully received by content_script1.js
   ).then(response => {
-    console.log("Message recieved from the content script:");
-    console.log(response.response);
+    console.log("popup_test.js - Message received from the content script"); //successful log
+    // console.log(response.response);
+    if(response.messageType == 1) {
+      console.log("popup_test.js - source text recieved: " + response.sourceText);
+    } else if (response.messageType == 0) {
+      console.log("popup_test.js - Invalid message type. Please send source text.");
+    } else {
+      console.log("popup_test.js - Message type for Find IPA button clicked event invalid");
+    }
   }).catch(onError);
 }
 }
