@@ -18,3 +18,10 @@ then, popup script makes calls to APIs to retrieve IPA
     "js": ["content_script1.js"]
   }
 ],
+
+
+-----------------------------------
+get info about selected languages
+- on google translate
+ - use button id = i9 and i12, identify relevant attributes of these buttons to detect if currently selected languages are french and english or not.
+ 
