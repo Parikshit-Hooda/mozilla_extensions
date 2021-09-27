@@ -23,5 +23,13 @@ then, popup script makes calls to APIs to retrieve IPA
 -----------------------------------
 get info about selected languages
 - on google translate
- - use button id = i9 and i12, identify relevant attributes of these buttons to detect if currently selected languages are french and english or not.
- 
+ - get element details with id = i8, i9, i10, i11, i12, i13, i14. In normal window view,
+      ->Left panel<-
+       i8 -> 'detect language' tab
+       i9 - first tab
+       i10 - second tab
+       i11 - third tab
+      ->Right panel<-
+      i12 - first tab
+      i13 - second tab
+      i14 - third tab
