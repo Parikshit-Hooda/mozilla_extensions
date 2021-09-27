@@ -14,12 +14,38 @@ function getStateAtLargeWidth() {
 
     console.log("called when screen width >= 720 px");
 
-  resultState["pageWidthFlag"] = "1";
+  resultState["pageWidthFlag"] = "1"; //flag to identify current page width
+
+  //      below object fields get information for left panel on Google Translate
   resultState["i8-aria-selected"] = document.getElementById("i8").getAttribute("aria-selected");
   resultState["i8-tabIndex"] = document.getElementById("i8").getAttribute("tabIndex");
   resultState["i8-data-language-code"] = document.getElementById("i8").getAttribute("data-language-code");
 
-    //get state
+  resultState["i9-aria-selected"] = document.getElementById("i9").getAttribute("aria-selected");
+  resultState["i9-tabIndex"] = document.getElementById("i9").getAttribute("tabIndex");
+  resultState["i9-data-language-code"] = document.getElementById("i9").getAttribute("data-language-code");
+
+  resultState["i10-aria-selected"] = document.getElementById("i10").getAttribute("aria-selected");
+  resultState["i10-tabIndex"] = document.getElementById("i10").getAttribute("tabIndex");
+  resultState["i10-data-language-code"] = document.getElementById("i10").getAttribute("data-language-code");
+
+  resultState["i11-aria-selected"] = document.getElementById("i11").getAttribute("aria-selected");
+  resultState["i11-tabIndex"] = document.getElementById("i11").getAttribute("tabIndex");
+  resultState["i11-data-language-code"] = document.getElementById("i11").getAttribute("data-language-code");
+//      below object fields get information for right panel on Google Translate
+
+resultState["i12-aria-selected"] = document.getElementById("i12").getAttribute("aria-selected");
+resultState["i12-tabIndex"] = document.getElementById("i12").getAttribute("tabIndex");
+resultState["i12-data-language-code"] = document.getElementById("i12").getAttribute("data-language-code");
+
+resultState["i13-aria-selected"] = document.getElementById("i13").getAttribute("aria-selected");
+resultState["i13-tabIndex"] = document.getElementById("i13").getAttribute("tabIndex");
+resultState["i13-data-language-code"] = document.getElementById("i13").getAttribute("data-language-code");
+
+resultState["i14-aria-selected"] = document.getElementById("i14").getAttribute("aria-selected");
+resultState["i14-tabIndex"] = document.getElementById("i14").getAttribute("tabIndex");
+resultState["i14-data-language-code"] = document.getElementById("i14").getAttribute("data-language-code");
+
   }
   else {
     console.log("called when screen width < 720 px");
