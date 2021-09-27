@@ -80,6 +80,13 @@ browser.runtime.onMessage.addListener(request => {
 
     //'getting' works only for large width
     var getStateAtLargeWidthResult = getStateAtLargeWidth();
+
+    //add source and target text details to the above object
+    getStateAtLargeWidthResult["sourceText"] = document.querySelector('[aria-label="Source text"]').nextElementSibling.innerHTML;
+    getStateAtLargeWidthResult["targetText"] = document.querySelector('[lang="fr"]').childNodes[0].innerText;
+
+
+
     console.log("content_script1.js getStateAtLargeWidthResult " + JSON.stringify(getStateAtLargeWidthResult)); //to check the content of getStateAtLargeWidthResult variable
 
     //TODO: add for stateAtMediumWidth and stateAtSmallWidth
