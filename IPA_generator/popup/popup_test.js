@@ -51,8 +51,9 @@ for (let tab of tabs) {
     console.log("popup_test.js - Message received from the content script"); //successful log
     // console.log(response.response);
     if(response.messageType == 1) {
-      console.log("popup_test.js - source text recieved: " + response.sourceText);
-      console.log("popup_test.js - target text recieved: " + response.targetText);
+      console.log("popup_test.js - response object " + JSON.stringify(response.responseObj));
+      // console.log("popup_test.js - source text recieved: " + response.sourceText);
+      // console.log("popup_test.js - target text recieved: " + response.targetText);
     } else if (response.messageType == 0) {
       console.log("popup_test.js - Invalid message type. Please send proper information.");
     } else {

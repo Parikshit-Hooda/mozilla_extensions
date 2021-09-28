@@ -1,6 +1,9 @@
 // var sourceText =
 // document.querySelector('[aria-label="Source text"]').nextElementSibling.innerHTML;
 //
+
+var getStateAtLargeWidthResult = {};
+
 function getStateAtLargeWidth() {
   //first check for screen size
   var resultState = {};
@@ -79,7 +82,7 @@ browser.runtime.onMessage.addListener(request => {
     //call function to get current Google Translate state. Check window screen size. below state
 
     //'getting' works only for large width
-    var getStateAtLargeWidthResult = getStateAtLargeWidth();
+    getStateAtLargeWidthResult = getStateAtLargeWidth();
 
     //add source and target text details to the above object
     getStateAtLargeWidthResult["sourceText"] = document.querySelector('[aria-label="Source text"]').nextElementSibling.innerHTML;
@@ -95,11 +98,11 @@ browser.runtime.onMessage.addListener(request => {
 
   } else {
     messageType = 0;
-    sourceText = "invalid";
-    targetText = "invalid";
+    getStateAtLargeWidthResult[sourceText] = "invalid";
+    getStateAtLargeWidthResult[targetText] = "invalid";
     console.log("content_Script1.js - messageType = 0 else block executed");
 
   }
 
-  return Promise.resolve({response: "From content script", messageType: messageType, sourceText: sourceText, targetText: targetText}); //successful resolution
+  return Promise.resolve({response: "From content script", messageType: messageType, responseObj: getStateAtLargeWidthResult}); //successful resolution
 });
