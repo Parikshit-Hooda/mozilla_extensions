@@ -36,7 +36,6 @@ browser.tabs.query({currentWindow: true, active: true}, tabs => {
 document.getElementById('findipabtn').addEventListener("click", function() {
   // document.getElementById('tl_p').innerHTML = "Target Language: Fr"; // successful - changes element innerHTML as simple test of event catching
 
-
   //1. send message to content script
   function onError(error) {
   console.error(`Error: ${error}`);
@@ -51,13 +50,17 @@ for (let tab of tabs) {
     console.log("popup_test.js - Message received from the content script"); //successful log
     // console.log(response.response);
     if(response.messageType == 1) {
-      console.log("popup_test.js - response object " + JSON.stringify(response.responseObj));
+      // console.log("popup_test.js - in response.messageType == 1 block.");
+      // console.log("popup_test.js - response object " + JSON.stringify(response.responseObj)); // successufully received message object
+      console.log("popup_Test.js messageType==1 if block. \n Response obj:" + JSON.stringify(response.responseObj));
       // console.log("popup_test.js - source text recieved: " + response.sourceText);
       // console.log("popup_test.js - target text recieved: " + response.targetText);
     } else if (response.messageType == 0) {
-      console.log("popup_test.js - Invalid message type. Please send proper information.");
+      console.log("popup_test.js - invalid message.");
+      // console.log("popup_test.js - Invalid message type. Please send proper information. Left panel text: " + response.responseObj.sourceText);
+      // console.log("popup_test.js - Invalid message type. Please send proper information. Right panel text: " + response.responseObj.targetText);
     } else {
-      console.log("popup_test.js - Message type for Find IPA button clicked event invalid");
+      console.log("popup_test.js - Message type for Find IPA button clicked event invalid.");
     }
   }).catch(onError);
 }
@@ -68,13 +71,8 @@ for (let tab of tabs) {
   active: true
 }).then(sendMessageToTabs).catch(onError);
 
-
-
   //2. accept response contatining information about present state of Google Translate website. i.e., current source and target language,
   // current text in source and target panel
   //3. process response
 
 });
-  // document.body.style.color = "5px solid red";
-
-  // browser.runtime.sendMessage()

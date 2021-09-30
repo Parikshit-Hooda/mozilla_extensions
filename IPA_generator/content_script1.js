@@ -56,6 +56,7 @@ resultState["i14-data-language-code"] = document.getElementById("i14").getAttrib
   }
 
   console.log("from getStateAtLargeWidth");
+  console.log("logging resultState object" + JSON.stringify(resultState));
 
   return resultState;
 
@@ -68,14 +69,15 @@ browser.runtime.onMessage.addListener(request => {
   console.log("content_script1.js - " + request.messageContent); //log success
 
   var messageType;
-  var sourceText = "-"
-  var targetText = "-";
+  var sourceText = "";
+  var targetText = "";
+
   if(request.messageContent == "Find IPA button clicked") {
     messageType = 1;
     //find current Google Translate state
-    var sourceText =
-    document.querySelector('[aria-label="Source text"]').nextElementSibling.innerHTML;
-    var targetText = document.querySelector('[lang="fr"]').childNodes[0].innerText;
+    // var sourceText =
+    // document.querySelector('[aria-label="Source text"]').nextElementSibling.innerHTML;
+    // var targetText = document.querySelector('[lang="fr"]').childNodes[0].innerText;
 
     console.log("content_Script1.js - messageType = 1 if block executed");
 
@@ -85,21 +87,51 @@ browser.runtime.onMessage.addListener(request => {
     getStateAtLargeWidthResult = getStateAtLargeWidth();
 
     //add source and target text details to the above object
+    // getStateAtLargeWidthResult["sourceText"] = document.querySelector('[aria-label="Source text"]').nextElementSibling.innerHTML || "-";
+
+    // Default to "-" in case of a language other than french
+    //var currentTarget;
+    sourceText = document.querySelector('[aria-label="Source text"]').nextElementSibling.innerHTML ;
+
+    if (sourceText == "") {
+      getStateAtLargeWidthResult["sourceText"] = "";
+      getStateAtLargeWidthResult["targetText"] = "";
+
+      console.log("Content_Script1.js calling from sourcetext == empty if block. source and target text string are empty.");
+
+    } else {
+    // console.log("sourceText variable filled");
     getStateAtLargeWidthResult["sourceText"] = document.querySelector('[aria-label="Source text"]').nextElementSibling.innerHTML;
-    getStateAtLargeWidthResult["targetText"] = document.querySelector('[lang="fr"]').childNodes[0].innerText;
 
+    if (getStateAtLargeWidthResult["i12-aria-selected"] == "true") {
+      //var z = document.querySelectorAll('[data-language="fr"] > div > span > span > span')[0].textContent;
+      targetText = document.querySelectorAll("[data-language=" + getStateAtLargeWidthResult["i12-data-language-code"] + "] > div > span > span > span")[0].textContent;
+    } else if (getStateAtLargeWidthResult["i13-aria-selected"] == "true") {
+      targetText = document.querySelectorAll("[data-language=" + getStateAtLargeWidthResult["i13-data-language-code"] + "] > div > span > span > span")[0].textContent;
+    } else if (getStateAtLargeWidthResult["i14-aria-selected"] == "true") {
+      targetText = document.querySelectorAll("[data-language=" + getStateAtLargeWidthResult["i14-data-language-code"] + "] > div > span > span > span")[0].textContent;
+    } else {
+      targetText = "";
+    }
 
+    getStateAtLargeWidthResult["targetText"] = targetText;
+
+    // getStateAtLargeWidthResult["targetText"] = (document.querySelector('[lang="fr"]').childNodes[0].innerText) || (document.querySelector('[lang="en"]').childNodes[0].innerText) || "-";//
+
+    console.log("content_Script1.js source text " + sourceText);
+    console.log("content_Script1.js target text " + targetText);
 
     console.log("content_script1.js getStateAtLargeWidthResult " + JSON.stringify(getStateAtLargeWidthResult)); //to check the content of getStateAtLargeWidthResult variable
 
     //TODO: add for stateAtMediumWidth and stateAtSmallWidth
 
+  }
 
 
-  } else {
+} else {
     messageType = 0;
-    getStateAtLargeWidthResult[sourceText] = "invalid";
-    getStateAtLargeWidthResult[targetText] = "invalid";
+    getStateAtLargeWidthResult["sourceText"] = "invalid";
+    getStateAtLargeWidthResult["targetText"] = "invalid";
     console.log("content_Script1.js - messageType = 0 else block executed");
 
   }

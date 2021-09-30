@@ -2,6 +2,26 @@ DOM selctor that works for source text -> document.querySelector('[aria-label="S
 
 DOM selector that works for target text -(for french) -> document.querySelector('[lang="fr"]').childNodes[0].innerText
 
+UPDATE: For additional info, indirect selector for selecting source and target information added below.
+
+Source:
+var testvar;
+for (const a of document.querySelectorAll("h2")) {
+  if (a.textContent.includes("Source text")) {
+    testvar = a;
+  }
+}
+
+Target:
+var testvar;
+for (const a of document.querySelectorAll("h2")) {
+  if (a.textContent.includes("Translation results")) {
+    testvar = a;
+  }
+}
+
+--------------------------------------------------------
+
 DOM selector that works for target text -(for french) ->
 document.querySelector('[lang="es"]').childNodes[0].innerText
 
@@ -33,3 +53,12 @@ get info about selected languages
       i12 - first tab
       i13 - second tab
       i14 - third tab
+
+      ----------------------
+
+      getting target text
+      after finding currently select target language
+      select div with "data-language" attribute = target .
+      Then, do a nested element select for 1st child in nested div > 1st span > 1st span > 1st span.innerText
+
+      document.querySelectorAll('[data-foo="value"] > div > span > span > span ');
