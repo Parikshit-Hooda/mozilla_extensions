@@ -106,11 +106,12 @@ for (let tab of tabs) {
         document.getElementById("srcLang_IPA").innerHTML = "IPA: <span>Sorry. Language not recognized. Choose english or french for the time being.</span>";
         document.getElementById("tgtLang_IPA").innerHTML = "IPA: <span>Sorry. Language not recognized. Choose english or french for the time being.";
       } else {
+
         //implementt word level API calls for source and target data and display in extension.
         srcTextWords = srcText.match(/\b(\w+)\b/g);
         tgtTextWords = tgtText.match(/\b(\w+)\b/g);
 
-        //iterate through words arrays and make api calls to the endpoint and store the result in a key:value type object
+        // iterate through words arrays and make api calls to the endpoint and store the result in a key:value type object
         // srcTextWords.forEach((item, i) => {
         //   httpGetAsync(`https://${selectedSrcLang}.wiktionary.org/wiki/${item}`, function(response){
         //     console.log(selectedSrcLang + " word IPA call test");
