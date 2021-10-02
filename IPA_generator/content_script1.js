@@ -20,9 +20,12 @@ function getStateAtLargeWidth() {
   resultState["pageWidthFlag"] = "1"; //flag to identify current page width
 
   //      below object fields get information for left panel on Google Translate
-  resultState["i8-aria-selected"] = document.getElementById("i8").getAttribute("aria-selected");
-  resultState["i8-tabIndex"] = document.getElementById("i8").getAttribute("tabIndex");
-  resultState["i8-data-language-code"] = document.getElementById("i8").getAttribute("data-language-code");
+
+  //-TODO : enhancement: for source language= "detect language" tab, use [data-language-code] = auto to find the correct button id first, then find values of attributes
+
+  // resultState["i8-aria-selected"] = document.getElementById("i8").getAttribute("aria-selected");
+  // resultState["i8-tabIndex"] = document.getElementById("i8").getAttribute("tabIndex");
+  // resultState["i8-data-language-code"] = document.getElementById("i8").getAttribute("data-language-code");
 
   resultState["i9-aria-selected"] = document.getElementById("i9").getAttribute("aria-selected");
   resultState["i9-tabIndex"] = document.getElementById("i9").getAttribute("tabIndex");
