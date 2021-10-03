@@ -8,6 +8,9 @@ function httpGetAsync(theUrl, callback)
             callback(xmlHttp.responseText);
     }
     xmlHttp.open("GET", theUrl, true); // true for asynchronous
+    // xmlHttp.setRequestHeader("Origin", "about:devtools-toolbox");
+    // xmlHttp.setRequestHeader("Access-Control-Allow-Methods", "GET");
+
     xmlHttp.send(null);
 }
 
@@ -82,25 +85,31 @@ for (let tab of tabs) {
       var tgtWordsIPA = {};
 
       //to find source and target language, do if-else on responseObj to find aria-selected=true,
-      if (resObj["i9-aria-selected"] == true) {
+      if (resObj["i9-aria-selected"] == "true") {
         selectedSrcLang = resObj["i9-data-language-code"];
-      } else if (resObj["i10-aria-selected"] == true) {
+      } else if (resObj["i10-aria-selected"] == "true") {
         selectedSrcLang = resObj["i10-data-language-code"];
-      } else if (resObj["i11-aria-selected"] == true) {
-        selectedSrcLang = resObj["i1-data-language-code"];
+      } else if (resObj["i11-aria-selected"] == "true") {
+        selectedSrcLang = resObj["i11-data-language-code"];
       } else {
         selectedSrcLang = "notFoundSrcLang";
       }
 
-      if (resObj["i12-aria-selected"] == true) {
+      if (resObj["i12-aria-selected"] == "true") {
         selectedTgtLang = resObj["i12-data-language-code"];
-      } else if (resObj["i13-aria-selected"] == true) {
+      } else if (resObj["i13-aria-selected"] == "true") {
         selectedTgtLang = resObj["i13-data-language-code"];
-      } else if (resObj["i14-aria-selected"] == true) {
-        selectedTgtLang = resObj["i4-data-language-code"];
+      } else if (resObj["i14-aria-selected"] == "true") {
+        selectedTgtLang = resObj["i14-data-language-code"];
       } else {
         selectedTgtLang = "notFoundTgtLang";
       }
+
+      console.log("Content_Scritp1.js srcText = " + srcText);
+      console.log("Content_Scritp1.js tgtText = " + tgtText);
+
+      console.log("Content_Scritp1.js selectedSrcLang = " + selectedSrcLang);
+      console.log("Content_Scritp1.js selectedTgtLang = " + selectedTgtLang);
 
       if((selectedSrcLang != ("en" || "fr")) && (selectedTgtLang != ("en" || "fr"))) {
         document.getElementById("srcLang_IPA").innerHTML = "IPA: <span>Sorry. Language not recognized. Choose english or french for the time being.</span>";
@@ -111,25 +120,27 @@ for (let tab of tabs) {
         srcTextWords = srcText.match(/\b(\w+)\b/g);
         tgtTextWords = tgtText.match(/\b(\w+)\b/g);
 
+        console.log("srcTextWords " + srcTextWords);
+        console.log("tgtTextWords " + tgtTextWords);
+
+        httpGetAsync("https://fr.wiktionary.org/wiki/attendu", function(response){
+              console.log("French word IPA call test");
+              console.log(response);
+            });
+
         // iterate through words arrays and make api calls to the endpoint and store the result in a key:value type object
-        // srcTextWords.forEach((item, i) => {
-        //   httpGetAsync(`https://${selectedSrcLang}.wiktionary.org/wiki/${item}`, function(response){
-        //     console.log(selectedSrcLang + " word IPA call test");
-        //     console.log(response);
-        //   });
-        // });
-
-        // tgtTextWords.forEach((item, i) => {
-        //   httpGetAsync(`https://${selectedSrcLang}.wiktionary.org/wiki/${item}`, function(response){
-        //     console.log(selectedSrcLang + " word IPA call test");
-        //     console.log(response);
-        //   });
-        //   // httpGetAsync("https://fr.wiktionary.org/wiki/attendu", function(response){
-        //   //   console.log("French word IPA call test");
-        //   //   console.log(response);
-        //   // });
-        // });
-
+      //
+      //   tgtTextWords.forEach((item, i) => {
+      //     httpGetAsync(`https://${selectedSrcLang}.wiktionary.org/wiki/${item}`, function(response){
+      //       console.log(selectedSrcLang + " word IPA call test");
+      //       console.log(response);
+      //     });
+      //     // httpGetAsync("https://fr.wiktionary.org/wiki/attendu", function(response){
+      //     //   console.log("French word IPA call test");
+      //     //   console.log(response);
+      //     // });
+      //   });
+      //
       }
 
       ///function to split string into words: var a = srcText.match(/\b(\w+)\b/g)
