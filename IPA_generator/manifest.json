@@ -6,10 +6,7 @@
   "background": {
     "page": "background_stats.html"
   },
-  "permissions": ["tabs", "activeTab"],
-  "host_permissions": [
-    "https://fr.wiktionary.org/"
-  ],
+  "permissions": ["tabs", "activeTab", "https://*.wiktionary.org/"],
   "browser_action": {
     "default_title": "IPA Generator",
     "default_popup": "popup/popup_test.html"

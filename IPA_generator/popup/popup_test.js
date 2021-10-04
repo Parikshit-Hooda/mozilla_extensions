@@ -1,11 +1,42 @@
 console.log('popup_test.js access successful'); //popup_test.js check
 
+function getPronunciation(htmlDoc){
+  console.log("htmlDoc in getPronunciatin function " + htmlDoc);
+  var startIdx;
+  var endIdx;
+  var resIPA;
+  startIdx = htmlDoc.indexOf("Prononciation API");
+  startIdx = startIdx + 19;
+  endIdx = htmlDoc.indexOf("<", startIdx);
+  // endIdx = startIdx + 3;
+  console.log(startIdx + " " + endIdx);
+  console.log(htmlDoc.substring(startIdx, endIdx)); // success!!
+  // resIpa = htmlDoc.substring(startIdx, endIdx);
+  console.log("getpronunciation function: " + htmlDoc.substring(startIdx, endIdx));
+  // for example, \zhe\ <- startIdx gets index of first '\' and endIdx gets index of second '\';
+  // var getProunciationResult = htmlDoc.substring(startIdx, endIdx-startIdx);
+  return htmlDoc.substring(startIdx, endIdx);
+}
+
 function httpGetAsync(theUrl, callback)
 {
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.onreadystatechange = function() {
-        if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
-            callback(xmlHttp.responseText);
+        if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
+          console.log("httpGetAsync if block");
+            // var resPronunciation = getPronunciation(String(xmlHttp.responseText));
+            // console.log("Content_script1.js calling from if of httGetAsync function");
+            console.log(xmlHttp.responseText);
+            var htmlDoc = xmlHttp.responseText;
+            var resIPAWord = getPronunciation(htmlDoc);
+            console.log(resIPAWord);
+            callback(resIPAWord);
+          } else {
+            console.log("Content_script1.js calling from else of httGetAsync function notFound");
+
+            callback("notFound");
+          }
+
     }
     xmlHttp.open("GET", theUrl, true); // true for asynchronous
     // xmlHttp.setRequestHeader("Origin", "about:devtools-toolbox");
@@ -116,6 +147,9 @@ for (let tab of tabs) {
         document.getElementById("tgtLang_IPA").innerHTML = "IPA: <span>Sorry. Language not recognized. Choose english or french for the time being.";
       } else {
 
+        srcText.toLowerCase();
+        tgtText.toLowerCase();
+
         //implementt word level API calls for source and target data and display in extension.
         srcTextWords = srcText.match(/\b(\w+)\b/g);
         tgtTextWords = tgtText.match(/\b(\w+)\b/g);
@@ -123,24 +157,26 @@ for (let tab of tabs) {
         console.log("srcTextWords " + srcTextWords);
         console.log("tgtTextWords " + tgtTextWords);
 
-        httpGetAsync("https://fr.wiktionary.org/wiki/attendu", function(response){
-              console.log("French word IPA call test");
-              console.log(response);
-            });
+        // httpGetAsync("https://en.wiktionary.org/wiki/hello", function(response){
+        //       console.log("French word IPA call test");
+        //       console.log(response);
+        //     });
 
         // iterate through words arrays and make api calls to the endpoint and store the result in a key:value type object
       //
-      //   tgtTextWords.forEach((item, i) => {
-      //     httpGetAsync(`https://${selectedSrcLang}.wiktionary.org/wiki/${item}`, function(response){
-      //       console.log(selectedSrcLang + " word IPA call test");
-      //       console.log(response);
-      //     });
-      //     // httpGetAsync("https://fr.wiktionary.org/wiki/attendu", function(response){
-      //     //   console.log("French word IPA call test");
-      //     //   console.log(response);
-      //     // });
-      //   });
-      //
+        srcTextWords.forEach((item, i) => {
+          console.log("popup_test.js itemname: " + item);
+          httpGetAsync(`https://${selectedSrcLang}.wiktionary.org/wiki/${item}`, function(response){
+            console.log("Content_script1.js: srcTextWords.forEach loop " + response); //success!
+            console.log(selectedSrcLang + " word IPA call test.");
+            // console.log(response);
+          });
+          // httpGetAsync("https://fr.wiktionary.org/wiki/attendu", function(response){
+          //   console.log("French word IPA call test");
+          //   console.log(response);
+          // });
+        });
+
       }
 
       ///function to split string into words: var a = srcText.match(/\b(\w+)\b/g)
