@@ -1,8 +1,8 @@
 console.log('popup_test.js access successful'); //popup_test.js check
 
-function resultIPAObjLogger(testString){
-  console.log("getAllIPA callback function result logger function");
-}
+// function resultIPAObjLogger(testString){
+//   console.log("getAllIPA callback function result logger function");
+// }
 
 function getPronunciation(htmlDoc, lang){
   console.log("popup_test.js getPronunciation fn - language:" + lang);
