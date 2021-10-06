@@ -57,9 +57,7 @@ function httpGetAsync(theUrl, lang, callback)
             // console.log("response type: " + xmlHttp.responseType);
             var htmlDoc = xmlHttp.responseText;
             console.log("htmlDoc console log " + htmlDoc);
-            var resIPAWord = getPronunciation(htmlDoc, lang);
-            // else if (lang == "en") resIPAWord = getPronunciationEn(htmlDoc, lang);
-            // var resIPAWord = getPronunciation(htmlDoc, lang);
+            var resIPAWord = getPronunciation(htmlDoc, lang);;
             // console.log(resIPAWord);
             callback(resIPAWord);
           } else {
@@ -69,9 +67,7 @@ function httpGetAsync(theUrl, lang, callback)
           }
 
     }
-    xmlHttp.open("GET", theUrl, true); // true for asynchronous
-    // xmlHttp.setRequestHeader("Origin", "about:devtools-toolbox");
-    // xmlHttp.setRequestHeader("Access-Control-Allow-Methods", "GET");
+    xmlHttp.open("GET", theUrl, true);
 
     xmlHttp.send(null);
 }
@@ -108,23 +104,7 @@ function getAllIPA(lang, wordArr, wordsIPAObj, callbackFn) {
   }
 
   callbackFn();
-  // console.log("logging wordsIPAObjk:" + JSON.stringify({wordsIPAObj}));
 
-  // callbackFn(wordsIPAObj);
-
-  // srcTextWords.forEach((item, i) => {
-  //   console.log("popup_test.js itemname: " + item);
-  //   httpGetAsync(`https://${selectedSrcLang}.wiktionary.org/wiki/${item}`, function(response){
-  //     console.log("Content_script1.js: srcTextWords.forEach loop " + response); //success!
-  //     srcWordsIPA[item] = response;
-  //     console.log(selectedSrcLang + " word IPA call test.");
-  //     // console.log(response);
-  //   });
-  //   // httpGetAsync("https://fr.wiktionary.org/wiki/attendu", function(response){
-  //   //   console.log("French word IPA call test");
-  //   //   console.log(response);
-  //   // });
-  // });
 }
 
 
@@ -239,7 +219,7 @@ for (let tab of tabs) {
         srcText.toLowerCase();
         tgtText.toLowerCase();
 
-        //implementt word level API calls for source and target data and display in extension.
+        //implement word level API calls for source and target data and display in extension.
         srcTextWords = srcText.match(/\b(\w+)\b/g);
         tgtTextWords = tgtText.match(/\b(\w+)\b/g);
 
@@ -248,6 +228,10 @@ for (let tab of tabs) {
 
         // console.log("selectedSrcLang: " + selectedSrcLang); //correct
         // console.log("selectedTgtLang: " + selectedTgtLang); //correct
+
+        // increase modularity: make a function to get all IPAs. Declaration: getAllIPA(selectedSrcLang, srcTextWords, srcWordsIPA) <- for source textContent
+        // getAllIPA(selectedTgtLang, tgtTextWords, tgtWordsIPA) <- for target
+
         getAllIPA(selectedSrcLang, srcTextWords, srcWordsIPA);
         getAllIPA(selectedTgtLang, tgtTextWords, tgtWordsIPA);
 
@@ -255,68 +239,18 @@ for (let tab of tabs) {
 
         //Here,call another function that puts the above IPA details in the popup_test.html.
         //Run the function after IPA objects are populated fully.
-//
+
 
         // console.log("srcWordsIPA object length" + Object.keys(srcWordsIPA).length);
         // console.log("srcWordsIPA object: " + JSON.stringify({srcWordsIPA}));
 
-        // console.log()
-
-        // httpGetAsync("https://en.wiktionary.org/wiki/hello", function(response){
-        //       console.log("French word IPA call test");
-        //       console.log(response);
-        //     });
-
-        // iterate through words arrays and make api calls to the endpoint and store the result in a key:value type object
-
-
-      // increase modularit: make a function to get all IPAs. Declaration: getAllIPA(selectedSrcLang, srcTextWords, srcWordsIPA) <- for source textContent
-      // getAllIPA(selectedTgtLang, tgtTextWords, tgtWordsIPA) <- for source textContent
 
       //function getAllIPA(lang, wordArr, wordsIPAObj)
 
 
-        // srcTextWords.forEach((item, i) => {
-        //   console.log("popup_test.js itemname: " + item);
-        //   httpGetAsync(`https://${selectedSrcLang}.wiktionary.org/wiki/${item}`, function(response){
-        //     console.log("Content_script1.js: srcTextWords.forEach loop " + response); //success!
-        //     srcWordsIPA[item] = response;
-        //     console.log(selectedSrcLang + " word IPA call test.");
-        //     // console.log(response);
-        //   });
-        //   // httpGetAsync("https://fr.wiktionary.org/wiki/attendu", function(response){
-        //   //   console.log("French word IPA call test");
-        //   //   console.log(response);
-        //   // });
-        // });
-
-        //
-        // tgtTextWords.forEach((item, i) => {
-        //   console.log("popup_test.js itemname: " + item);
-        //   httpGetAsync(`https://${selectedTgtLang}.wiktionary.org/wiki/${item}`, function(response){
-        //     console.log("Content_script1.js: tgtTextWords.forEach loop " + response); //success!
-        //     tgtWordsIPA[item] = response;
-        //     console.log(selectedTgtLang + " word IPA call test.");
-        //     // console.log(response);
-        //   });
-        //   // httpGetAsync("https://fr.wiktionary.org/wiki/attendu", function(response){
-        //   //   console.log("French word IPA call test");
-        //   //   console.log(response);
-        //   // });
-        // });
-
       }
-
       // console.log("srcWordsIPA object : " + JSON.stringify(srcWordsIPA));
-
       ///function to split string into words: var a = srcText.match(/\b(\w+)\b/g)
-
-      // httpGetAsync("https://fr.wiktionary.org/wiki/attendu", function(response){
-      //   console.log("French word IPA call test");
-      //   console.log(response);
-      // });
-
-
       // console.log("popup_test.js - source text recieved: " + response.sourceText);
       // console.log("popup_test.js - target text recieved: " + response.targetText);
     } else if (response.messageType == 0) {
