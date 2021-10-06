@@ -1,5 +1,9 @@
 console.log('popup_test.js access successful'); //popup_test.js check
 
+function resultIPAObjLogger(testString){
+  console.log("getAllIPA callback function result logger function");
+}
+
 function getPronunciation(htmlDoc, lang){
   console.log("popup_test.js getPronunciation fn - language:" + lang);
   console.log("htmlDoc in getPronunciation function " + htmlDoc);
@@ -8,16 +12,29 @@ function getPronunciation(htmlDoc, lang){
   var resIPA;
   var testvar;
   if (lang == "fr")
-  {startIdx = htmlDoc.indexOf("Prononciation API");
-  startIdx = startIdx + 19;
-  endIdx = htmlDoc.indexOf("<", startIdx);}
-  else if (lang == "en") {
-    //process for english language. IPA : first <span class = "API">
-    console.log("en language response doc " + htmlDoc);
-    testvar = htmlDoc;
-    console.log("htmlDoc reassign to variable" + testvar);
-    // console.log(testvar.getElementsByClassName);
-  } else { console.log("invalid language");}
+  {
+        startIdx = htmlDoc.indexOf("Prononciation API");
+        startIdx = startIdx + 19; //success
+        endIdx = htmlDoc.indexOf("<", startIdx); //success
+      }
+  else if (lang == "en")
+  {
+      startIdx = htmlDoc.indexOf("Appendix:English pronunciation");
+      startIdx = startIdx + 70; //success
+      endIdx = htmlDoc.indexOf("<", startIdx); //success
+
+        //process for english language. IPA : first <span class = "API">
+        // console.log("en language response doc " + htmlDoc);
+        // testvar = htmlDoc;
+        // console.log("htmlDoc reassign to variable" + testvar);
+        // console.log(testvar.getElementsByClassName);
+      }
+  else
+  {
+    startIdx = 0;
+    endIdx = 0;
+    console.log("invalid language");
+  }
   // endIdx = startIdx + 3;
   console.log(startIdx + " " + endIdx);
   console.log(htmlDoc.substring(startIdx, endIdx)); // success!!
@@ -37,10 +54,13 @@ function httpGetAsync(theUrl, lang, callback)
             // var resPronunciation = getPronunciation(String(xmlHttp.responseText));
             // console.log("Content_script1.js calling from if of httGetAsync function");
             console.log(xmlHttp.responseText);
-            console.log("response type: " + xmlHttp.responseType);
+            // console.log("response type: " + xmlHttp.responseType);
             var htmlDoc = xmlHttp.responseText;
+            console.log("htmlDoc console log " + htmlDoc);
             var resIPAWord = getPronunciation(htmlDoc, lang);
-            console.log(resIPAWord);
+            // else if (lang == "en") resIPAWord = getPronunciationEn(htmlDoc, lang);
+            // var resIPAWord = getPronunciation(htmlDoc, lang);
+            // console.log(resIPAWord);
             callback(resIPAWord);
           } else {
             console.log("Content_script1.js calling from else of httGetAsync function notFound");
@@ -64,7 +84,7 @@ function getAllIPA(lang, wordArr, wordsIPAObj) {
       httpGetAsync(`https://${lang}.wiktionary.org/wiki/${item}`, lang, function(response){
         // console.log("rcTextWords.forEach loop " + response); //success!
         wordsIPAObj[item] = response;
-        console.log(selectedSrcLang + " word IPA call test.");
+        console.log(lang + " word IPA call test.");
         // console.log(response);
       });
   });
@@ -73,14 +93,19 @@ function getAllIPA(lang, wordArr, wordsIPAObj) {
     // console.log("popup_test1.js: getAllIPA fn log - french language");
     httpGetAsync(`https://${lang}.wiktionary.org/wiki/${item}`, lang, function(response){
       // console.log("rcTextWords.forEach loop " + response); //success!
-      wordsIPAObj[item] = response;
-      console.log(selectedSrcLang + " word IPA call test.");
+      // wordsIPAObj[item] = response;
+      console.log(lang + " word IPA call test.");
       // console.log(response);
   });
   });
   } else {
+    wordArr.forEach((item, i) => {
+      wordsIPAObj[item] = "";
+  });
     console.log("popup_test1.js: getAllIPA fn log - invalid language");
   }
+
+  // callbackFn(wordsIPAObj);
 
   // srcTextWords.forEach((item, i) => {
   //   console.log("popup_test.js itemname: " + item);
@@ -200,7 +225,7 @@ for (let tab of tabs) {
 
       if((selectedSrcLang != ("en" || "fr")) && (selectedTgtLang != ("en" || "fr"))) {
         document.getElementById("srcLang_IPA").innerHTML = "IPA: <span>Sorry. Language not recognized. Choose english or french for the time being.</span>";
-        document.getElementById("tgtLang_IPA").innerHTML = "IPA: <span>Sorry. Language not recognized. Choose english or french for the time being.";
+        document.getElementById("tgtLang_IPA").innerHTML = "IPA: <span>Sorry. Language not recognized. Choose en or fr.";
       } else {
 
         srcText.toLowerCase();
@@ -214,6 +239,10 @@ for (let tab of tabs) {
         console.log("tgtTextWords " + tgtTextWords);
 
         getAllIPA(selectedSrcLang, srcTextWords, srcWordsIPA);
+
+
+
+        // console.log()
 
         // httpGetAsync("https://en.wiktionary.org/wiki/hello", function(response){
         //       console.log("French word IPA call test");
