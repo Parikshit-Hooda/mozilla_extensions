@@ -1,6 +1,3 @@
-// var sourceText =
-// document.querySelector('[aria-label="Source text"]').nextElementSibling.innerHTML;
-//
 
 var getStateAtLargeWidthResult = {};
 
@@ -9,7 +6,7 @@ function getStateAtLargeWidth() {
   var resultState = {};
   //fact recognized - for > 720px innerWidth, the three tab layout manifests
 
-  //use window.innerWidth || document.documentElement || document.documentElement('body')[0].clientHeight
+  //consider using window.innerWidth || document.documentElement || document.documentElement('body')[0].clientHeight
   var webPageWidth = (window.innerWidth || document.documentElement.clientWidth || document.documentElement('body')[0].clientHeight);
   console.log("content_script1.js webPageWidth " + webPageWidth); //web page width fetch successful
 
@@ -38,8 +35,8 @@ function getStateAtLargeWidth() {
   resultState["i11-aria-selected"] = document.getElementById("i11").getAttribute("aria-selected");
   resultState["i11-tabIndex"] = document.getElementById("i11").getAttribute("tabIndex");
   resultState["i11-data-language-code"] = document.getElementById("i11").getAttribute("data-language-code");
-//      below object fields get information for right panel on Google Translate
 
+//      below object fields get information for right panel on Google Translate
 resultState["i12-aria-selected"] = document.getElementById("i12").getAttribute("aria-selected");
 resultState["i12-tabIndex"] = document.getElementById("i12").getAttribute("tabIndex");
 resultState["i12-data-language-code"] = document.getElementById("i12").getAttribute("data-language-code");
@@ -65,9 +62,6 @@ resultState["i14-data-language-code"] = document.getElementById("i14").getAttrib
 
 }
 
-
-
-// var sendSrcString =
 browser.runtime.onMessage.addListener(request => {
 
   console.log("content_script1.js - Message received from popup_test.js script"); //successful log
@@ -105,11 +99,10 @@ browser.runtime.onMessage.addListener(request => {
       console.log("Content_Script1.js calling from sourcetext == empty if block. source and target text string are empty.");
 
     } else {
-    // console.log("sourceText variable filled");
+    // console.log("sourceText variable populated.");
     getStateAtLargeWidthResult["sourceText"] = document.querySelector('[aria-label="Source text"]').nextElementSibling.innerHTML;
 
     if (getStateAtLargeWidthResult["i12-aria-selected"] == "true") {
-      //var z = document.querySelectorAll('[data-language="fr"] > div > span > span > span')[0].textContent;
       targetText = document.querySelectorAll("[data-language=" + getStateAtLargeWidthResult["i12-data-language-code"] + "] > div > span > span > span")[0].textContent;
     } else if (getStateAtLargeWidthResult["i13-aria-selected"] == "true") {
       targetText = document.querySelectorAll("[data-language=" + getStateAtLargeWidthResult["i13-data-language-code"] + "] > div > span > span > span")[0].textContent;
@@ -120,8 +113,6 @@ browser.runtime.onMessage.addListener(request => {
     }
 
     getStateAtLargeWidthResult["targetText"] = targetText;
-
-    // getStateAtLargeWidthResult["targetText"] = (document.querySelector('[lang="fr"]').childNodes[0].innerText) || (document.querySelector('[lang="en"]').childNodes[0].innerText) || "-";//
 
     console.log("content_Script1.js source text " + sourceText);
     console.log("content_Script1.js target text " + targetText);
