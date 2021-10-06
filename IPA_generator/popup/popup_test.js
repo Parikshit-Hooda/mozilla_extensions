@@ -76,9 +76,10 @@ function httpGetAsync(theUrl, lang, callback)
     xmlHttp.send(null);
 }
 
-function getAllIPA(lang, wordArr, wordsIPAObj) {
+function getAllIPA(lang, wordArr, wordsIPAObj, callbackFn) {
   // console.log(wordArr.join());
   if (lang == "en") {
+    // console.log("in lang: " + lang); //correct
     wordArr.forEach((item, i) => {
     // console.log("popup_test1.js: getAllIPA fn log - english language");
       httpGetAsync(`https://${lang}.wiktionary.org/wiki/${item}`, lang, function(response){
@@ -89,12 +90,13 @@ function getAllIPA(lang, wordArr, wordsIPAObj) {
       });
   });
   } else if (lang == "fr") {
+    // console.log("in lang: " + lang); //correct
     wordArr.forEach((item, i) => {
     // console.log("popup_test1.js: getAllIPA fn log - french language");
     httpGetAsync(`https://${lang}.wiktionary.org/wiki/${item}`, lang, function(response){
       // console.log("rcTextWords.forEach loop " + response); //success!
-      // wordsIPAObj[item] = response;
-      console.log(lang + " word IPA call test.");
+      wordsIPAObj[item] = response;
+      // console.log(lang + " word IPA call test.");
       // console.log(response);
   });
   });
@@ -104,6 +106,9 @@ function getAllIPA(lang, wordArr, wordsIPAObj) {
   });
     console.log("popup_test1.js: getAllIPA fn log - invalid language");
   }
+
+  callbackFn();
+  // console.log("logging wordsIPAObjk:" + JSON.stringify({wordsIPAObj}));
 
   // callbackFn(wordsIPAObj);
 
@@ -121,9 +126,6 @@ function getAllIPA(lang, wordArr, wordsIPAObj) {
   //   // });
   // });
 }
-
-
-
 
 
 // to inject -content_Script1 and only inject in targetted website.
@@ -160,10 +162,16 @@ browser.tabs.query({currentWindow: true, active: true}, tabs => {
     }
 });
 
-document.getElementById('findipabtn').addEventListener("click", function() {
-  // document.getElementById('tl_p').innerHTML = "Target Language: Fr"; // successful - changes element innerHTML as simple test of event catching
 
-  //1. send message to content script
+document.getElementById('showipabtn').addEventListener("click", function() {
+  //show IPA
+  // console.log("show ipa button clicked");
+  console.log("show IPA Button clicked:" + srcTextWords);
+});
+
+
+document.getElementById('findipabtn').addEventListener("click", function() {
+  //find IPA
   function onError(error) {
   console.error(`Error: ${error}`);
 }
@@ -238,9 +246,19 @@ for (let tab of tabs) {
         console.log("srcTextWords " + srcTextWords);
         console.log("tgtTextWords " + tgtTextWords);
 
+        // console.log("selectedSrcLang: " + selectedSrcLang); //correct
+        // console.log("selectedTgtLang: " + selectedTgtLang); //correct
         getAllIPA(selectedSrcLang, srcTextWords, srcWordsIPA);
+        getAllIPA(selectedTgtLang, tgtTextWords, tgtWordsIPA);
 
 
+
+        //Here,call another function that puts the above IPA details in the popup_test.html.
+        //Run the function after IPA objects are populated fully.
+//
+
+        // console.log("srcWordsIPA object length" + Object.keys(srcWordsIPA).length);
+        // console.log("srcWordsIPA object: " + JSON.stringify({srcWordsIPA}));
 
         // console.log()
 

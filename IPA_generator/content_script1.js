@@ -65,6 +65,8 @@ resultState["i14-data-language-code"] = document.getElementById("i14").getAttrib
 
 }
 
+
+
 // var sendSrcString =
 browser.runtime.onMessage.addListener(request => {
 
