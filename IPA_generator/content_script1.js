@@ -14,40 +14,40 @@ function getStateAtLargeWidth() {
 
     console.log("called when screen width >= 720 px");
 
-  resultState["pageWidthFlag"] = "1"; //flag to identify current page width
+    resultState["pageWidthFlag"] = "1"; //flag to identify current page width
 
-  //      below object fields get information for left panel on Google Translate
+    //      below object fields get information for left panel on Google Translate
 
-  //-TODO : enhancement: for source language= "detect language" tab, use [data-language-code] = auto to find the correct button id first, then find values of attributes
+    //-TODO : enhancement: for source language= "detect language" tab, use [data-language-code] = auto to find the correct button id first, then find values of attributes
 
-  // resultState["i8-aria-selected"] = document.getElementById("i8").getAttribute("aria-selected");
-  // resultState["i8-tabIndex"] = document.getElementById("i8").getAttribute("tabIndex");
-  // resultState["i8-data-language-code"] = document.getElementById("i8").getAttribute("data-language-code");
+    // resultState["i8-aria-selected"] = document.getElementById("i8").getAttribute("aria-selected");
+    // resultState["i8-tabIndex"] = document.getElementById("i8").getAttribute("tabIndex");
+    // resultState["i8-data-language-code"] = document.getElementById("i8").getAttribute("data-language-code");
 
-  resultState["i9-aria-selected"] = document.getElementById("i9").getAttribute("aria-selected");
-  resultState["i9-tabIndex"] = document.getElementById("i9").getAttribute("tabIndex");
-  resultState["i9-data-language-code"] = document.getElementById("i9").getAttribute("data-language-code");
+    resultState["i9-aria-selected"] = document.getElementById("i9").getAttribute("aria-selected");
+    resultState["i9-tabIndex"] = document.getElementById("i9").getAttribute("tabIndex");
+    resultState["i9-data-language-code"] = document.getElementById("i9").getAttribute("data-language-code");
 
-  resultState["i10-aria-selected"] = document.getElementById("i10").getAttribute("aria-selected");
-  resultState["i10-tabIndex"] = document.getElementById("i10").getAttribute("tabIndex");
-  resultState["i10-data-language-code"] = document.getElementById("i10").getAttribute("data-language-code");
+    resultState["i10-aria-selected"] = document.getElementById("i10").getAttribute("aria-selected");
+    resultState["i10-tabIndex"] = document.getElementById("i10").getAttribute("tabIndex");
+    resultState["i10-data-language-code"] = document.getElementById("i10").getAttribute("data-language-code");
 
-  resultState["i11-aria-selected"] = document.getElementById("i11").getAttribute("aria-selected");
-  resultState["i11-tabIndex"] = document.getElementById("i11").getAttribute("tabIndex");
-  resultState["i11-data-language-code"] = document.getElementById("i11").getAttribute("data-language-code");
+    resultState["i11-aria-selected"] = document.getElementById("i11").getAttribute("aria-selected");
+    resultState["i11-tabIndex"] = document.getElementById("i11").getAttribute("tabIndex");
+    resultState["i11-data-language-code"] = document.getElementById("i11").getAttribute("data-language-code");
 
-//      below object fields get information for right panel on Google Translate
-resultState["i12-aria-selected"] = document.getElementById("i12").getAttribute("aria-selected");
-resultState["i12-tabIndex"] = document.getElementById("i12").getAttribute("tabIndex");
-resultState["i12-data-language-code"] = document.getElementById("i12").getAttribute("data-language-code");
+    //below object fields get information for right panel on Google Translate
+    resultState["i12-aria-selected"] = document.getElementById("i12").getAttribute("aria-selected");
+    resultState["i12-tabIndex"] = document.getElementById("i12").getAttribute("tabIndex");
+    resultState["i12-data-language-code"] = document.getElementById("i12").getAttribute("data-language-code");
 
-resultState["i13-aria-selected"] = document.getElementById("i13").getAttribute("aria-selected");
-resultState["i13-tabIndex"] = document.getElementById("i13").getAttribute("tabIndex");
-resultState["i13-data-language-code"] = document.getElementById("i13").getAttribute("data-language-code");
+    resultState["i13-aria-selected"] = document.getElementById("i13").getAttribute("aria-selected");
+    resultState["i13-tabIndex"] = document.getElementById("i13").getAttribute("tabIndex");
+    resultState["i13-data-language-code"] = document.getElementById("i13").getAttribute("data-language-code");
 
-resultState["i14-aria-selected"] = document.getElementById("i14").getAttribute("aria-selected");
-resultState["i14-tabIndex"] = document.getElementById("i14").getAttribute("tabIndex");
-resultState["i14-data-language-code"] = document.getElementById("i14").getAttribute("data-language-code");
+    resultState["i14-aria-selected"] = document.getElementById("i14").getAttribute("aria-selected");
+    resultState["i14-tabIndex"] = document.getElementById("i14").getAttribute("tabIndex");
+    resultState["i14-data-language-code"] = document.getElementById("i14").getAttribute("data-language-code");
 
   }
   else {
@@ -73,31 +73,20 @@ browser.runtime.onMessage.addListener(request => {
 
   if(request.messageContent == "Find IPA button clicked") {
     messageType = 1;
-    //find current Google Translate state
-    // var sourceText =
-    // document.querySelector('[aria-label="Source text"]').nextElementSibling.innerHTML;
-    // var targetText = document.querySelector('[lang="fr"]').childNodes[0].innerText;
+    //find current Google Translate site state
 
     console.log("content_Script1.js - messageType = 1 if block executed");
 
-    //call function to get current Google Translate state. Check window screen size. below state
-
-    //'getting' works only for large width
+    //'getting' works only for large width as of now
     getStateAtLargeWidthResult = getStateAtLargeWidth();
 
-    //add source and target text details to the above object
-    // getStateAtLargeWidthResult["sourceText"] = document.querySelector('[aria-label="Source text"]').nextElementSibling.innerHTML || "-";
-
-    // Default to "-" in case of a language other than french
     //var currentTarget;
     sourceText = document.querySelector('[aria-label="Source text"]').nextElementSibling.innerHTML ;
 
-    if (sourceText == "") {
+    if (sourceText == "") { // if no source text, set empty strings
       getStateAtLargeWidthResult["sourceText"] = "";
       getStateAtLargeWidthResult["targetText"] = "";
-
-      console.log("Content_Script1.js calling from sourcetext == empty if block. source and target text string are empty.");
-
+      // console.log("Content_Script1.js calling from sourcetext == empty if block. source and target text string are empty.");
     } else {
     // console.log("sourceText variable populated.");
     getStateAtLargeWidthResult["sourceText"] = document.querySelector('[aria-label="Source text"]').nextElementSibling.innerHTML;
