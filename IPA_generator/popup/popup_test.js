@@ -23,11 +23,6 @@ function getPronunciation(htmlDoc, lang){
       startIdx = startIdx + 70; //success
       endIdx = htmlDoc.indexOf("<", startIdx); //success
 
-        //process for english language. IPA : first <span class = "API">
-        // console.log("en language response doc " + htmlDoc);
-        // testvar = htmlDoc;
-        // console.log("htmlDoc reassign to variable" + testvar);
-        // console.log(testvar.getElementsByClassName);
       }
   else
   {
