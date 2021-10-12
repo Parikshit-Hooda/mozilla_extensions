@@ -40,7 +40,7 @@ function getPronunciation(htmlDoc, lang){
   return htmlDoc.substring(startIdx, endIdx);
 }
 
-function httpGetAsync(theUrl, lang, callback)
+function httpGetAsync(theUrl, lang)
 {
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.onreadystatechange = function() {
@@ -54,11 +54,11 @@ function httpGetAsync(theUrl, lang, callback)
             console.log("htmlDoc console log " + htmlDoc);
             var resIPAWord = getPronunciation(htmlDoc, lang);;
             // console.log(resIPAWord);
-            callback(resIPAWord);
+            // callback(resIPAWord);
           } else {
             console.log("Content_script1.js calling from else of httGetAsync function notFound");
 
-            callback("notFound");
+            // callback("notFound");
           }
 
     }
@@ -67,7 +67,42 @@ function httpGetAsync(theUrl, lang, callback)
     xmlHttp.send(null);
 }
 
-function getAllIPA(lang, wordArr, wordsIPAObj, callbackFn) {
+function getIPA_promise(lang, item) {
+  return new Promise(function(resolve, reject){
+    fetch(`https://jsonplaceholder.typicode.com/todos/1`)
+  .then(response => response.text())
+  .then(text => {
+ resolve(text);
+});
+});
+}
+
+async function getAllIPA_promise(lang, wordArr, wordsIPAObj) {
+  var promises = [];
+  if(lang == ("en" || "fr")) {
+    wordArr.forEach((item, i) => {
+      promises.push(
+        getIPA_promise(lang, item).then(response => {
+          wordsIPAObj[item] = response;
+        })
+        .catch((error) => {
+          console.log("getIPA_promise error: lang: " + lang + " item: " + item);
+        });
+      ); //promises.push closing bracket
+    });
+  } else {
+    promises.push(new Promise(function(resolve, reject){
+      reject({status:0, message: "languageNotSupported"});
+    });
+  );
+  }
+
+  await Promise.all(promises).then(response => {
+    console.log({response});
+  });
+}
+
+function getAllIPA(lang, wordArr, wordsIPAObj) {
   // console.log(wordArr.join());
   if (lang == "en") {
     // console.log("in lang: " + lang); //correct
@@ -98,7 +133,7 @@ function getAllIPA(lang, wordArr, wordsIPAObj, callbackFn) {
     console.log("popup_test1.js: getAllIPA fn log - invalid language");
   }
 
-  callbackFn();
+  // callbackFn();
 
 }
 
@@ -227,8 +262,10 @@ for (let tab of tabs) {
         // increase modularity: make a function to get all IPAs. Declaration: getAllIPA(selectedSrcLang, srcTextWords, srcWordsIPA) <- for source textContent
         // getAllIPA(selectedTgtLang, tgtTextWords, tgtWordsIPA) <- for target
 
-        getAllIPA(selectedSrcLang, srcTextWords, srcWordsIPA);
-        getAllIPA(selectedTgtLang, tgtTextWords, tgtWordsIPA);
+        // getAllIPA(selectedSrcLang, srcTextWords, srcWordsIPA);
+        // getAllIPA(selectedTgtLang, tgtTextWords, tgtWordsIPA);
+        getAllIPA_promise(selectedSrcLang, srcTextWords, srcWordsIPA);
+        getAllIPA_promise(selectedTgtLang, tgtTextWords, tgtWordsIPA);
 
 
 
