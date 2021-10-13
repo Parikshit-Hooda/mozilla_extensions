@@ -44,8 +44,7 @@ function getIPA_promise(lang, item) {
 })
 .catch(err => {
   reject("word not found");
-})
-;
+});
 });
 }
 
@@ -72,69 +71,3 @@ var promises = [];
     }
 
     test(wordsIPAObj);
-
-
-var obj = {};
-function test1(obj) {
-  ["hello", "son"].forEach((item, i) => {
-    var ex= getIPA_promise("en", item);
-    ex.then(text => {
-      console.log(text);
-    })
-  });
-
-}
-
-getIPA_promise("en", "bonjour").then(response => {
-console.log(response)
-  })
-  .catch((error) => {
-    console.log("getIPA_promise error: lang: " + lang + " item: " + item);
-  });
-
-var wordsIPAObj = {};
-function test(wordsIPAObj){
-var promises = [];
-  ["hello", "son"].forEach((item, i) => {
-    var ex = getIPA_promise("en", item);
-
-      promises.push(ex);
-
-    }); //promises.push closing bracket
-
-    Promise.all(promises)
-    .then(res => {
-      console.log(res);
-    })
-    .catch(err => {
-      console.log(err);
-    });
-    }
-
-
-
-    var promises = [];
-
-array.forEach(function(element) {
-    promises.push(
-        developer.getResources(element)
-            .then((data) = > {
-                name = data.items[0];
-                return developer.getResourceContent(element, file);
-            })
-            .then((response) = > {
-                fileContent = atob(response.content);
-                self.files.push({
-                    fileName: fileName,
-                    fileType: fileType,
-                    content: fileContent
-                });
-            }).catch ((error) = > {
-                console.log('Error: ', error);
-            })
-    );
-});
-
-Promise.all(promises).then(() =>
-    self.resultingFunction(self.files)
-);

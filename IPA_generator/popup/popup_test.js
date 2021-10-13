@@ -5,138 +5,99 @@ console.log('popup_test.js access successful'); //popup_test.js check
 // }
 
 function getPronunciation(htmlDoc, lang){
-  console.log("popup_test.js getPronunciation fn - language:" + lang);
-  console.log("htmlDoc in getPronunciation function " + htmlDoc);
-  var startIdx;
-  var endIdx;
-  var resIPA;
-  var testvar;
-  if (lang == "fr")
-  {
-        startIdx = htmlDoc.indexOf("Prononciation API");
-        startIdx = startIdx + 19; //success
+  console.log(htmlDoc);
+    console.log("popup_test.js getPronunciation fn - language:" + lang);
+    // console.log("htmlDoc in getPronunciation function " + htmlDoc);
+    var startIdx;
+    var endIdx;
+    var resIPA;
+    var testvar;
+    if (lang == "fr")
+    {
+          startIdx = htmlDoc.indexOf("Prononciation API");
+          startIdx = startIdx + 19; //success
+          endIdx = htmlDoc.indexOf("<", startIdx); //success
+        }
+    else if (lang == "en")
+    {
+        startIdx = htmlDoc.indexOf("Appendix:English pronunciation");
+        startIdx = startIdx + 70; //success
         endIdx = htmlDoc.indexOf("<", startIdx); //success
-      }
-  else if (lang == "en")
-  {
-      startIdx = htmlDoc.indexOf("Appendix:English pronunciation");
-      startIdx = startIdx + 70; //success
-      endIdx = htmlDoc.indexOf("<", startIdx); //success
 
-      }
-  else
-  {
-    startIdx = 0;
-    endIdx = 0;
-    console.log("invalid language");
-  }
-  // endIdx = startIdx + 3;
-  console.log(startIdx + " " + endIdx);
-  console.log(htmlDoc.substring(startIdx, endIdx)); // success!!
-  // resIpa = htmlDoc.substring(startIdx, endIdx);
-  console.log("getpronunciation function: " + htmlDoc.substring(startIdx, endIdx));
-  // for example, \zhe\ <- startIdx gets index of first '\' and endIdx gets index of second '\';
-  // var getProunciationResult = htmlDoc.substring(startIdx, endIdx-startIdx);
-  return htmlDoc.substring(startIdx, endIdx);
-}
-
-function httpGetAsync(theUrl, lang)
-{
-    var xmlHttp = new XMLHttpRequest();
-    xmlHttp.onreadystatechange = function() {
-        if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
-          console.log("httpGetAsync if block");
-            // var resPronunciation = getPronunciation(String(xmlHttp.responseText));
-            // console.log("Content_script1.js calling from if of httGetAsync function");
-            console.log(xmlHttp.responseText);
-            // console.log("response type: " + xmlHttp.responseType);
-            var htmlDoc = xmlHttp.responseText;
-            console.log("htmlDoc console log " + htmlDoc);
-            var resIPAWord = getPronunciation(htmlDoc, lang);;
-            // console.log(resIPAWord);
-            // callback(resIPAWord);
-          } else {
-            console.log("Content_script1.js calling from else of httGetAsync function notFound");
-
-            // callback("notFound");
-          }
-
+        }
+    else
+    {
+      startIdx = 0;
+      endIdx = 0;
+      console.log("invalid language");
     }
-    xmlHttp.open("GET", theUrl, true);
+    // endIdx = startIdx + 3;
+    console.log(startIdx + " " + endIdx);
+    console.log(htmlDoc.substring(startIdx, endIdx)); // success!!
+    // resIpa = htmlDoc.substring(startIdx, endIdx);
+    console.log("getpronunciation function: " + htmlDoc.substring(startIdx, endIdx));
+    // for example, \zhe\ <- startIdx gets index of first '\' and endIdx gets index of second '\';
+    // var getProunciationResult = htmlDoc.substring(startIdx, endIdx-startIdx);
 
-    xmlHttp.send(null);
-}
-
-function getIPA_promise(lang, item) {
   return new Promise(function(resolve, reject){
-    fetch(`https://jsonplaceholder.typicode.com/todos/1`)
-  .then(response => response.text())
-  .then(text => {
- resolve(text);
-});
-});
+    resolve(htmlDoc.substring(startIdx, endIdx));
+  });
 }
 
-async function getAllIPA_promise(lang, wordArr, wordsIPAObj) {
+function getPronunciation_promise(lang, item) {
+  // var htmlResponse =
+  return new Promise(function(resolve, reject){
+  fetch(`https://${lang}.wiktionary.org/wiki/${item}`)
+.then(response => response.text())
+.then(text => {
+  var x = text;
+  // console.log("text: " + text);
+  // console.log(item + " " + text);
+  // console.log(text);
+  return getPronunciation(x, lang);  })
+  .then(res => {
+    // console.log("res: " + res);
+    resolve(res);
+  })
+  .catch(err => {
+    console.log("err: " + err);
+  reject("word not found");
+// resolve(text);
+});
+
+});
+
+}
+
+
+function getAllIPA_promise(lang, wordArr, wordsIPAObj) {
+  console.log(lang);
   var promises = [];
-  if(lang == ("en" || "fr")) {
+  if(lang == "en" || lang == "fr") {
     wordArr.forEach((item, i) => {
-      promises.push(
-        getIPA_promise(lang, item).then(response => {
-          wordsIPAObj[item] = response;
-        })
-        .catch((error) => {
-          console.log("getIPA_promise error: lang: " + lang + " item: " + item);
-        });
-      ); //promises.push closing bracket
+      var currPromise = getPronunciation_promise(lang, item);
+      promises.push(currPromise);
     });
   } else {
-    promises.push(new Promise(function(resolve, reject){
+    var notSupportedLangPromise = new Promise(function(resolve, reject){
       reject({status:0, message: "languageNotSupported"});
     });
-  );
+    promises.push(notSupportedLangPromise);
+  // );
   }
-
-  await Promise.all(promises).then(response => {
-    console.log({response});
-  });
-}
-
-function getAllIPA(lang, wordArr, wordsIPAObj) {
-  // console.log(wordArr.join());
-  if (lang == "en") {
-    // console.log("in lang: " + lang); //correct
-    wordArr.forEach((item, i) => {
-    // console.log("popup_test1.js: getAllIPA fn log - english language");
-      httpGetAsync(`https://${lang}.wiktionary.org/wiki/${item}`, lang, function(response){
-        // console.log("rcTextWords.forEach loop " + response); //success!
-        wordsIPAObj[item] = response;
-        console.log(lang + " word IPA call test.");
-        // console.log(response);
+  console.log(lang + ": promises arr: " + promises);
+   return new Promise(function(resolve, reject){
+      Promise.all(promises).then(response => {
+        // console.log("response: " + response);
+          resolve(response);
+      })
+      .catch(err => {
+        console.log("error: " + err);
+        reject(err);
       });
-  });
-  } else if (lang == "fr") {
-    // console.log("in lang: " + lang); //correct
-    wordArr.forEach((item, i) => {
-    // console.log("popup_test1.js: getAllIPA fn log - french language");
-    httpGetAsync(`https://${lang}.wiktionary.org/wiki/${item}`, lang, function(response){
-      // console.log("rcTextWords.forEach loop " + response); //success!
-      wordsIPAObj[item] = response;
-      // console.log(lang + " word IPA call test.");
-      // console.log(response);
-  });
-  });
-  } else {
-    wordArr.forEach((item, i) => {
-      wordsIPAObj[item] = "";
-  });
-    console.log("popup_test1.js: getAllIPA fn log - invalid language");
-  }
-
-  // callbackFn();
+   });
 
 }
-
 
 // to inject -content_Script1 and only inject in targetted website.
 browser.tabs.query({currentWindow: true, active: true}, tabs => {
@@ -264,8 +225,19 @@ for (let tab of tabs) {
 
         // getAllIPA(selectedSrcLang, srcTextWords, srcWordsIPA);
         // getAllIPA(selectedTgtLang, tgtTextWords, tgtWordsIPA);
-        getAllIPA_promise(selectedSrcLang, srcTextWords, srcWordsIPA);
-        getAllIPA_promise(selectedTgtLang, tgtTextWords, tgtWordsIPA);
+        getAllIPA_promise(selectedSrcLang, srcTextWords, srcWordsIPA)
+        .then(response => {
+          console.log("getAllIPA_promise fn call - response: " + response);
+        })
+        .catch(err => {
+          console.log("error for src in getAllIPA_promise function call: " + JSON.stringify(err));
+        });
+        getAllIPA_promise(selectedTgtLang, tgtTextWords, tgtWordsIPA).then(response => {
+          console.log(response);
+        })
+        .catch(err => {
+          console.log("error for tgt in getAllIPA_promise function call: " + JSON.stringify(err));
+        });
 
 
 
