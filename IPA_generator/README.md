@@ -18,3 +18,6 @@ For https://translate.google.com, for English-French translations, generate IPA 
 
 ## Contribute
 Feel free to raise a PR or an issue.
+
+## Notes
+- IPA is enclosed by forward brackets( / ). In case of fetching IPA for French words, Wiktionary returns IPA with backward bracket( \ ). Replace backward bracket with forward bracket by string manipulation.

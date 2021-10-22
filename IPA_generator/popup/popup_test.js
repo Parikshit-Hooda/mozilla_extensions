@@ -47,34 +47,44 @@ function getPronunciation(htmlDoc, lang){
 function getPronunciation_promise(lang, item) {
   // var htmlResponse =
   return new Promise(function(resolve, reject){
-  fetch(`https://${lang}.wiktionary.org/wiki/${item}`)
+    var lcaseItem = item.toLowerCase();
+    // console.log("link: " + `https://${lang}.wiktionary.org/wiki/${item}`);
+  fetch(`https://${lang}.wiktionary.org/wiki/${lcaseItem}`)
 .then(response => response.text())
 .then(text => {
   var x = text;
+  // console.log ("text: " + text);
+  // console.log ("x: " + x);
   // console.log("text: " + text);
   // console.log(item + " " + text);
   // console.log(text);
   return getPronunciation(x, lang);  })
   .then(res => {
-    // console.log("res: " + res);
-    resolve(res);
+    console.log("res: " + res); //result ok
+
+    //in case of fetching IPA for french word, result is enclosed by backward bracket. use string manipulation to replce with forward bracket. This pattern will then match IPA for English words
+var editedResult = "/" + res.substr(1, res.length-2) + "/"; //replace "\" \bɔ̃.ʒuʁ\ with "/"
+console.log("editedResult: "+ editedResult);
+    resolve(editedResult);
   })
   .catch(err => {
     console.log("err: " + err);
   reject("word not found");
 // resolve(text);
 });
-
 });
-
 }
 
 
 function getAllIPA_promise(lang, wordArr, wordsIPAObj) {
+  // console.log("getAllIPA_promise: " + typeof wordArr);
+  // console.log("getAllIPA_promise: " + wordArr);
+
   console.log(lang);
   var promises = [];
   if(lang == "en" || lang == "fr") {
     wordArr.forEach((item, i) => {
+      // console.log("getAllIPA_Promise: word - " + item);
       var currPromise = getPronunciation_promise(lang, item);
       promises.push(currPromise);
     });
@@ -85,10 +95,11 @@ function getAllIPA_promise(lang, wordArr, wordsIPAObj) {
     promises.push(notSupportedLangPromise);
   // );
   }
-  console.log(lang + ": promises arr: " + promises);
+  console.log(lang + ": promises arr: " + JSON.stringify(promises));
    return new Promise(function(resolve, reject){
       Promise.all(promises).then(response => {
         // console.log("response: " + response);
+        console.log("all promises resolved: " + JSON.stringify(response));
           resolve(response);
       })
       .catch(err => {
@@ -213,9 +224,9 @@ for (let tab of tabs) {
         //implement word level API calls for source and target data and display in extension.
         srcTextWords = srcText.match(/\b(\w+)\b/g);
         tgtTextWords = tgtText.match(/\b(\w+)\b/g);
-
-        console.log("srcTextWords " + srcTextWords);
-        console.log("tgtTextWords " + tgtTextWords);
+        // console.log(typeof srcTextWords); //object
+        console.log("srcTextWords " + srcTextWords); //ok
+        console.log("tgtTextWords " + tgtTextWords); //ok
 
         // console.log("selectedSrcLang: " + selectedSrcLang); //correct
         // console.log("selectedTgtLang: " + selectedTgtLang); //correct
