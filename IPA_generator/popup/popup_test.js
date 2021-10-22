@@ -14,16 +14,28 @@ function getPronunciation(htmlDoc, lang){
     var testvar;
     if (lang == "fr")
     {
+      console.log("in french");
+        if(htmlDoc.includes("Prononciation API")) {
           startIdx = htmlDoc.indexOf("Prononciation API");
           startIdx = startIdx + 19; //success
           endIdx = htmlDoc.indexOf("<", startIdx); //success
+        } else {
+          startIdx = 0;
+          endIdx = 0;
         }
+      }
     else if (lang == "en")
     {
+      console.log("in english");
+
+      if(htmlDoc.includes("Appendix:English pronunciation")) {
         startIdx = htmlDoc.indexOf("Appendix:English pronunciation");
         startIdx = startIdx + 70; //success
         endIdx = htmlDoc.indexOf("<", startIdx); //success
-
+      } else {
+        startIdx = 0;
+        endIdx = 0;
+      }
         }
     else
     {
@@ -38,9 +50,16 @@ function getPronunciation(htmlDoc, lang){
     console.log("getpronunciation function: " + htmlDoc.substring(startIdx, endIdx));
     // for example, \zhe\ <- startIdx gets index of first '\' and endIdx gets index of second '\';
     // var getProunciationResult = htmlDoc.substring(startIdx, endIdx-startIdx);
+    var resultIPA = htmlDoc.substring(startIdx, endIdx);
+
+    //if valid result, do something
+    if(startIdx == 0 && endIdx == 0)
+      resultIPA = "/notFound/";
+
 
   return new Promise(function(resolve, reject){
-    resolve(htmlDoc.substring(startIdx, endIdx));
+
+    resolve(resultIPA);
   });
 }
 
@@ -53,11 +72,6 @@ function getPronunciation_promise(lang, item) {
 .then(response => response.text())
 .then(text => {
   var x = text;
-  // console.log ("text: " + text);
-  // console.log ("x: " + x);
-  // console.log("text: " + text);
-  // console.log(item + " " + text);
-  // console.log(text);
   return getPronunciation(x, lang);  })
   .then(res => {
     console.log("res: " + res); //result ok
@@ -68,7 +82,7 @@ console.log("editedResult: "+ editedResult);
     resolve(editedResult);
   })
   .catch(err => {
-    console.log("err: " + err);
+    console.log("getPronunciation_promise - err: " + err);
   reject("word not found");
 // resolve(text);
 });
@@ -239,21 +253,25 @@ for (let tab of tabs) {
         getAllIPA_promise(selectedSrcLang, srcTextWords, srcWordsIPA)
         .then(response => {
           console.log("getAllIPA_promise fn call - response: " + response);
+          //populate popup_test.html with results
         })
         .catch(err => {
           console.log("error for src in getAllIPA_promise function call: " + JSON.stringify(err));
+          //populate popup_test.html with results
+
         });
-        getAllIPA_promise(selectedTgtLang, tgtTextWords, tgtWordsIPA).then(response => {
-          console.log(response);
+
+        getAllIPA_promise(selectedTgtLang, tgtTextWords, tgtWordsIPA)
+        .then(response => {
+          console.log("getAllIPA_promise fn call - response: " + response);
+          //populate popup_test.html with results
+
         })
         .catch(err => {
           console.log("error for tgt in getAllIPA_promise function call: " + JSON.stringify(err));
+          //populate popup_test.html with results
+
         });
-
-
-
-        //Here,call another function that puts the above IPA details in the popup_test.html.
-        //Run the function after IPA objects are populated fully.
 
 
         // console.log("srcWordsIPA object length" + Object.keys(srcWordsIPA).length);
