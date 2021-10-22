@@ -67,7 +67,13 @@ function getPronunciation_promise(lang, item) {
   // var htmlResponse =
   return new Promise(function(resolve, reject){
     var lcaseItem = item.toLowerCase();
+    console.log("item: " + item);
     // console.log("link: " + `https://${lang}.wiktionary.org/wiki/${item}`);
+    var encodedURI = encodeURI(`https://${lang}.wiktionary.org/wiki/${lcaseItem}`);
+
+    var decodedURI = decodeURI(`https://${lang}.wiktionary.org/wiki/${lcaseItem}`);
+      console.log("decodeduri: " + decodedURI);
+      console.log("encodeduri: " + encodedURI);
   fetch(`https://${lang}.wiktionary.org/wiki/${lcaseItem}`)
 .then(response => response.text())
 .then(text => {
@@ -93,7 +99,7 @@ console.log("editedResult: "+ editedResult);
 function getAllIPA_promise(lang, wordArr, wordsIPAObj) {
   // console.log("getAllIPA_promise: " + typeof wordArr);
   // console.log("getAllIPA_promise: " + wordArr);
-
+  var resolvedObj = {};
   console.log(lang);
   var promises = [];
   if(lang == "en" || lang == "fr") {
@@ -112,9 +118,18 @@ function getAllIPA_promise(lang, wordArr, wordsIPAObj) {
   console.log(lang + ": promises arr: " + JSON.stringify(promises));
    return new Promise(function(resolve, reject){
       Promise.all(promises).then(response => {
-        // console.log("response: " + response);
+        // console.log("response: " + typeof response); //object
         console.log("all promises resolved: " + JSON.stringify(response));
-          resolve(response);
+          // resolve(wordArr + response); //resolving this ways returns a string
+
+//create a new object and resolve to it. key = word, value = IPA
+          wordArr.forEach((item, i) => {
+            resolvedObj[item] = response[i];
+          });
+
+          console.log("resolvedObj: " + resolvedObj);
+          console.log("resolvedObj: " + JSON.stringify(resolvedObj));
+            resolve(resolvedObj);
       })
       .catch(err => {
         console.log("error: " + err);
@@ -236,8 +251,10 @@ for (let tab of tabs) {
         tgtText.toLowerCase();
 
         //implement word level API calls for source and target data and display in extension.
-        srcTextWords = srcText.match(/\b(\w+)\b/g);
-        tgtTextWords = tgtText.match(/\b(\w+)\b/g);
+        // srcTextWords = srcText.match(/\b(\w+)\b/g);
+        // tgtTextWords = tgtText.match(/\b(\w+)\b/g);
+        srcTextWords = srcText.match(/\b([a-zA-ZÀ-ÿ]+)\b/g);
+        tgtTextWords = tgtText.match(/\b([a-zA-ZÀ-ÿ]+)\b/g);
         // console.log(typeof srcTextWords); //object
         console.log("srcTextWords " + srcTextWords); //ok
         console.log("tgtTextWords " + tgtTextWords); //ok
@@ -252,8 +269,12 @@ for (let tab of tabs) {
         // getAllIPA(selectedTgtLang, tgtTextWords, tgtWordsIPA);
         getAllIPA_promise(selectedSrcLang, srcTextWords, srcWordsIPA)
         .then(response => {
-          console.log("getAllIPA_promise fn call - response: " + response);
+          console.log("getAllIPA_promise fn call - response: " + typeof response);
           //populate popup_test.html with results
+
+          console.log("getAllIPA_promise for src .then: obj size - " + typeof Object.keys(response).length);
+
+
         })
         .catch(err => {
           console.log("error for src in getAllIPA_promise function call: " + JSON.stringify(err));
@@ -263,8 +284,9 @@ for (let tab of tabs) {
 
         getAllIPA_promise(selectedTgtLang, tgtTextWords, tgtWordsIPA)
         .then(response => {
-          console.log("getAllIPA_promise fn call - response: " + response);
+          console.log("getAllIPA_promise fn call - response: " + typeof response);
           //populate popup_test.html with results
+          console.log("getAllIPA_promise for tgt .then: obj size - " + typeof Object.keys(response).length);
 
         })
         .catch(err => {
