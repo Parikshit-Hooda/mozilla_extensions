@@ -27,10 +27,13 @@ function getPronunciation(htmlDoc, lang){
     else if (lang == "en")
     {
       console.log("in english");
+      // using "Appendix:English pronunciation" as search string to find the IPA doesn't work consistently. Use
+      //span class = "AHD enPR"
+if(htmlDoc.includes("AHD enPR")) {
+        console.log("picking from span AHD enPR");
 
-      if(htmlDoc.includes("Appendix:English pronunciation")) {
-        startIdx = htmlDoc.indexOf("Appendix:English pronunciation");
-        startIdx = startIdx + 70; //success
+        startIdx = htmlDoc.indexOf("AHD enPR");
+        startIdx = startIdx + 10; //success
         endIdx = htmlDoc.indexOf("<", startIdx); //success
       } else {
         startIdx = 0;
@@ -68,12 +71,6 @@ function getPronunciation_promise(lang, item) {
   return new Promise(function(resolve, reject){
     var lcaseItem = item.toLowerCase();
     console.log("item: " + item);
-    // console.log("link: " + `https://${lang}.wiktionary.org/wiki/${item}`);
-    var encodedURI = encodeURI(`https://${lang}.wiktionary.org/wiki/${lcaseItem}`);
-
-    var decodedURI = decodeURI(`https://${lang}.wiktionary.org/wiki/${lcaseItem}`);
-      console.log("decodeduri: " + decodedURI);
-      console.log("encodeduri: " + encodedURI);
   fetch(`https://${lang}.wiktionary.org/wiki/${lcaseItem}`)
 .then(response => response.text())
 .then(text => {
