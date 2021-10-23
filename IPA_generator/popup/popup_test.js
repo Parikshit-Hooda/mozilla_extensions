@@ -3,6 +3,52 @@ console.log('popup_test.js access successful'); //popup_test.js check
 // function resultIPAObjLogger(testString){
 //   console.log("getAllIPA callback function result logger function");
 // }
+function getIPAResultHTML(srcOrTgt, aaa) {
+  // console.log("in showIPAfunction: obj= " + aaa);
+  // console.log("in showIPAfunction: obj= " + {aaa});
+
+
+//populate html elements with id = srcLang_currSentence and srcLang_IPA. similarly for tgtLang_currSentence and tgtLang_IPA
+  var result = {};
+  console.log("in showIPAfunction: obj= " + JSON.stringify(aaa));
+  var currSentenceHTML;
+  var currIPAHTML;
+
+  currSentenceHTML = "<span>Current sentence: ";
+    currIPAHTML = "<span>IPA: ";
+    for (let key in aaa) {
+      if (aaa.hasOwnProperty(key))
+                  {
+                    currSentenceHTML = currSentenceHTML + "[" + key + "]";
+                      // value = exampleObj[key];
+                      // console.log(key, value);
+                  }
+    }
+
+    for (let key in aaa) {
+      if (aaa.hasOwnProperty(key))
+                  {
+                    currIPAHTML = currIPAHTML + "[" + aaa[key] + "]";
+                      // value = exampleObj[key];
+                      // console.log(key, value);
+                  }
+    }
+
+currSentenceHTML = currSentenceHTML + "</span>";
+console.log("currSentenceHTML = " + currSentenceHTML);
+
+currIPAHTML = currIPAHTML + "</span>";
+console.log("currIPAHTML = " + currIPAHTML);
+result.currentSentence = currSentenceHTML;
+result.currentIPA = currIPAHTML;
+
+console.log("result obj: " + JSON.stringify(result));
+// console.log("result object: " + result[currentSentence]);
+// console.log("result object: " + result[currentIPA]);
+return result;
+}
+
+
 
 function getPronunciation(htmlDoc, lang){
   console.log(htmlDoc);
@@ -15,7 +61,15 @@ function getPronunciation(htmlDoc, lang){
     if (lang == "fr")
     {
       console.log("in french");
-        if(htmlDoc.includes("Prononciation API")) {
+       if (htmlDoc.includes("Caractère")) { // exception for symbols
+         var idx = htmlDoc.indexOf("Prononciation API"); //find out third occurence of "Pronociation API"
+         idx = htmlDoc.indexOf("Prononciation API", idx+3);
+         idx = htmlDoc.indexOf("Prononciation API", idx+3);
+         startIdx = idx;
+         startIdx = startIdx + 19;
+         endIdx = htmlDoc.indexOf("<", startIdx);
+       }
+        else if(htmlDoc.includes("Prononciation API")) {
           startIdx = htmlDoc.indexOf("Prononciation API");
           startIdx = startIdx + 19; //success
           endIdx = htmlDoc.indexOf("<", startIdx); //success
@@ -80,7 +134,13 @@ function getPronunciation_promise(lang, item) {
     console.log("res: " + res); //result ok
 
     //in case of fetching IPA for french word, result is enclosed by backward bracket. use string manipulation to replce with forward bracket. This pattern will then match IPA for English words
-var editedResult = "/" + res.substr(1, res.length-2) + "/"; //replace "\" \bɔ̃.ʒuʁ\ with "/"
+    var editedResult;
+    if (lang === "fr") {
+      editedResult = "/" + res.substr(1, res.length-2) + "/"; //replace "\" \bɔ̃.ʒuʁ\ with "/"
+
+    } else {
+      editedResult = res;
+    }
 console.log("editedResult: "+ editedResult);
     resolve(editedResult);
   })
@@ -250,8 +310,12 @@ for (let tab of tabs) {
         //implement word level API calls for source and target data and display in extension.
         // srcTextWords = srcText.match(/\b(\w+)\b/g);
         // tgtTextWords = tgtText.match(/\b(\w+)\b/g);
-        srcTextWords = srcText.match(/\b([a-zA-ZÀ-ÿ]+)\b/g);
-        tgtTextWords = tgtText.match(/\b([a-zA-ZÀ-ÿ]+)\b/g);
+        // ^[a-zàâçéèêëîïôûùüÿñæœ ]*$
+        // srcTextWords = srcText.match(/\b([a-zA-ZÀ-ÿ]+)\b/g);
+        // tgtTextWords = tgtText.match(/\b([a-zA-ZÀ-ÿ]+)\b/g);
+        // /\b([a-zA-ZàâäèéêëîïôœùûüÿçÀÂÄÈÉÊËÎÏÔŒÙÛÜŸÇ]+)\b/g
+        srcTextWords = srcText.match(/([a-zA-ZàâäèéêëîïôœùûüÿçÀÂÄÈÉÊËÎÏÔŒÙÛÜŸÇ]+)/g);
+        tgtTextWords = tgtText.match(/([a-zA-ZàâäèéêëîïôœùûüÿçÀÂÄÈÉÊËÎÏÔŒÙÛÜŸÇ]+)/g);
         // console.log(typeof srcTextWords); //object
         console.log("srcTextWords " + srcTextWords); //ok
         console.log("tgtTextWords " + tgtTextWords); //ok
@@ -266,29 +330,40 @@ for (let tab of tabs) {
         // getAllIPA(selectedTgtLang, tgtTextWords, tgtWordsIPA);
         getAllIPA_promise(selectedSrcLang, srcTextWords, srcWordsIPA)
         .then(response => {
-          console.log("getAllIPA_promise fn call - response: " + typeof response);
-          //populate popup_test.html with results
+          console.log("json stringify: " + JSON.stringify(response));
 
-          console.log("getAllIPA_promise for src .then: obj size - " + typeof Object.keys(response).length);
-
-
+          // console.log("getAllIPA_promise fn call - response: " + typeof response);
+          // console.log("getAllIPA_promise for src .then: obj size - " + typeof Object.keys(response).length);
+          //call function to populate results in popup_test.html
+          var IPAResultHTML = getIPAResultHTML("src", response);
+          // document.getElementById("srcLang_IPA").innerHTML = IPAResultHTML;
+          document.getElementById("srcLang_currSentence").innerHTML = IPAResultHTML["currentSentence"];
+          document.getElementById("srcLang_IPA").innerHTML = IPAResultHTML["currentIPA"];
         })
         .catch(err => {
           console.log("error for src in getAllIPA_promise function call: " + JSON.stringify(err));
           //populate popup_test.html with results
-
+          //call function to populate results in popup_test.html
+          document.getElementById("srcLang_IPA").innerHTML = "IPA: Some error occured. Try again with proper words in either English or French";
         });
 
         getAllIPA_promise(selectedTgtLang, tgtTextWords, tgtWordsIPA)
         .then(response => {
+          console.log("json stringify: " + JSON.stringify(response));
           console.log("getAllIPA_promise fn call - response: " + typeof response);
-          //populate popup_test.html with results
-          console.log("getAllIPA_promise for tgt .then: obj size - " + typeof Object.keys(response).length);
+          // console.log("getAllIPA_promise for tgt .then: obj size - " + typeof Object.keys(response).length);
+          //call function to populate results in popup_test.html
+          var IPAResultHTML = getIPAResultHTML("tgt", response);
+
+          document.getElementById("tgtLang_currSentence").innerHTML = IPAResultHTML["currentSentence"];
+          document.getElementById("tgtLang_IPA").innerHTML = IPAResultHTML["currentIPA"];
 
         })
         .catch(err => {
           console.log("error for tgt in getAllIPA_promise function call: " + JSON.stringify(err));
           //populate popup_test.html with results
+          //call function to populate results in popup_test.html
+          document.getElementById("tgtLang_IPA").innerHTML = "IPA: Some error occured. Try again with proper words in either English or French";
 
         });
 
