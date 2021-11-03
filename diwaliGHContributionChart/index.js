@@ -42,10 +42,7 @@ Canary Yellow 	#FFFF8F 	rgb(255, 255, 143) level 1
 
 Lemon Yellow 	#FAFA33 	rgb(250, 250, 51)
 }
-
-
 */
-document.body.style.border = "5px solid red";
 
 var contriSquareClass = document.getElementsByClassName("ContributionCalendar-day");
 
@@ -70,7 +67,3 @@ for (var i = 0; i < contriSquareClass.length; i++) {
           ele.style.fill = "#ebedf0";
       }
   }
-
-  // console.log(eleAttribute);
-  // Do stuff
-// }
