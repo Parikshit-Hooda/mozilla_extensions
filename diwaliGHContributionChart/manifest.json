@@ -1,0 +1,13 @@
+{
+
+    "description": "Yellowfy your Github Contribution chart",
+    "manifest_version": 2,
+    "name": "Yellowfy-Github-Contribution-Chart",
+    "version": "1.0",
+
+    "content_scripts": [{
+        "matches": ["*://*.github.com/*"],
+        "js": ["index.js"]
+    }]
+
+}
