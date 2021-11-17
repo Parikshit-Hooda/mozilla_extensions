@@ -65,7 +65,7 @@ function getStateAtLargeWidth() { // this functions captures sate of Google Tran
 
 browser.runtime.onMessage.addListener(request => {
 
-  console.log("content_script1.js - Message received from popup_test.js script"); //successful log
+  console.log("content_script1.js - Message received from popup.js script"); //successful log
   console.log("content_script1.js - " + request.messageContent); //log success
 
   let messageType;

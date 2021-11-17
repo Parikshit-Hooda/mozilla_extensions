@@ -17,7 +17,7 @@
     7.3.4 Then, the response is received in getAllIPA_promise.then resolution. Here, the word:obj is passed to getIPAResultHTML function which returns an HTML which we can display in Popup html.
 */
 
-console.log('popup_test.js access successful'); //popup_test.js check
+console.log('popup.js access successful'); //popup.js check
 
 function getIPAResultHTML(srcOrTgt, wordToIPAResObj) {
   //populate html elements with id = srcLang_currSentence and srcLang_IPA. similarly for tgtLang_currSentence and tgtLang_IPA
@@ -148,18 +148,17 @@ function getAllIPA_promise(lang, wordArr, wordsIPAObj) {
 
 }
 
-// to inject -content_Script1 and only inject in targetted website.
+// to inject -content_Script and only inject in targetted website.
 browser.tabs.query({currentWindow: true, active: true}, tabs => {
     const url = tabs[0].url;
     const googleTranslateRegex = new RegExp('htt(p|ps):\/\/translate\.google\.[a-z]+');
 
     console.log(url);
 
-
     if(googleTranslateRegex.test(url)) { //is block works
 
       function onExecuted(result) {
-        console.log(`content_script1 injected`); //successfully loaded
+        console.log(`content_script injected`); //successfully loaded
       }
 
       function onError(error) {
@@ -167,7 +166,7 @@ browser.tabs.query({currentWindow: true, active: true}, tabs => {
       }
 
       let executing = browser.tabs.executeScript({
-        file: "/content_script1.js"
+        file: "/content_script.js"
       });
       executing.then(onExecuted, onError); //successfuly resolution
 
@@ -193,7 +192,7 @@ function sendMessageToTabs(tabs) {
 for (let tab of tabs) {
   browser.tabs.sendMessage(
     tab.id,
-    {messageContent: "Find IPA button clicked"} //successfully received by content_script1.js
+    {messageContent: "Find IPA button clicked"} //successfully received by content_script.js
   ).then(response => {
 
     document.getElementById("srcLang_IPA").innerHTML = "IPA: <span>Loading...</span>";
@@ -201,12 +200,12 @@ for (let tab of tabs) {
 
     let resObj = response.responseObj;
 
-    console.log("popup_test.js - Message received from the content script"); //successful log
+    console.log("popup.js - Message received from the content script"); //successful log
     // console.log(response.response);
     if(response.messageType == 1) {
-      // console.log("popup_test.js - in response.messageType == 1 block.");
-      // console.log("popup_test.js - response object " + JSON.stringify(response.responseObj)); // successufully received message object
-      console.log("popup_Test.s messageType==1 if block. \n Response obj:" + JSON.stringify(resObj));
+      // console.log("popup.js - in response.messageType == 1 block.");
+      // console.log("popup.js - response object " + JSON.stringify(response.responseObj)); // successufully received message object
+      console.log("popup.s messageType==1 if block. \n Response obj:" + JSON.stringify(resObj));
 
       let srcText = response.responseObj.sourceText;
       let tgtText = response.responseObj.targetText;
@@ -239,12 +238,12 @@ for (let tab of tabs) {
       }
 
       //logs source and target text sent from content script
-      console.log("Content_Script1.js srcText = " + srcText);
-      console.log("Content_Script1.js tgtText = " + tgtText);
+      console.log("received from Content_Script.js. srcText = " + srcText);
+      console.log("received from Content_Script.js. tgtText = " + tgtText);
 
       //logs source and target language sent from content script
-      console.log("Content_Script1.js selectedSrcLang = " + selectedSrcLang);
-      console.log("Content_Script1.js selectedTgtLang = " + selectedTgtLang);
+      console.log("received from Content_Script.js. selectedSrcLang = " + selectedSrcLang);
+      console.log("received from Content_Script.js. selectedTgtLang = " + selectedTgtLang);
 
       if((selectedSrcLang != ("en" || "fr")) && (selectedTgtLang != ("en" || "fr"))) { //if source and target language are anything except english or french, display error in popup html.
         document.getElementById("srcLang_IPA").innerHTML = "IPA: <span>Sorry. Language not recognized. Choose english or french for the time being.</span>";
@@ -276,7 +275,7 @@ for (let tab of tabs) {
 
           // console.log("getAllIPA_promise fn call - response: " + typeof response);
           // console.log("getAllIPA_promise for src .then: obj size - " + typeof Object.keys(response).length);
-          //call function to populate results in popup_test.html
+          //call function to populate results in popup.html
           let IPAResultHTML = getIPAResultHTML("src", response);
           // document.getElementById("srcLang_IPA").innerHTML = IPAResultHTML;
           document.getElementById("srcLang_currSentence").innerHTML = IPAResultHTML["currentSentence"];
@@ -285,8 +284,8 @@ for (let tab of tabs) {
         })
         .catch(err => {
           console.log("error for src in getAllIPA_promise function call: " + JSON.stringify(err));
-          //populate popup_test.html with results
-          //call function to populate results in popup_test.html
+          //populate popup.html with results
+          //call function to populate results in popup.html
           document.getElementById("srcLang_IPA").innerHTML = "IPA: Some error occured. Try again with proper words in either English or French";
         });
 
@@ -295,7 +294,7 @@ for (let tab of tabs) {
           console.log("json stringify: " + JSON.stringify(response));
           // console.log("getAllIPA_promise fn call - response: " + typeof response);
           // console.log("getAllIPA_promise for tgt .then: obj size - " + typeof Object.keys(response).length);
-          //call function to populate results in popup_test.html
+          //call function to populate results in popup.html
           let IPAResultHTML = getIPAResultHTML("tgt", response);
 
           document.getElementById("tgtLang_currSentence").innerHTML = IPAResultHTML["currentSentence"];
@@ -304,8 +303,8 @@ for (let tab of tabs) {
         })
         .catch(err => {
           console.log("error for tgt in getAllIPA_promise function call: " + JSON.stringify(err));
-          //populate popup_test.html with results
-          //call function to populate results in popup_test.html
+          //populate popup.html with results
+          //call function to populate results in popup.html
           document.getElementById("tgtLang_IPA").innerHTML = "IPA: Some error occured. Try again with proper words in either English or French";
 
         });
@@ -317,9 +316,9 @@ for (let tab of tabs) {
       }
 
     } else if (response.messageType == 0) {
-      console.log("popup_test.js - invalid message.");
+      console.log("popup.js - invalid message.");
     } else {
-      console.log("popup_test.js - Message type for Find IPA button clicked event invalid.");
+      console.log("popup.js - Message type for Find IPA button clicked event invalid.");
     }
   }).catch(onError);
 }
