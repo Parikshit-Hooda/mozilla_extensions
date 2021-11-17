@@ -1,4 +1,24 @@
 
+function getSentence(lenSentenceNodes, nodeId) {
+  var numNodes = lenSentenceNodes - 1;
+  var resText = "";
+
+  for(var i = 0 ; i < numNodes; i = i+1) {
+    resText = resText + document.querySelectorAll("[data-language=" + getStateAtLargeWidthResult[nodeId + "-data-language-code"] + "] > div > span > span > span")[i].textContent;
+  }
+
+  return resText;
+  // document.querySelectorAll("[data-language=" + getStateAtLargeWidthResult["i12-data-language-code"] + "] > div > span > span > span")[0].textContent;
+
+  /*
+  var tgtTextListLength = document.querySelectorAll("[data-language=fr] > div > span > span > span").length
+  var tgtText = "";
+  console.log(tgtTextListLength);
+  for(var i = 0 ; i < tgtTextListLength; i = i+1) {
+    tgtText = tgtText + document.querySelectorAll("[data-language=fr] > div > span > span > span")[i].textContent
+  */
+}
+
 var getStateAtLargeWidthResult = {};
 
 function getStateAtLargeWidth() {
@@ -92,11 +112,27 @@ browser.runtime.onMessage.addListener(request => {
     getStateAtLargeWidthResult["sourceText"] = document.querySelector('[aria-label="Source text"]').nextElementSibling.innerHTML;
 
     if (getStateAtLargeWidthResult["i12-aria-selected"] == "true") {
-      targetText = document.querySelectorAll("[data-language=" + getStateAtLargeWidthResult["i12-data-language-code"] + "] > div > span > span > span")[0].textContent;
+      let sentenceElementsSize = document.querySelectorAll("[data-language=" + getStateAtLargeWidthResult["i12-data-language-code"] + "] > div > span > span > span").length;
+      // targetText = getSentence(size, i12);
+      // targetText = document.querySelectorAll("[data-language=" + getStateAtLargeWidthResult["i12-data-language-code"] + "] > div > span > span > span")[0].textContent;
+      targetText = getSentence(sentenceElementsSize, "i12");
+      // console.log(targetText);
     } else if (getStateAtLargeWidthResult["i13-aria-selected"] == "true") {
-      targetText = document.querySelectorAll("[data-language=" + getStateAtLargeWidthResult["i13-data-language-code"] + "] > div > span > span > span")[0].textContent;
+
+      let sentenceElementsSize = document.querySelectorAll("[data-language=" + getStateAtLargeWidthResult["i13-data-language-code"] + "] > div > span > span > span").length;
+      // targetText = getSentence(size, i12);
+      // targetText = document.querySelectorAll("[data-language=" + getStateAtLargeWidthResult["i12-data-language-code"] + "] > div > span > span > span")[0].textContent;
+      targetText = getSentence(sentenceElementsSize, "i13");
+
+      // targetText = document.querySelectorAll("[data-language=" + getStateAtLargeWidthResult["i13-data-language-code"] + "] > div > span > span > span")[0].textContent;
     } else if (getStateAtLargeWidthResult["i14-aria-selected"] == "true") {
-      targetText = document.querySelectorAll("[data-language=" + getStateAtLargeWidthResult["i14-data-language-code"] + "] > div > span > span > span")[0].textContent;
+
+      let sentenceElementsSize = document.querySelectorAll("[data-language=" + getStateAtLargeWidthResult["i14-data-language-code"] + "] > div > span > span > span").length;
+      // targetText = getSentence(size, i12);
+      // targetText = document.querySelectorAll("[data-language=" + getStateAtLargeWidthResult["i12-data-language-code"] + "] > div > span > span > span")[0].textContent;
+      targetText = getSentence(sentenceElementsSize, "i14");
+
+      // targetText = document.querySelectorAll("[data-language=" + getStateAtLargeWidthResult["i14-data-language-code"] + "] > div > span > span > span")[0].textContent;
     } else {
       targetText = "";
     }

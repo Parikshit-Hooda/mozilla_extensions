@@ -1,5 +1,13 @@
 console.log('popup_test.js access successful'); //popup_test.js check
 
+
+  document.getElementById('showipabtn').addEventListener("click", function() {
+    console.log("showipabtn clicked");
+    //show IPA
+    // console.log("show ipa button clicked");
+    // console.log("show IPA Button clicked:" + srcTextWords);
+  });
+
 // function resultIPAObjLogger(testString){
 //   console.log("getAllIPA callback function result logger function");
 // }
@@ -231,11 +239,11 @@ browser.tabs.query({currentWindow: true, active: true}, tabs => {
 });
 
 
-document.getElementById('showipabtn').addEventListener("click", function() {
-  //show IPA
-  // console.log("show ipa button clicked");
-  console.log("show IPA Button clicked:" + srcTextWords);
-});
+// document.getElementById('showipabtn').addEventListener("click", function() {
+//   //show IPA
+//   // console.log("show ipa button clicked");
+//   console.log("show IPA Button clicked:" + srcTextWords);
+// });
 
 
 document.getElementById('findipabtn').addEventListener("click", function() {
@@ -293,15 +301,15 @@ for (let tab of tabs) {
         selectedTgtLang = "notFoundTgtLang";
       }
 
-      console.log("Content_Scritp1.js srcText = " + srcText);
-      console.log("Content_Scritp1.js tgtText = " + tgtText);
+      console.log("Content_Script1.js srcText = " + srcText);
+      console.log("Content_Script1.js tgtText = " + tgtText);
 
-      console.log("Content_Scritp1.js selectedSrcLang = " + selectedSrcLang);
-      console.log("Content_Scritp1.js selectedTgtLang = " + selectedTgtLang);
+      console.log("Content_Script1.js selectedSrcLang = " + selectedSrcLang);
+      console.log("Content_Script1.js selectedTgtLang = " + selectedTgtLang);
 
       if((selectedSrcLang != ("en" || "fr")) && (selectedTgtLang != ("en" || "fr"))) {
         document.getElementById("srcLang_IPA").innerHTML = "IPA: <span>Sorry. Language not recognized. Choose english or french for the time being.</span>";
-        document.getElementById("tgtLang_IPA").innerHTML = "IPA: <span>Sorry. Language not recognized. Choose en or fr.";
+        document.getElementById("tgtLang_IPA").innerHTML = "IPA: <span>Sorry. Language not recognized. Choose english or french for the time being.</span>";
       } else {
 
         srcText.toLowerCase();
@@ -339,6 +347,7 @@ for (let tab of tabs) {
           // document.getElementById("srcLang_IPA").innerHTML = IPAResultHTML;
           document.getElementById("srcLang_currSentence").innerHTML = IPAResultHTML["currentSentence"];
           document.getElementById("srcLang_IPA").innerHTML = IPAResultHTML["currentIPA"];
+          document.getElementById("srcLang_SubHead").innerHTML = `Source Language: ${selectedSrcLang}`;
         })
         .catch(err => {
           console.log("error for src in getAllIPA_promise function call: " + JSON.stringify(err));
@@ -357,6 +366,7 @@ for (let tab of tabs) {
 
           document.getElementById("tgtLang_currSentence").innerHTML = IPAResultHTML["currentSentence"];
           document.getElementById("tgtLang_IPA").innerHTML = IPAResultHTML["currentIPA"];
+          document.getElementById("tgtLang_SubHead").innerHTML = `Target Language: ${selectedTgtLang}`;
 
         })
         .catch(err => {

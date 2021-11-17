@@ -62,3 +62,11 @@ get info about selected languages
       Then, do a nested element select for 1st child in nested div > 1st span > 1st span > 1st span.innerText
 
       document.querySelectorAll('[data-foo="value"] > div > span > span > span ');
+
+
+----------------------
+var tgtTextListLength = document.querySelectorAll("[data-language=fr] > div > span > span > span").length
+var tgtText = "";
+console.log(tgtTextListLength);
+for(var i = 0 ; i < tgtTextListLength; i = i+1) {
+  tgtText = tgtText + document.querySelectorAll("[data-language=fr] > div > span > span > span")[i].textContent
