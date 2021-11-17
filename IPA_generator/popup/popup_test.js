@@ -1,11 +1,28 @@
+//DESCRIPTION OF FLOW. PLEASE RAISE AN ISSUE IF HELP NEEDED ANYWHERE
+/*
+1.Extensions queries the browser for url. If URL not of Google Transalte, show default 'extension unavailable for this page. Please access the Extension on Google Translate on Mozilla Browser for now.
+
+2. If active tab is Google Translate, show HTML template - popup html
+3. When user clicks on 'Find IPA' button, inject content script
+4. Content script fetches state from the Google Translate DOM. Returns response.
+5. If response dentoes an error, show error in popup html. Error type: Either window size is not large, or the language selected for now is not supported for fetching IPA.
+6. If response.messageType equals 1, valid/success state fetch. If response.messageType equals 0, invalid. In case of invalid, log the response
+7. If valid, perform the following steps:
+  7.1 Extract source and target language, source and target text from the responseObj
+  7.2 Extract words from source and target text
+  7.3 call getAllIPA_promise. The resolution of this promise returns a complete response that we render to popup htmlDoc
+    7.3.1 In getAllIPA_promise function, for each word, getPronunciation_promise is called. This function returns a promise. All these promises for each inidividual word are pushed to an array 'promsies'. Promsies.all helps for the fastest resolution of all the promises.
+    7.3.2 Inside getPronunciation_promise, for each word, we call getIPAforWord function which makes call to fetch the webpage from wiktionary.org.
+    7.3.3 Eventually, getPronunciation_promise function resolves or fails for each word, which leads to getAllIPA_promise resolving or rejecting.
+    7.3.4 Then, the response is received in getAllIPA_promise.then resolution. Here, the word:obj is passed to getIPAResultHTML function which returns an HTML which we can display in Popup html.
+*/
+
 console.log('popup_test.js access successful'); //popup_test.js check
 
-
 function getIPAResultHTML(srcOrTgt, wordToIPAResObj) {
-
-//populate html elements with id = srcLang_currSentence and srcLang_IPA. similarly for tgtLang_currSentence and tgtLang_IPA
+  //populate html elements with id = srcLang_currSentence and srcLang_IPA. similarly for tgtLang_currSentence and tgtLang_IPA
   let result = {};
-  console.log("in showIPAfunction: obj= " + JSON.stringify(wordToIPAResObj));
+  //console.log("in showIPAfunction: obj= " + JSON.stringify(wordToIPAResObj));
   let currSentenceHTML;
   let currIPAHTML;
 
@@ -42,13 +59,13 @@ function getIPAResultHTML(srcOrTgt, wordToIPAResObj) {
   return result;
 }
 
-function getPronunciation(htmlDoc, lang){
+function getIPAforWord(htmlDoc, lang){
   let doc = new DOMParser().parseFromString(htmlDoc, 'text/html');
   let IPAElement;
 
   if(lang === "en") {
     IPAElement = doc.getElementsByClassName("IPA")[0];
-  } else {
+  } else if (lang === "fr") {
     IPAElement = doc.getElementsByClassName("API")[0];
   }
   console.log("IPAELEMENT: " + IPAElement.innerHTML);
@@ -68,7 +85,7 @@ function getPronunciation_promise(lang, item) {
       .then(response => response.text())
       .then(text => {
         let temp = text;
-        return getPronunciation(temp, lang);
+        return getIPAforWord(temp, lang);
       })
       .then(res => {
         console.log("res: " + res); //result ok
@@ -107,6 +124,7 @@ function getAllIPA_promise(lang, wordArr, wordsIPAObj) {
   // );
   }
   console.log(lang + ": promises arr: " + JSON.stringify(promises));
+
    return new Promise(function(resolve, reject){
       Promise.all(promises).then(response => {
         // console.log("response: " + typeof response); //object
@@ -220,29 +238,26 @@ for (let tab of tabs) {
         selectedTgtLang = "notFoundTgtLang";
       }
 
+      //logs source and target text sent from content script
       console.log("Content_Script1.js srcText = " + srcText);
       console.log("Content_Script1.js tgtText = " + tgtText);
 
+      //logs source and target language sent from content script
       console.log("Content_Script1.js selectedSrcLang = " + selectedSrcLang);
       console.log("Content_Script1.js selectedTgtLang = " + selectedTgtLang);
 
-      if((selectedSrcLang != ("en" || "fr")) && (selectedTgtLang != ("en" || "fr"))) {
+      if((selectedSrcLang != ("en" || "fr")) && (selectedTgtLang != ("en" || "fr"))) { //if source and target language are anything except english or french, display error in popup html.
         document.getElementById("srcLang_IPA").innerHTML = "IPA: <span>Sorry. Language not recognized. Choose english or french for the time being.</span>";
         document.getElementById("tgtLang_IPA").innerHTML = "IPA: <span>Sorry. Language not recognized. Choose english or french for the time being.</span>";
-      } else {
+      } else { //source and target text valid. proceed to find IPA and display it.
 
         srcText.toLowerCase();
         tgtText.toLowerCase();
 
         //implement word level API calls for source and target data and display in extension.
-        // srcTextWords = srcText.match(/\b(\w+)\b/g);
-        // tgtTextWords = tgtText.match(/\b(\w+)\b/g);
-        // ^[a-zàâçéèêëîïôûùüÿñæœ ]*$
-        // srcTextWords = srcText.match(/\b([a-zA-ZÀ-ÿ]+)\b/g);
-        // tgtTextWords = tgtText.match(/\b([a-zA-ZÀ-ÿ]+)\b/g);
-        // /\b([a-zA-ZàâäèéêëîïôœùûüÿçÀÂÄÈÉÊËÎÏÔŒÙÛÜŸÇ]+)\b/g
-        srcTextWords = srcText.match(/([a-zA-ZàâäèéêëîïôœùûüÿçÀÂÄÈÉÊËÎÏÔŒÙÛÜŸÇ]+)/g);
-        tgtTextWords = tgtText.match(/([a-zA-ZàâäèéêëîïôœùûüÿçÀÂÄÈÉÊËÎÏÔŒÙÛÜŸÇ]+)/g);
+
+        srcTextWords = srcText.match(/([a-zA-ZàâäèéêëîïôœùûüÿçÀÂÄÈÉÊËÎÏÔŒÙÛÜŸÇ]+)/g); //to find words from sentence
+        tgtTextWords = tgtText.match(/([a-zA-ZàâäèéêëîïôœùûüÿçÀÂÄÈÉÊËÎÏÔŒÙÛÜŸÇ]+)/g); //to find words from sentence
         // console.log(typeof srcTextWords); //object
         console.log("srcTextWords " + srcTextWords); //ok
         console.log("tgtTextWords " + tgtTextWords); //ok
@@ -257,7 +272,7 @@ for (let tab of tabs) {
         // getAllIPA(selectedTgtLang, tgtTextWords, tgtWordsIPA);
         getAllIPA_promise(selectedSrcLang, srcTextWords, srcWordsIPA)
         .then(response => {
-          console.log("json stringify: " + JSON.stringify(response));
+          // console.log("json stringify: " + JSON.stringify(response));
 
           // console.log("getAllIPA_promise fn call - response: " + typeof response);
           // console.log("getAllIPA_promise for src .then: obj size - " + typeof Object.keys(response).length);
@@ -278,7 +293,7 @@ for (let tab of tabs) {
         getAllIPA_promise(selectedTgtLang, tgtTextWords, tgtWordsIPA)
         .then(response => {
           console.log("json stringify: " + JSON.stringify(response));
-          console.log("getAllIPA_promise fn call - response: " + typeof response);
+          // console.log("getAllIPA_promise fn call - response: " + typeof response);
           // console.log("getAllIPA_promise for tgt .then: obj size - " + typeof Object.keys(response).length);
           //call function to populate results in popup_test.html
           let IPAResultHTML = getIPAResultHTML("tgt", response);
@@ -286,7 +301,6 @@ for (let tab of tabs) {
           document.getElementById("tgtLang_currSentence").innerHTML = IPAResultHTML["currentSentence"];
           document.getElementById("tgtLang_IPA").innerHTML = IPAResultHTML["currentIPA"];
           document.getElementById("tgtLang_SubHead").innerHTML = `Target Language: ${selectedTgtLang}`;
-
         })
         .catch(err => {
           console.log("error for tgt in getAllIPA_promise function call: " + JSON.stringify(err));
@@ -296,23 +310,14 @@ for (let tab of tabs) {
 
         });
 
-
         // console.log("srcWordsIPA object length" + Object.keys(srcWordsIPA).length);
         // console.log("srcWordsIPA object: " + JSON.stringify({srcWordsIPA}));
 
 
-      //function getAllIPA(lang, wordArr, wordsIPAObj)
-
-
       }
-      // console.log("srcWordsIPA object : " + JSON.stringify(srcWordsIPA));
-      ///function to split string into words: var a = srcText.match(/\b(\w+)\b/g)
-      // console.log("popup_test.js - source text recieved: " + response.sourceText);
-      // console.log("popup_test.js - target text recieved: " + response.targetText);
+
     } else if (response.messageType == 0) {
       console.log("popup_test.js - invalid message.");
-      // console.log("popup_test.js - Invalid message type. Please send proper information. Left panel text: " + response.responseObj.sourceText);
-      // console.log("popup_test.js - Invalid message type. Please send proper information. Right panel text: " + response.responseObj.targetText);
     } else {
       console.log("popup_test.js - Message type for Find IPA button clicked event invalid.");
     }
@@ -325,8 +330,5 @@ for (let tab of tabs) {
   active: true
 }).then(sendMessageToTabs).catch(onError);
 
-  //2. accept response contatining information about present state of Google Translate website. i.e., current source and target language,
-  // current text in source and target panel
-  //3. process response
 
 });
