@@ -3,21 +3,21 @@ console.log('popup_test.js access successful'); //popup_test.js check
 // function resultIPAObjLogger(testString){
 //   console.log("getAllIPA callback function result logger function");
 // }
-function getIPAResultHTML(srcOrTgt, aaa) {
+function getIPAResultHTML(srcOrTgt, wordToIPAResObj) {
   // console.log("in showIPAfunction: obj= " + aaa);
   // console.log("in showIPAfunction: obj= " + {aaa});
 
 
 //populate html elements with id = srcLang_currSentence and srcLang_IPA. similarly for tgtLang_currSentence and tgtLang_IPA
-  var result = {};
-  console.log("in showIPAfunction: obj= " + JSON.stringify(aaa));
-  var currSentenceHTML;
-  var currIPAHTML;
+  let result = {};
+  console.log("in showIPAfunction: obj= " + JSON.stringify(wordToIPAResObj));
+  let currSentenceHTML;
+  let currIPAHTML;
 
   currSentenceHTML = "<span>Current sentence: ";
     currIPAHTML = "<span>IPA: ";
-    for (let key in aaa) {
-      if (aaa.hasOwnProperty(key))
+    for (let key in wordToIPAResObj) {
+      if (wordToIPAResObj.hasOwnProperty(key))
                   {
                     currSentenceHTML = currSentenceHTML + "[ " + key + " ]";
                       // value = exampleObj[key];
@@ -25,10 +25,10 @@ function getIPAResultHTML(srcOrTgt, aaa) {
                   }
     }
 
-    for (let key in aaa) {
-      if (aaa.hasOwnProperty(key))
+    for (let key in wordToIPAResObj) {
+      if (wordToIPAResObj.hasOwnProperty(key))
                   {
-                    currIPAHTML = currIPAHTML + "[" + aaa[key] + "]";
+                    currIPAHTML = currIPAHTML + "[" + wordToIPAResObj[key] + "]";
                       // value = exampleObj[key];
                       // console.log(key, value);
                   }
