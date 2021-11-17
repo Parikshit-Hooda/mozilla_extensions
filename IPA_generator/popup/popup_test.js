@@ -230,13 +230,6 @@ browser.tabs.query({currentWindow: true, active: true}, tabs => {
 });
 
 
-// document.getElementById('showipabtn').addEventListener("click", function() {
-//   //show IPA
-//   // console.log("show ipa button clicked");
-//   console.log("show IPA Button clicked:" + srcTextWords);
-// });
-
-
 document.getElementById('findipabtn').addEventListener("click", function() {
   //find IPA
   function onError(error) {
