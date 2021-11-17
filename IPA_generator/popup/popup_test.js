@@ -19,7 +19,7 @@ function getIPAResultHTML(srcOrTgt, aaa) {
     for (let key in aaa) {
       if (aaa.hasOwnProperty(key))
                   {
-                    currSentenceHTML = currSentenceHTML + "[" + key + "]";
+                    currSentenceHTML = currSentenceHTML + "[ " + key + " ]";
                       // value = exampleObj[key];
                       // console.log(key, value);
                   }
@@ -54,10 +54,10 @@ function getPronunciation(htmlDoc, lang){
   console.log(htmlDoc);
     console.log("popup_test.js getPronunciation fn - language:" + lang);
     // console.log("htmlDoc in getPronunciation function " + htmlDoc);
-    var startIdx;
-    var endIdx;
-    var resIPA;
-    var testvar;
+    let startIdx;
+    let endIdx;
+    let resIPA;
+    let testvar;
     if (lang == "fr")
     {
       console.log("in french");
@@ -115,8 +115,8 @@ if(htmlDoc.includes("AHD enPR")) {
 
 
   return new Promise(function(resolve, reject){
-
     resolve(resultIPA);
+    
   });
 }
 
