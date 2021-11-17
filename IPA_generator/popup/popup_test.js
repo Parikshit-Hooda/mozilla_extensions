@@ -19,7 +19,7 @@ function getIPAResultHTML(srcOrTgt, wordToIPAResObj) {
     for (let key in wordToIPAResObj) {
       if (wordToIPAResObj.hasOwnProperty(key))
                   {
-                    currSentenceHTML = currSentenceHTML + "[ " + key + " ]";
+                    currSentenceHTML = currSentenceHTML + "[ " + key + " ] ";
                       // value = exampleObj[key];
                       // console.log(key, value);
                   }
@@ -28,7 +28,7 @@ function getIPAResultHTML(srcOrTgt, wordToIPAResObj) {
     for (let key in wordToIPAResObj) {
       if (wordToIPAResObj.hasOwnProperty(key))
                   {
-                    currIPAHTML = currIPAHTML + "[" + wordToIPAResObj[key] + "]";
+                    currIPAHTML = currIPAHTML + "[ " + wordToIPAResObj[key] + " ] ";
                       // value = exampleObj[key];
                       // console.log(key, value);
                   }
@@ -48,69 +48,19 @@ console.log("result obj: " + JSON.stringify(result));
 return result;
 }
 
-
-
 function getPronunciation(htmlDoc, lang){
-  console.log(htmlDoc);
-    console.log("popup_test.js getPronunciation fn - language:" + lang);
-    // console.log("htmlDoc in getPronunciation function " + htmlDoc);
-    let startIdx;
-    let endIdx;
-    let resIPA;
-    if (lang == "fr")
-    {
-      console.log("in french");
-       if (htmlDoc.includes("Caractère")) { // exception for symbols
-         let idx = htmlDoc.indexOf("Prononciation API"); //find out third occurence of "Pronociation API"
-         idx = htmlDoc.indexOf("Prononciation API", idx+3);
-         idx = htmlDoc.indexOf("Prononciation API", idx+3);
-         startIdx = idx;
-         startIdx = startIdx + 19;
-         endIdx = htmlDoc.indexOf("<", startIdx);
-       }
-        else if(htmlDoc.includes("Prononciation API")) {
-          startIdx = htmlDoc.indexOf("Prononciation API");
-          startIdx = startIdx + 19; //success
-          endIdx = htmlDoc.indexOf("<", startIdx); //success
-        } else {
-          startIdx = 0;
-          endIdx = 0;
-        }
-      }
-    else if (lang == "en")
-    {
-      console.log("in english");
-      // using "Appendix:English pronunciation" as search string to find the IPA doesn't work consistently. Use
-      //span class = "AHD enPR"
-if(htmlDoc.includes("AHD enPR")) {
-        console.log("picking from span AHD enPR");
 
-        startIdx = htmlDoc.indexOf("AHD enPR");
-        startIdx = startIdx + 10; //success
-        endIdx = htmlDoc.indexOf("<", startIdx); //success
-      } else {
-        startIdx = 0;
-        endIdx = 0;
-      }
-        }
-    else
-    {
-      startIdx = 0;
-      endIdx = 0;
-      console.log("invalid language");
-    }
-    // endIdx = startIdx + 3;
-    console.log(startIdx + " " + endIdx);
-    console.log(htmlDoc.substring(startIdx, endIdx)); // success!!
-    // resIpa = htmlDoc.substring(startIdx, endIdx);
-    console.log("getpronunciation function: " + htmlDoc.substring(startIdx, endIdx));
-    // for example, \zhe\ <- startIdx gets index of first '\' and endIdx gets index of second '\';
-    // var getProunciationResult = htmlDoc.substring(startIdx, endIdx-startIdx);
-    let resultIPA = htmlDoc.substring(startIdx, endIdx);
+  let doc = new DOMParser().parseFromString(htmlDoc, 'text/html');
+  let IPAElement;
 
-    //if valid result, do something
-    if(startIdx == 0 && endIdx == 0)
-      resultIPA = "/notFound/";
+  if(lang === "en") {
+    IPAElement = doc.getElementsByClassName("IPA")[0];
+  } else {
+    IPAElement = doc.getElementsByClassName("API")[0];
+  }
+   // = doc.getElementsByClassName("IPA")[0];
+  console.log("IPAELEMENT: " + IPAElement.innerHTML);
+  resultIPA = IPAElement.innerHTML;
 
 
   return new Promise(function(resolve, reject){
@@ -127,19 +77,20 @@ function getPronunciation_promise(lang, item) {
   fetch(`https://${lang}.wiktionary.org/wiki/${lcaseItem}`)
 .then(response => response.text())
 .then(text => {
-  let x = text;
-  return getPronunciation(x, lang);  })
+  let temp = text;
+  return getPronunciation(temp, lang);  })
   .then(res => {
     console.log("res: " + res); //result ok
 
     //in case of fetching IPA for french word, result is enclosed by backward bracket. use string manipulation to replce with forward bracket. This pattern will then match IPA for English words
     let editedResult;
-    if (lang === "fr") {
-      editedResult = "/" + res.substr(1, res.length-2) + "/"; //replace "\" \bɔ̃.ʒuʁ\ with "/"
-
-    } else {
-      editedResult = res;
-    }
+    editedResult = res;
+    // if (lang === "fr") {
+    //   editedResult = "/" + res.substr(1, res.length-2) + "/"; //replace "\" \bɔ̃.ʒuʁ\ with "/"
+    //
+    // } else {
+    //   editedResult = res;
+    // }
 console.log("editedResult: "+ editedResult);
     resolve(editedResult);
   })
@@ -150,6 +101,107 @@ console.log("editedResult: "+ editedResult);
 });
 });
 }
+
+// function getPronunciation1(htmlDoc, lang){
+//   console.log(htmlDoc);
+//     console.log("popup_test.js getPronunciation fn - language:" + lang);
+//     // console.log("htmlDoc in getPronunciation function " + htmlDoc);
+//     let startIdx;
+//     let endIdx;
+//     let resIPA;
+//     if (lang == "fr")
+//     {
+//       console.log("in french");
+//        if (htmlDoc.includes("Caractère")) { // exception for symbols
+//          let idx = htmlDoc.indexOf("Prononciation API"); //find out third occurence of "Pronociation API"
+//          idx = htmlDoc.indexOf("Prononciation API", idx+3);
+//          idx = htmlDoc.indexOf("Prononciation API", idx+3);
+//          startIdx = idx;
+//          startIdx = startIdx + 19;
+//          endIdx = htmlDoc.indexOf("<", startIdx);
+//        }
+//         else if(htmlDoc.includes("Prononciation API")) {
+//           startIdx = htmlDoc.indexOf("Prononciation API");
+//           startIdx = startIdx + 19; //success
+//           endIdx = htmlDoc.indexOf("<", startIdx); //success
+//         } else {
+//           startIdx = 0;
+//           endIdx = 0;
+//         }
+//       }
+//     else if (lang == "en")
+//     {
+//       console.log("in english");
+//       // using "Appendix:English pronunciation" as search string to find the IPA doesn't work consistently. Use
+//       //span class = "AHD enPR"
+// if(htmlDoc.includes("AHD enPR")) {
+//         console.log("picking from span AHD enPR");
+//
+//         startIdx = htmlDoc.indexOf("AHD enPR");
+//         startIdx = startIdx + 10; //success
+//         endIdx = htmlDoc.indexOf("<", startIdx); //success
+//       } else {
+//         startIdx = 0;
+//         endIdx = 0;
+//       }
+//         }
+//     else
+//     {
+//       startIdx = 0;
+//       endIdx = 0;
+//       console.log("invalid language");
+//     }
+//     // endIdx = startIdx + 3;
+//     console.log(startIdx + " " + endIdx);
+//     console.log(htmlDoc.substring(startIdx, endIdx)); // success!!
+//     // resIpa = htmlDoc.substring(startIdx, endIdx);
+//     console.log("getpronunciation function: " + htmlDoc.substring(startIdx, endIdx));
+//     // for example, \zhe\ <- startIdx gets index of first '\' and endIdx gets index of second '\';
+//     // var getProunciationResult = htmlDoc.substring(startIdx, endIdx-startIdx);
+//     let resultIPA = htmlDoc.substring(startIdx, endIdx);
+//
+//     //if valid result, do something
+//     if(startIdx == 0 && endIdx == 0)
+//       resultIPA = "/notFound/";
+//
+//
+//   return new Promise(function(resolve, reject){
+//     resolve(resultIPA);
+//
+//   });
+// }
+
+// function getPronunciation_promise(lang, item) {
+//   // var htmlResponse =
+//   return new Promise(function(resolve, reject){
+//     let lcaseItem = item.toLowerCase();
+//     console.log("item: " + item);
+//   fetch(`https://${lang}.wiktionary.org/wiki/${lcaseItem}`)
+// .then(response => response.text())
+// .then(text => {
+//   let x = text;
+//   return getPronunciation(x, lang);  })
+//   .then(res => {
+//     console.log("res: " + res); //result ok
+//
+//     //in case of fetching IPA for french word, result is enclosed by backward bracket. use string manipulation to replce with forward bracket. This pattern will then match IPA for English words
+//     let editedResult;
+//     if (lang === "fr") {
+//       editedResult = "/" + res.substr(1, res.length-2) + "/"; //replace "\" \bɔ̃.ʒuʁ\ with "/"
+//
+//     } else {
+//       editedResult = res;
+//     }
+// console.log("editedResult: "+ editedResult);
+//     resolve(editedResult);
+//   })
+//   .catch(err => {
+//     console.log("getPronunciation_promise - err: " + err);
+//   reject("word not found");
+// // resolve(text);
+// });
+// });
+// }
 
 
 function getAllIPA_promise(lang, wordArr, wordsIPAObj) {
@@ -253,7 +305,7 @@ for (let tab of tabs) {
     if(response.messageType == 1) {
       // console.log("popup_test.js - in response.messageType == 1 block.");
       // console.log("popup_test.js - response object " + JSON.stringify(response.responseObj)); // successufully received message object
-      console.log("popup_Test.js messageType==1 if block. \n Response obj:" + JSON.stringify(resObj));
+      console.log("popup_Test.s messageType==1 if block. \n Response obj:" + JSON.stringify(resObj));
 
       let srcText = response.responseObj.sourceText;
       let tgtText = response.responseObj.targetText;

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <title>Popup</title>
@@ -9,39 +8,34 @@
   <link rel="stylesheet" href="styles.css">
   <!-- <link rel ="stylesheet" href = "bootstrap.css"> -->
 </head>
-
 <body>
-  <div>
+  <div = "container-div-ipa">
     <div>
       <h4>IPA Popup</h4>
-      </div>
-
-<hr>
+    </div>
+    <hr>
 
     <div>
       <p id ="srcLang_SubHead">Source Language: </p>
       <p id = "srcLang_currSentence">Current sentence: </p>
       <p id ="srcLang_IPA">IPA: </p>
-      </div>
-
-      <div id = "src_tgt_separator">
-          <hr>
-        </div>
-
-      <div>
-        <p id ="tgtLang_SubHead">Target Language: </p>
-        <p id = "tgtLang_currSentence">Current sentence: </p>
-        <p id ="tgtLang_IPA">IPA: </p>
-        </div>
-
-<div>
-<button type="button" autofocus id="findipabtn">Find IPA</button>
-<!-- <button type="button" id="showipabtn">Show IPA</button> -->
-  </div>
     </div>
 
-<script src = "popup_test.js">
-  </script>
-</body>
+    <div id = "src_tgt_separator">
+        <hr>
+    </div>
 
+    <div>
+      <p id ="tgtLang_SubHead">Target Language: </p>
+      <p id = "tgtLang_currSentence">Current sentence: </p>
+      <p id ="tgtLang_IPA">IPA: </p>
+    </div>
+  </div>
+
+  <div id = "container-div-btn">
+<button type="button" autofocus id="findipabtn">Find IPA</button>
+  </div>
+
+<script src = "popup_test.js"></script>
+</body>
 </html>

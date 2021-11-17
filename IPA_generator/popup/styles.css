@@ -10,3 +10,9 @@ body {
   width: 200px;
   text-align: center;
 }
+
+#container-div-ipa {
+  height: 400px;
+  max-height: 500px;
+  overflow: scroll;
+}
