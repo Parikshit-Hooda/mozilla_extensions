@@ -1,9 +1,9 @@
 
 function getSentence(lenSentenceNodes, nodeId) {
-  var numNodes = lenSentenceNodes - 1;
-  var resText = "";
+  let numNodes = lenSentenceNodes - 1;
+  let resText = "";
 
-  for(var i = 0 ; i < numNodes; i = i+1) {
+  for(let i = 0 ; i < numNodes; i = i+1) {
     resText = resText + document.querySelectorAll("[data-language=" + getStateAtLargeWidthResult[nodeId + "-data-language-code"] + "] > div > span > span > span")[i].textContent;
   }
 
@@ -19,15 +19,15 @@ function getSentence(lenSentenceNodes, nodeId) {
   */
 }
 
-var getStateAtLargeWidthResult = {};
+let getStateAtLargeWidthResult = {};
 
 function getStateAtLargeWidth() {
   //first check for screen size
-  var resultState = {};
+  let resultState = {};
   //fact recognized - for > 720px innerWidth, the three tab layout manifests
 
   //consider using window.innerWidth || document.documentElement || document.documentElement('body')[0].clientHeight
-  var webPageWidth = (window.innerWidth || document.documentElement.clientWidth || document.documentElement('body')[0].clientHeight);
+  const webPageWidth = (window.innerWidth || document.documentElement.clientWidth || document.documentElement('body')[0].clientHeight);
   console.log("content_script1.js webPageWidth " + webPageWidth); //web page width fetch successful
 
   if(webPageWidth>=720) {
@@ -87,9 +87,9 @@ browser.runtime.onMessage.addListener(request => {
   console.log("content_script1.js - Message received from popup_test.js script"); //successful log
   console.log("content_script1.js - " + request.messageContent); //log success
 
-  var messageType;
-  var sourceText = "";
-  var targetText = "";
+  let messageType;
+  let sourceText = "";
+  let targetText = "";
 
   if(request.messageContent == "Find IPA button clicked") {
     messageType = 1;

@@ -1,13 +1,5 @@
 console.log('popup_test.js access successful'); //popup_test.js check
 
-
-  document.getElementById('showipabtn').addEventListener("click", function() {
-    console.log("showipabtn clicked");
-    //show IPA
-    // console.log("show ipa button clicked");
-    // console.log("show IPA Button clicked:" + srcTextWords);
-  });
-
 // function resultIPAObjLogger(testString){
 //   console.log("getAllIPA callback function result logger function");
 // }
