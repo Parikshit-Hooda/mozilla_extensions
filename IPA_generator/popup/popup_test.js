@@ -57,12 +57,11 @@ function getPronunciation(htmlDoc, lang){
     let startIdx;
     let endIdx;
     let resIPA;
-    let testvar;
     if (lang == "fr")
     {
       console.log("in french");
        if (htmlDoc.includes("Caractère")) { // exception for symbols
-         var idx = htmlDoc.indexOf("Prononciation API"); //find out third occurence of "Pronociation API"
+         let idx = htmlDoc.indexOf("Prononciation API"); //find out third occurence of "Pronociation API"
          idx = htmlDoc.indexOf("Prononciation API", idx+3);
          idx = htmlDoc.indexOf("Prononciation API", idx+3);
          startIdx = idx;
@@ -107,7 +106,7 @@ if(htmlDoc.includes("AHD enPR")) {
     console.log("getpronunciation function: " + htmlDoc.substring(startIdx, endIdx));
     // for example, \zhe\ <- startIdx gets index of first '\' and endIdx gets index of second '\';
     // var getProunciationResult = htmlDoc.substring(startIdx, endIdx-startIdx);
-    var resultIPA = htmlDoc.substring(startIdx, endIdx);
+    let resultIPA = htmlDoc.substring(startIdx, endIdx);
 
     //if valid result, do something
     if(startIdx == 0 && endIdx == 0)
@@ -116,25 +115,25 @@ if(htmlDoc.includes("AHD enPR")) {
 
   return new Promise(function(resolve, reject){
     resolve(resultIPA);
-    
+
   });
 }
 
 function getPronunciation_promise(lang, item) {
   // var htmlResponse =
   return new Promise(function(resolve, reject){
-    var lcaseItem = item.toLowerCase();
+    let lcaseItem = item.toLowerCase();
     console.log("item: " + item);
   fetch(`https://${lang}.wiktionary.org/wiki/${lcaseItem}`)
 .then(response => response.text())
 .then(text => {
-  var x = text;
+  let x = text;
   return getPronunciation(x, lang);  })
   .then(res => {
     console.log("res: " + res); //result ok
 
     //in case of fetching IPA for french word, result is enclosed by backward bracket. use string manipulation to replce with forward bracket. This pattern will then match IPA for English words
-    var editedResult;
+    let editedResult;
     if (lang === "fr") {
       editedResult = "/" + res.substr(1, res.length-2) + "/"; //replace "\" \bɔ̃.ʒuʁ\ with "/"
 
@@ -156,17 +155,17 @@ console.log("editedResult: "+ editedResult);
 function getAllIPA_promise(lang, wordArr, wordsIPAObj) {
   // console.log("getAllIPA_promise: " + typeof wordArr);
   // console.log("getAllIPA_promise: " + wordArr);
-  var resolvedObj = {};
+  let resolvedObj = {};
   console.log(lang);
-  var promises = [];
+  let promises = [];
   if(lang == "en" || lang == "fr") {
     wordArr.forEach((item, i) => {
       // console.log("getAllIPA_Promise: word - " + item);
-      var currPromise = getPronunciation_promise(lang, item);
+      let currPromise = getPronunciation_promise(lang, item);
       promises.push(currPromise);
     });
   } else {
-    var notSupportedLangPromise = new Promise(function(resolve, reject){
+    let notSupportedLangPromise = new Promise(function(resolve, reject){
       reject({status:0, message: "languageNotSupported"});
     });
     promises.push(notSupportedLangPromise);
@@ -198,8 +197,8 @@ function getAllIPA_promise(lang, wordArr, wordsIPAObj) {
 
 // to inject -content_Script1 and only inject in targetted website.
 browser.tabs.query({currentWindow: true, active: true}, tabs => {
-    var url = tabs[0].url;
-    var googleTranslateRegex = new RegExp('htt(p|ps):\/\/translate\.google\.[a-z]+');
+    const url = tabs[0].url;
+    const googleTranslateRegex = new RegExp('htt(p|ps):\/\/translate\.google\.[a-z]+');
 
     console.log(url);
 
@@ -214,7 +213,7 @@ browser.tabs.query({currentWindow: true, active: true}, tabs => {
         console.log(`Error: ${error}`);
       }
 
-      const executing = browser.tabs.executeScript({
+      let executing = browser.tabs.executeScript({
         file: "/content_script1.js"
       });
       executing.then(onExecuted, onError); //successfuly resolution
@@ -224,9 +223,9 @@ browser.tabs.query({currentWindow: true, active: true}, tabs => {
       document.body.innerHTML = '';
       // document.body.innerHTML("<span>This extension works on Google Translate website on Mozilla Firefox(currently).</span>")
       console.log("url not appropriate. please use google translate.")
-      let div = document.createElement('div');
-      div.innerHTML = "<span>This extension works on Google Translate website on Mozilla Firefox(currently).</span>";
-      document.body.append(div);
+      let divEle = document.createElement('div');
+      divEle.innerHTML = "<span>This extension works on Google Translate website on Mozilla Firefox(currently).</span>";
+      document.body.append(divEle);
     }
 });
 
@@ -254,7 +253,7 @@ for (let tab of tabs) {
     document.getElementById("srcLang_IPA").innerHTML = "IPA: <span>Loading...</span>";
     document.getElementById("tgtLang_IPA").innerHTML = "IPA: <span>Loading...</span>";
 
-    var resObj = response.responseObj;
+    let resObj = response.responseObj;
 
     console.log("popup_test.js - Message received from the content script"); //successful log
     // console.log(response.response);
@@ -263,14 +262,14 @@ for (let tab of tabs) {
       // console.log("popup_test.js - response object " + JSON.stringify(response.responseObj)); // successufully received message object
       console.log("popup_Test.js messageType==1 if block. \n Response obj:" + JSON.stringify(resObj));
 
-      var srcText = response.responseObj.sourceText;
-      var tgtText = response.responseObj.targetText;
-      var selectedSrcLang;
-      var selectedTgtLang;
-      var srcTextWords;
-      var tgtTextWords;
-      var srcWordsIPA = {};
-      var tgtWordsIPA = {};
+      let srcText = response.responseObj.sourceText;
+      let tgtText = response.responseObj.targetText;
+      let selectedSrcLang;
+      let selectedTgtLang;
+      let srcTextWords;
+      let tgtTextWords;
+      let srcWordsIPA = {};
+      let tgtWordsIPA = {};
 
       //to find source and target language, do if-else on responseObj to find aria-selected=true,
       if (resObj["i9-aria-selected"] == "true") {
@@ -335,7 +334,7 @@ for (let tab of tabs) {
           // console.log("getAllIPA_promise fn call - response: " + typeof response);
           // console.log("getAllIPA_promise for src .then: obj size - " + typeof Object.keys(response).length);
           //call function to populate results in popup_test.html
-          var IPAResultHTML = getIPAResultHTML("src", response);
+          let IPAResultHTML = getIPAResultHTML("src", response);
           // document.getElementById("srcLang_IPA").innerHTML = IPAResultHTML;
           document.getElementById("srcLang_currSentence").innerHTML = IPAResultHTML["currentSentence"];
           document.getElementById("srcLang_IPA").innerHTML = IPAResultHTML["currentIPA"];
@@ -354,7 +353,7 @@ for (let tab of tabs) {
           console.log("getAllIPA_promise fn call - response: " + typeof response);
           // console.log("getAllIPA_promise for tgt .then: obj size - " + typeof Object.keys(response).length);
           //call function to populate results in popup_test.html
-          var IPAResultHTML = getIPAResultHTML("tgt", response);
+          let IPAResultHTML = getIPAResultHTML("tgt", response);
 
           document.getElementById("tgtLang_currSentence").innerHTML = IPAResultHTML["currentSentence"];
           document.getElementById("tgtLang_IPA").innerHTML = IPAResultHTML["currentIPA"];
