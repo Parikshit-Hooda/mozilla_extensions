@@ -1,0 +1,1547 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="fr" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>m — Wiktionnaire</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"],"wgRequestId":"49b4d151-db4e-44c6-8dee-3b7ac526d8ff","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"m","wgTitle":"m","wgCurRevisionId":28504292,"wgRevisionId":28504292,"wgArticleId":7338,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages liées à Wikipédia en français","Traductions en arabe","Traductions en grec","Traductions en hindi","Traductions en russe","Prononciations audio en français","Wiktionnaire:Prononciations phonétiques manquantes en français","Prononciations audio en anglais",
+"Wiktionnaire:Prononciations phonétiques manquantes en anglais","Wiktionnaire:Prononciations manquantes en dalécarlien","Prononciations audio en finnois","Caractères","Alphabet latin","conventions internationales","Mots en conventions internationales issus d’un mot en français","Mots en conventions internationales issus d’un mot en anglais","Symboles en conventions internationales","Lexique en conventions internationales de la linguistique","Lexique en conventions internationales de la métrologie","Lexique en conventions internationales de la physique","Numéraux","français","Lemmes en français","Lettres en français","Termes vieillis en français","Mots ayant des homophones en français","anglais","Lemmes en anglais","Lettres en anglais","créole haïtien","Formes de pronoms personnels en créole haïtien","dalécarlien","Lettres en dalécarlien","espéranto","Lemmes en espéranto","Lettres en espéranto","Mots en espéranto inclus dans la Plena Ilustrata Vortaro (1970)",
+"finnois","Lemmes en finnois","Lettres en finnois","flamand occidental","Lettres en flamand occidental","gaulois","Adjectifs en gaulois","Abréviations en gaulois","Lettres en gaulois","Noms communs en gaulois","Mots attestés en gaulois","guarani","Lettres en guarani","latin","Mots en latin issus d’un mot en grec ancien","Lemmes en latin","Lettres en latin","Mots indéclinables en latin","Lexique en latin de la linguistique","Étymologies en latin incluant une reconstruction","Symboles en latin","Abréviations en latin"],"wgPageContentLanguage":"fr","wgPageContentModel":"wikitext","wgRelevantPageName":"m","wgRelevantArticleId":7338,"wgIsProbablyEditable":!0,"wgRelevantPageIsProbablyEditable":!0,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,"wgVisualEditor":{"pageLanguageCode":"fr","pageLanguageDir":"ltr","pageVariantFallbacks":"fr"},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,
+"tagline":!1},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"français","wgNoticeProject":"wiktionary","wgEditSubmitButtonLabelPublish":!0,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":!0,"wgGENewcomerTasksGuidanceEnabled":!0,"wgGEAskQuestionEnabled":!0,"wgGELinkRecommendationsFrontendEnabled":!1,"wgCentralAuthMobileDomain":!1};RLSTATE={"ext.gadget.StyleWiktionnaire":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.tmh.thumbnail.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready"};RLPAGEMODULES=["mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","mw.TMHGalleryHook.js","site","mediawiki.page.ready","mediawiki.toc",
+"skins.vector.js","ext.gadget.SommaireDeveloppable","ext.gadget.anagrimes","ext.gadget.ChercheDansSousCategories","ext.gadget.clearer-edit-summary","ext.gadget.translation_editor","ext.gadget.CreerNouveauMot","ext.gadget.Wiktionnaire","ext.gadget.LiensAncresDansCategories","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.centralauth.centralautologin"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});mw.user.options.set({"variant":"fr"});
+});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=fr&amp;modules=ext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?lang=fr&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=fr&amp;modules=ext.gadget.StyleWiktionnaire&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/w/load.php?lang=fr&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.38.0-wmf.5"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta property="og:title" content="m — Wiktionnaire"/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="//upload.wikimedia.org"/>
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//fr.m.wiktionary.org/wiki/m"/>
+<link rel="alternate" type="application/x-wiki" title="Modifier" href="/w/index.php?title=m&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wiktionary.png"/>
+<link rel="shortcut icon" href="/static/favicon/piece.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wiktionnaire (fr)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//fr.wiktionary.org/w/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://fr.wiktionary.org/wiki/m"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-m rootpage-m skin-vector action-view skin-vector-search-vue"><div class="mw-page-container">
+	<a class="mw-jump-link" href="#content">Aller au contenu</a>
+	<div class="mw-page-container-inner">
+
+<input
+	type="checkbox"
+	id="mw-sidebar-checkbox"
+	class="mw-checkbox-hack-checkbox"
+	checked>
+
+<header class="mw-header">
+	<label
+		id="mw-sidebar-button"
+		class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element"
+		for="mw-sidebar-checkbox"
+		role="button"
+		aria-controls="mw-panel"
+		data-event-name="ui.sidebar"
+		tabindex="0"
+		title="Menu principal">
+		Afficher / masquer la barre latérale
+	</label>
+	<a href="/wiki/Wiktionnaire:Page_d%E2%80%99accueil" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/mobile/copyright/wiktionary.svg" alt=""
+		aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wiktionnaire : dictionnaire libre et universel"
+			src="/static/images/mobile/copyright/wiktionary-wordmark-fr.svg" style="width: 7.125em; height: 0.9375em;">
+		<img class="mw-logo-tagline"
+			alt="le dictionnaire libre"
+			src="/static/images/mobile/copyright/wiktionary-tagline-fr.svg" width="107" height="10" style="width: 6.6875em; height: 0.625em;">
+	</span>
+</a>
+
+	<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses  vector-search-box-show-thumbnail vector-search-box">
+	<div>
+		<form action="/w/index.php" id="searchform"
+			class="vector-search-box-form">
+			<div id="simpleSearch"
+				class="vector-search-box-inner"
+				 data-search-loc="header-moved">
+				<input class="vector-search-box-input"
+					 type="search" name="search" placeholder="Rechercher dans le Wiktionnaire" aria-label="Rechercher dans le Wiktionnaire" autocapitalize="none" title="Rechercher dans le Wiktionnaire [f]" accesskey="f" id="searchInput"
+				/>
+				<input type="hidden" name="title" value="Spécial:Recherche"/>
+				<input id="mw-searchButton"
+					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Rechercher les pages comportant ce texte." value="Rechercher" />
+				<input id="searchButton"
+					 class="searchButton" type="submit" name="go" title="Accédez à une page du même nom si elle existe" value="Lire" />
+			</div>
+		</form>
+	</div>
+	<a href="/wiki/Sp%C3%A9cial:Recherche"
+
+
+
+
+		class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle">
+
+		<span>Rechercher</span>
+	</a>
+
+</div>
+
+	<div class="vector-user-links">
+	<nav id="p-personal-more" class="mw-portlet mw-portlet-personal-more vector-menu vector-user-menu-more" aria-labelledby="p-personal-more-label" role="navigation"
+	 >
+	<h3 id="p-personal-more-label" aria-label="" class="vector-menu-heading" aria-hidden="true">
+
+		<span>Liens utilisateur</span>
+	</h3>
+	<div class="vector-menu-content">
+
+		<ul class="vector-menu-content-list">
+	<li id="p-createaccount" class="user-links-collapsible-item">
+		<a href="/w/index.php?title=Sp%C3%A9cial:Cr%C3%A9er_un_compte&amp;returnto=m" icon="userAvatar" class="mw-ui-button mw-ui-quiet" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire."><span>Créer un compte</span></a>
+	</li>
+</ul>
+
+	</div>
+</nav>
+
+	<nav id="p-personal" class="mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out vector-menu vector-menu-dropdown" aria-labelledby="p-personal-label" role="navigation"  title="Plus d’options"
+	 >
+	<input type="checkbox"
+		id="p-personal-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-personal"
+		class="vector-menu-checkbox" aria-labelledby="p-personal-label" />
+	<h3 id="p-personal-label" aria-label="" class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-ellipsis" aria-hidden="true">
+
+		<span>Outils personnels</span>
+			<span class="vector-menu-checkbox-expanded">développé</span>
+			<span class="vector-menu-checkbox-collapsed">replié</span>
+	</h3>
+	<div class="vector-menu-content">
+		<div class="vector-user-menu-create-account"><a href="/w/index.php?title=Sp%C3%A9cial:Cr%C3%A9er_un_compte&amp;returnto=m" icon="userAvatar" class="user-links-collapsible-item vector-menu-content-item mw-ui-icon mw-ui-icon-before mw-ui-icon-wikimedia-userAvatar" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire."><span>Créer un compte</span></a></div>
+<div class="vector-user-menu-login"><a href="/w/index.php?title=Sp%C3%A9cial:Connexion&amp;returnto=m" icon="logIn" class="vector-menu-content-item vector-menu-content-item-login mw-ui-icon mw-ui-icon-before mw-ui-icon-wikimedia-logIn" title="Nous vous encourageons à vous connecter ; ce n’est cependant pas obligatoire. [o]" accesskey="o"><span>Se connecter</span></a></div>
+<div class="vector-user-menu-anon-editor">
+	<p>
+		Pages pour les éditeurs déconnectés <a href="/wiki/Aide:Introduction" aria-label="En savoir plus sur la contribution"><span>en savoir plus</span></a>
+	</p>
+</div>
+
+		<ul class="vector-menu-content-list"><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Sp%C3%A9cial:Mes_discussions" title="La page de discussion pour les contributions depuis cette adresse IP [n]" accesskey="n"><span>Discussion</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Sp%C3%A9cial:Mes_contributions" title="Une liste des modifications effectuées depuis cette adresse IP [y]" accesskey="y"><span>Contributions</span></a></li></ul>
+
+	</div>
+</nav>
+
+</div>
+
+</header>
+<div class="mw-workspace-container">
+	<div id="mw-navigation">
+
+<div id="mw-panel" class="mw-sidebar">
+	<nav id="p-Navigation" class="mw-portlet mw-portlet-Navigation vector-menu vector-menu-portal portal" aria-labelledby="p-Navigation-label" role="navigation"
+	 >
+	<h3 id="p-Navigation-label" aria-label="" class="vector-menu-heading" aria-hidden="true">
+
+		<span>Navigation</span>
+	</h3>
+	<div class="vector-menu-content">
+
+		<ul class="vector-menu-content-list"><li id="n-mainpage-name" class="mw-list-item"><a href="/wiki/Wiktionnaire:Page_d%E2%80%99accueil"><span>Page d’accueil</span></a></li><li id="n-Recherche-avancée,-anagrammes-et-rimes" class="mw-list-item"><a href="/wiki/Wiktionnaire:Recherche_avanc%C3%A9e"><span>Recherche avancée, anagrammes et rimes</span></a></li><li id="n-thema" class="mw-list-item"><a href="/wiki/Wiktionnaire:Portails"><span>Portails</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Sp%C3%A9cial:Page_au_hasard" title="Afficher une page au hasard [x]" accesskey="x"><span>Page au hasard</span></a></li><li id="n-randompagebylang" class="mw-list-item"><a href="/wiki/Wiktionnaire:Page_au_hasard"><span>Page au hasard par langue</span></a></li><li id="n-Questions-sur-les-mots" class="mw-list-item"><a href="/wiki/Wiktionnaire:Questions_sur_les_mots"><span>Poser une question</span></a></li></ul>
+
+	</div>
+</nav>
+
+	<nav id="p-Contribuer" class="mw-portlet mw-portlet-Contribuer vector-menu vector-menu-portal portal" aria-labelledby="p-Contribuer-label" role="navigation"
+	 >
+	<h3 id="p-Contribuer-label" aria-label="" class="vector-menu-heading" aria-hidden="true">
+
+		<span>Contribuer</span>
+	</h3>
+	<div class="vector-menu-content">
+
+		<ul class="vector-menu-content-list"><li id="n-journal" class="mw-list-item"><a href="/wiki/Wiktionnaire:Journal_des_contributeurs"><span>Journal des contributeurs</span></a></li><li id="n-La-Wikidémie" class="mw-list-item"><a href="/wiki/Wiktionnaire:Wikid%C3%A9mie"><span>La Wikidémie</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wiktionnaire:Accueil_communautaire" title="À propos du projet, ce que vous pouvez faire, où trouver les informations"><span>Communauté</span></a></li><li id="n-Discuter-sur-Discord" class="mw-list-item"><a href="/wiki/Wiktionnaire:Discord"><span>Discuter sur Discord</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Sp%C3%A9cial:Modifications_r%C3%A9centes" title="Liste des modifications récentes sur le wiki [r]" accesskey="r"><span>Modifications récentes</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_fr.wiktionary.org&amp;uselang=fr" title="Soutenez-nous"><span>Faire un don</span></a></li></ul>
+
+	</div>
+</nav>
+<nav id="p-Aide" class="mw-portlet mw-portlet-Aide vector-menu vector-menu-portal portal" aria-labelledby="p-Aide-label" role="navigation"
+	 >
+	<h3 id="p-Aide-label" aria-label="" class="vector-menu-heading" aria-hidden="true">
+
+		<span>Aide</span>
+	</h3>
+	<div class="vector-menu-content">
+
+		<ul class="vector-menu-content-list"><li id="n-Forum-d’entraide" class="mw-list-item"><a href="/wiki/Wiktionnaire:Entraide"><span>Forum d’entraide</span></a></li><li id="n-help" class="mw-list-item"><a href="/wiki/Aide:Sommaire" title="Accès à l’aide"><span>Aide</span></a></li><li id="n-Modèles" class="mw-list-item"><a href="/wiki/Wiktionnaire:Mod%C3%A8les" title="Modèles"><span>Modèles</span></a></li><li id="n-Conventions" class="mw-list-item"><a href="/wiki/Wiktionnaire:Conventions"><span>Conventions</span></a></li><li id="n-Création-rapide" class="mw-list-item"><a href="/wiki/Aide:Cr%C3%A9ation_rapide"><span>Créer un article</span></a></li><li id="n-Télécharger" class="mw-list-item"><a href="/wiki/Wiktionnaire:Sites_miroirs#Avec_logiciel_à_télécharger"><span>Télécharger</span></a></li></ul>
+
+	</div>
+</nav>
+<nav id="p-tb" class="mw-portlet mw-portlet-tb vector-menu vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation"
+	 >
+	<h3 id="p-tb-label" aria-label="" class="vector-menu-heading" aria-hidden="true">
+
+		<span>Outils</span>
+	</h3>
+	<div class="vector-menu-content">
+
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Sp%C3%A9cial:Pages_li%C3%A9es/m" title="Liste des pages liées qui pointent sur celle-ci [j]" accesskey="j"><span>Pages liées</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Sp%C3%A9cial:Suivi_des_liens/m" rel="nofollow" title="Liste des modifications récentes des pages appelées par celle-ci [k]" accesskey="k"><span>Suivi des pages liées</span></a></li><li id="t-upload" class="mw-list-item"><a href="//commons.wikimedia.org/wiki/Special:UploadWizard?uselang=fr" title="Téléverser une image ou fichier média sur le serveur [u]" accesskey="u"><span>Téléverser un fichier</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Sp%C3%A9cial:Pages_sp%C3%A9ciales" title="Liste de toutes les pages spéciales [q]" accesskey="q"><span>Pages spéciales</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=m&amp;oldid=28504292" title="Adresse permanente de cette version de la page"><span>Lien permanent</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=m&amp;action=info" title="Plus d’informations sur cette page"><span>Informations sur la page</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Sp%C3%A9cial:Citer&amp;page=m&amp;id=28504292&amp;wpFormIdentifier=titleform" title="Informations sur la manière de citer cette page"><span>Citer cette page</span></a></li></ul>
+
+	</div>
+</nav>
+<nav id="p-coll-print_export" class="mw-portlet mw-portlet-coll-print_export vector-menu vector-menu-portal portal" aria-labelledby="p-coll-print_export-label" role="navigation"
+	 >
+	<h3 id="p-coll-print_export-label" aria-label="" class="vector-menu-heading" aria-hidden="true">
+
+		<span>Imprimer / exporter</span>
+	</h3>
+	<div class="vector-menu-content">
+
+		<ul class="vector-menu-content-list"><li id="coll-create_a_book" class="mw-list-item"><a href="/w/index.php?title=Sp%C3%A9cial:Livre&amp;bookcmd=book_creator&amp;referer=m"><span>Créer un livre</span></a></li><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Sp%C3%A9cial:DownloadAsPdf&amp;page=m&amp;action=show-download-screen"><span>Télécharger comme PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=m&amp;printable=yes" title="Version imprimable de cette page [p]" accesskey="p"><span>Version imprimable</span></a></li></ul>
+
+	</div>
+</nav>
+
+</div>
+
+		<div id="mw-head">
+			<div class="mw-article-toolbar-container">
+				<div id="left-navigation">
+					<nav id="p-namespaces" class="mw-portlet mw-portlet-namespaces vector-menu vector-menu-tabs" aria-labelledby="p-namespaces-label" role="navigation"
+	 >
+	<h3 id="p-namespaces-label" aria-label="" class="vector-menu-heading" aria-hidden="true">
+
+		<span>Espaces de noms</span>
+	</h3>
+	<div class="vector-menu-content">
+
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected mw-list-item"><a href="/wiki/m" title="Voir le contenu de la page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="new mw-list-item"><a href="/w/index.php?title=Discussion:m&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion au sujet de cette page de contenu (page inexistante) [t]" accesskey="t"><span>Discussion</span></a></li></ul>
+
+	</div>
+</nav>
+
+					<nav id="p-variants" class="mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown-noicon vector-menu vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation"
+	 >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox" aria-labelledby="p-variants-label" />
+	<h3 id="p-variants-label" aria-label="Modifier la variante de langue" class="vector-menu-heading" aria-hidden="true">
+
+		<span>Variantes</span>
+			<span class="vector-menu-checkbox-expanded">développé</span>
+			<span class="vector-menu-checkbox-collapsed">replié</span>
+	</h3>
+	<div class="vector-menu-content">
+
+		<ul class="vector-menu-content-list"></ul>
+
+	</div>
+</nav>
+
+				</div>
+				<div id="right-navigation">
+					<nav id="p-views" class="mw-portlet mw-portlet-views vector-menu vector-menu-tabs" aria-labelledby="p-views-label" role="navigation"
+	 >
+	<h3 id="p-views-label" aria-label="" class="vector-menu-heading" aria-hidden="true">
+
+		<span>Affichages</span>
+	</h3>
+	<div class="vector-menu-content">
+
+		<ul class="vector-menu-content-list"><li id="ca-view" class="selected mw-list-item"><a href="/wiki/m"><span>Lire</span></a></li><li id="ca-edit" class="mw-list-item"><a href="/w/index.php?title=m&amp;action=edit" title="Modifier le wikicode [e]" accesskey="e"><span>Modifier le wikicode</span></a></li><li id="ca-history" class="mw-list-item"><a href="/w/index.php?title=m&amp;action=history" title="Historique des versions de cette page [h]" accesskey="h"><span>Voir l’historique</span></a></li></ul>
+
+	</div>
+</nav>
+
+					<nav id="p-cactions" class="mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown-noicon vector-menu vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation"  title="Plus d’options"
+	 >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox" aria-labelledby="p-cactions-label" />
+	<h3 id="p-cactions-label" aria-label="" class="vector-menu-heading" aria-hidden="true">
+
+		<span>Plus</span>
+			<span class="vector-menu-checkbox-expanded">développé</span>
+			<span class="vector-menu-checkbox-collapsed">replié</span>
+	</h3>
+	<div class="vector-menu-content">
+
+		<ul class="vector-menu-content-list"></ul>
+
+	</div>
+</nav>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="mw-content-container">
+<main id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"><!-- CentralNotice --></div>
+
+
+	<header class="mw-body-header">
+			<nav id="p-lang-btn" class="mw-portlet mw-portlet-lang vector-menu vector-menu-dropdown" aria-labelledby="p-lang-btn-label" role="navigation"
+	 >
+	<input type="checkbox"
+		id="p-lang-btn-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-lang-btn"
+		class=" mw-interlanguage-selector  vector-menu-checkbox" aria-labelledby="p-lang-btn-label" />
+	<h3 id="p-lang-btn-label" aria-label="Aller à un article dans une autre langue. Disponible en 62 langues." class=" vector-menu-heading  mw-ui-button mw-ui-quiet" aria-hidden="true">
+		<span class="mw-ui-icon mw-ui-icon-wikimedia-language"></span>
+		<span>62 langues</span>
+			<span class="vector-menu-checkbox-expanded">développé</span>
+			<span class="vector-menu-checkbox-collapsed">replié</span>
+	</h3>
+	<div class="vector-menu-content">
+
+		<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-af mw-list-item"><a href="https://af.wiktionary.org/wiki/m" title="m — afrikaans" lang="af" hreflang="af" class="interlanguage-link-target"><span>Afrikaans</span></a></li><li class="interlanguage-link interwiki-an mw-list-item"><a href="https://an.wiktionary.org/wiki/m" title="m — aragonais" lang="an" hreflang="an" class="interlanguage-link-target"><span>Aragonés</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wiktionary.org/wiki/m" title="m — catalan" lang="ca" hreflang="ca" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wiktionary.org/wiki/m" title="m — tchèque" lang="cs" hreflang="cs" class="interlanguage-link-target"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a href="https://da.wiktionary.org/wiki/m" title="m — danois" lang="da" hreflang="da" class="interlanguage-link-target"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wiktionary.org/wiki/m" title="m — allemand" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a href="https://el.wiktionary.org/wiki/m" title="m — grec" lang="el" hreflang="el" class="interlanguage-link-target"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a href="https://en.wiktionary.org/wiki/m" title="m — anglais" lang="en" hreflang="en" class="interlanguage-link-target"><span>English</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a href="https://eo.wiktionary.org/wiki/m" title="m — espéranto" lang="eo" hreflang="eo" class="interlanguage-link-target"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wiktionary.org/wiki/m" title="m — espagnol" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a href="https://fi.wiktionary.org/wiki/m" title="m — finnois" lang="fi" hreflang="fi" class="interlanguage-link-target"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a href="https://gl.wiktionary.org/wiki/m" title="m — galicien" lang="gl" hreflang="gl" class="interlanguage-link-target"><span>Galego</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a href="https://hr.wiktionary.org/wiki/m" title="m — croate" lang="hr" hreflang="hr" class="interlanguage-link-target"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a href="https://hu.wiktionary.org/wiki/m" title="m — hongrois" lang="hu" hreflang="hu" class="interlanguage-link-target"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-hy mw-list-item"><a href="https://hy.wiktionary.org/wiki/m" title="m — arménien" lang="hy" hreflang="hy" class="interlanguage-link-target"><span>Հայերեն</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wiktionary.org/wiki/m" title="m — indonésien" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-io mw-list-item"><a href="https://io.wiktionary.org/wiki/m" title="m — ido" lang="io" hreflang="io" class="interlanguage-link-target"><span>Ido</span></a></li><li class="interlanguage-link interwiki-is mw-list-item"><a href="https://is.wiktionary.org/wiki/m" title="m — islandais" lang="is" hreflang="is" class="interlanguage-link-target"><span>Íslenska</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wiktionary.org/wiki/m" title="m — italien" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wiktionary.org/wiki/m" title="m — japonais" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-kl mw-list-item"><a href="https://kl.wiktionary.org/wiki/m" title="m — groenlandais" lang="kl" hreflang="kl" class="interlanguage-link-target"><span>Kalaallisut</span></a></li><li class="interlanguage-link interwiki-km mw-list-item"><a href="https://km.wiktionary.org/wiki/m" title="m — khmer" lang="km" hreflang="km" class="interlanguage-link-target"><span>ភាសាខ្មែរ</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a href="https://ko.wiktionary.org/wiki/m" title="m — coréen" lang="ko" hreflang="ko" class="interlanguage-link-target"><span>한국어</span></a></li><li class="interlanguage-link interwiki-ku mw-list-item"><a href="https://ku.wiktionary.org/wiki/m" title="m — kurde" lang="ku" hreflang="ku" class="interlanguage-link-target"><span>Kurdî</span></a></li><li class="interlanguage-link interwiki-ky mw-list-item"><a href="https://ky.wiktionary.org/wiki/m" title="m — kirghize" lang="ky" hreflang="ky" class="interlanguage-link-target"><span>Кыргызча</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a href="https://la.wiktionary.org/wiki/m" title="m — latin" lang="la" hreflang="la" class="interlanguage-link-target"><span>Latina</span></a></li><li class="interlanguage-link interwiki-li mw-list-item"><a href="https://li.wiktionary.org/wiki/m" title="m — limbourgeois" lang="li" hreflang="li" class="interlanguage-link-target"><span>Limburgs</span></a></li><li class="interlanguage-link interwiki-lt mw-list-item"><a href="https://lt.wiktionary.org/wiki/m" title="m — lituanien" lang="lt" hreflang="lt" class="interlanguage-link-target"><span>Lietuvių</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a href="https://lv.wiktionary.org/wiki/m" title="m — letton" lang="lv" hreflang="lv" class="interlanguage-link-target"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-mg mw-list-item"><a href="https://mg.wiktionary.org/wiki/m" title="m — malgache" lang="mg" hreflang="mg" class="interlanguage-link-target"><span>Malagasy</span></a></li><li class="interlanguage-link interwiki-mn mw-list-item"><a href="https://mn.wiktionary.org/wiki/m" title="m — mongol" lang="mn" hreflang="mn" class="interlanguage-link-target"><span>Монгол</span></a></li><li class="interlanguage-link interwiki-mnw mw-list-item"><a href="https://mnw.wiktionary.org/wiki/m" title="m — Mon" lang="mnw" hreflang="mnw" class="interlanguage-link-target"><span>ဘာသာ မန်</span></a></li><li class="interlanguage-link interwiki-ms mw-list-item"><a href="https://ms.wiktionary.org/wiki/m" title="m — malais" lang="ms" hreflang="ms" class="interlanguage-link-target"><span>Bahasa Melayu</span></a></li><li class="interlanguage-link interwiki-my mw-list-item"><a href="https://my.wiktionary.org/wiki/m" title="m — birman" lang="my" hreflang="my" class="interlanguage-link-target"><span>မြန်မာဘာသာ</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wiktionary.org/wiki/m" title="m — néerlandais" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-nn mw-list-item"><a href="https://nn.wiktionary.org/wiki/m" title="m — norvégien nynorsk" lang="nn" hreflang="nn" class="interlanguage-link-target"><span>Norsk nynorsk</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a href="https://no.wiktionary.org/wiki/m" title="m — norvégien" lang="no" hreflang="no" class="interlanguage-link-target"><span>Norsk</span></a></li><li class="interlanguage-link interwiki-om mw-list-item"><a href="https://om.wiktionary.org/wiki/m" title="m — oromo" lang="om" hreflang="om" class="interlanguage-link-target"><span>Oromoo</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wiktionary.org/wiki/m" title="m — polonais" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wiktionary.org/wiki/m" title="m — portugais" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a href="https://ro.wiktionary.org/wiki/m" title="m — roumain" lang="ro" hreflang="ro" class="interlanguage-link-target"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wiktionary.org/wiki/m" title="m — russe" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-scn mw-list-item"><a href="https://scn.wiktionary.org/wiki/m" title="m — sicilien" lang="scn" hreflang="scn" class="interlanguage-link-target"><span>Sicilianu</span></a></li><li class="interlanguage-link interwiki-shy mw-list-item"><a href="https://shy.wiktionary.org/wiki/m" title="m — Shawiya" lang="shy" hreflang="shy" class="interlanguage-link-target"><span>Tacawit</span></a></li><li class="interlanguage-link interwiki-si mw-list-item"><a href="https://si.wiktionary.org/wiki/m" title="m — cingalais" lang="si" hreflang="si" class="interlanguage-link-target"><span>සිංහල</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a href="https://simple.wiktionary.org/wiki/m" title="m — Simple English" lang="en-simple" hreflang="en-simple" class="interlanguage-link-target"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a href="https://sk.wiktionary.org/wiki/m" title="m — slovaque" lang="sk" hreflang="sk" class="interlanguage-link-target"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a href="https://sl.wiktionary.org/wiki/m" title="m — slovène" lang="sl" hreflang="sl" class="interlanguage-link-target"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-sq mw-list-item"><a href="https://sq.wiktionary.org/wiki/m" title="m — albanais" lang="sq" hreflang="sq" class="interlanguage-link-target"><span>Shqip</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a href="https://sr.wiktionary.org/wiki/m" title="m — serbe" lang="sr" hreflang="sr" class="interlanguage-link-target"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-su mw-list-item"><a href="https://su.wiktionary.org/wiki/m" title="m — soundanais" lang="su" hreflang="su" class="interlanguage-link-target"><span>Sunda</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wiktionary.org/wiki/m" title="m — suédois" lang="sv" hreflang="sv" class="interlanguage-link-target"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a href="https://ta.wiktionary.org/wiki/m" title="m — tamoul" lang="ta" hreflang="ta" class="interlanguage-link-target"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-te mw-list-item"><a href="https://te.wiktionary.org/wiki/m" title="m — télougou" lang="te" hreflang="te" class="interlanguage-link-target"><span>తెలుగు</span></a></li><li class="interlanguage-link interwiki-tg mw-list-item"><a href="https://tg.wiktionary.org/wiki/m" title="m — tadjik" lang="tg" hreflang="tg" class="interlanguage-link-target"><span>Тоҷикӣ</span></a></li><li class="interlanguage-link interwiki-th mw-list-item"><a href="https://th.wiktionary.org/wiki/m" title="m — thaï" lang="th" hreflang="th" class="interlanguage-link-target"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a href="https://tr.wiktionary.org/wiki/m" title="m — turc" lang="tr" hreflang="tr" class="interlanguage-link-target"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-uz mw-list-item"><a href="https://uz.wiktionary.org/wiki/m" title="m — ouzbek" lang="uz" hreflang="uz" class="interlanguage-link-target"><span>Oʻzbekcha/ўзбекча</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a href="https://vi.wiktionary.org/wiki/m" title="m — vietnamien" lang="vi" hreflang="vi" class="interlanguage-link-target"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-wa mw-list-item"><a href="https://wa.wiktionary.org/wiki/m" title="m — wallon" lang="wa" hreflang="wa" class="interlanguage-link-target"><span>Walon</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a href="https://zh.wiktionary.org/wiki/m" title="m — chinois" lang="zh" hreflang="zh" class="interlanguage-link-target"><span>中文</span></a></li><li class="interlanguage-link interwiki-zh-min-nan mw-list-item"><a href="https://zh-min-nan.wiktionary.org/wiki/m" title="m — Chinese (Min Nan)" lang="nan" hreflang="nan" class="interlanguage-link-target"><span>Bân-lâm-gú</span></a></li></ul>
+
+	</div>
+</nav>
+
+		<h1 id="firstHeading" class="firstHeading" >m</h1>
+		<div class="mw-indicators">
+		</div>
+			<div id="siteSub" class="noprint">Définition, traduction, prononciation, anagramme et synonyme sur le dictionnaire libre Wiktionnaire.</div>
+	</header>
+
+	<div id="bodyContent" class="vector-body">
+		<div id="contentSub"></div>
+		<div id="contentSub2"></div>
+
+		<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="fr" dir="ltr"><div class="mw-parser-output"><div class="bandeau-voir modele-voir"><span class="bandeau-voir-icone"><i>Voir aussi</i></span>&#160;: <b><a href="/wiki/M" title="M">M</a></b>, <b><a href="/wiki/%E2%82%A5" title="₥">₥</a></b>, <b><a href="/wiki/m%E2%80%99" title="m’">m’</a></b>, <b><a href="/wiki/M." title="M.">M.</a></b>, <b><a href="/wiki/m." title="m.">m.</a></b>, <b><a href="/wiki/%E2%80%99m" title="’m">’m</a></b>, <b><a href="/wiki/%E2%92%A8" title="⒨">⒨</a></b>, <b><a href="/wiki/%E2%93%82" title="Ⓜ">Ⓜ</a></b>, <b><a href="/wiki/%E2%93%9C" title="ⓜ">ⓜ</a></b>, <b><a href="/wiki/%EF%BC%AD" title="Ｍ">Ｍ</a></b>, <b><a href="/wiki/%EF%BD%8D" title="ｍ">ｍ</a></b>, <b><a href="/wiki/%E2%85%AF" title="Ⅿ">Ⅿ</a></b>, <b><a href="/wiki/%E2%85%BF" title="ⅿ">ⅿ</a></b>, <b><a href="/wiki/%C2%B0M" title="°M">°M</a></b>, <b><a href="/wiki/%F0%9D%90%8C" title="𝐌">𝐌</a></b>, <b><a href="/wiki/%F0%9D%90%A6" title="𝐦">𝐦</a></b>, <b><a href="/wiki/%F0%9D%91%80" title="𝑀">𝑀</a></b>, <b><a href="/wiki/%F0%9D%91%9A" title="𝑚">𝑚</a></b>, <b><a href="/wiki/%F0%9D%91%B4" title="𝑴">𝑴</a></b>, <b><a href="/wiki/%F0%9D%92%8E" title="𝒎">𝒎</a></b>, <b><a href="/wiki/%E2%84%B3" title="ℳ">ℳ</a></b>, <b><a href="/wiki/%F0%9D%93%82" title="𝓂">𝓂</a></b>, <b><a href="/wiki/%F0%9D%93%9C" title="𝓜">𝓜</a></b>, <b><a href="/wiki/%F0%9D%93%B6" title="𝓶">𝓶</a></b>, <b><a href="/wiki/%F0%9D%94%90" title="𝔐">𝔐</a></b>, <b><a href="/wiki/%F0%9D%94%AA" title="𝔪">𝔪</a></b>, <b><a href="/wiki/%F0%9D%95%B8" title="𝕸">𝕸</a></b>, <b><a href="/wiki/%F0%9D%96%92" title="𝖒">𝖒</a></b>, <b><a href="/wiki/%F0%9D%95%84" title="𝕄">𝕄</a></b>, <b><a href="/wiki/%F0%9D%95%9E" title="𝕞">𝕞</a></b>, <b><a href="/wiki/%F0%9D%96%AC" title="𝖬">𝖬</a></b>, <b><a href="/wiki/%F0%9D%97%86" title="𝗆">𝗆</a></b>, <b><a href="/wiki/%F0%9D%97%A0" title="𝗠">𝗠</a></b>, <b><a href="/wiki/%F0%9D%97%BA" title="𝗺">𝗺</a></b>, <b><a href="/wiki/%F0%9D%98%94" title="𝘔">𝘔</a></b>, <b><a href="/wiki/%F0%9D%98%AE" title="𝘮">𝘮</a></b>, <b><a href="/wiki/%F0%9D%99%88" title="𝙈">𝙈</a></b>, <b><a href="/wiki/%F0%9D%99%A2" title="𝙢">𝙢</a></b>, <b><a href="/wiki/M%CC%83" title="M̃">M̃</a></b>, <b><a href="/wiki/m%CC%83" title="m̃">m̃</a></b>, <b><a href="/wiki/-m" title="-m">-m</a></b></div>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="fr" dir="ltr"><h2 id="mw-toc-heading">Sommaire</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Caractère"><span class="tocnumber">1</span> <span class="toctext"><span>Caractère</span></span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Voir_aussi"><span class="tocnumber">1.1</span> <span class="toctext"><span>Voir aussi</span></span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Références"><span class="tocnumber">1.2</span> <span class="toctext"><span>Références</span></span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#Conventions_internationales"><span class="tocnumber">2</span> <span class="toctext"><span>Conventions internationales</span></span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Étymologie"><span class="tocnumber">2.1</span> <span class="toctext"><span>Étymologie</span></span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Symbole_1"><span class="tocnumber">2.2</span> <span class="toctext"><span>Symbole 1</span><span> </span></span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Symbole_2"><span class="tocnumber">2.3</span> <span class="toctext"><span>Symbole 2</span></span></a>
+<ul>
+<li class="toclevel-3 tocsection-8"><a href="#Notes"><span class="tocnumber">2.3.1</span> <span class="toctext"><span>Notes</span></span></a></li>
+<li class="toclevel-3 tocsection-9"><a href="#Dérivés"><span class="tocnumber">2.3.2</span> <span class="toctext"><span>Dérivés</span></span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-10"><a href="#Symbole_3"><span class="tocnumber">2.4</span> <span class="toctext"><span>Symbole 3</span></span></a>
+<ul>
+<li class="toclevel-3 tocsection-11"><a href="#Dérivés_2"><span class="tocnumber">2.4.1</span> <span class="toctext"><span>Dérivés</span></span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-12"><a href="#Symbole_4"><span class="tocnumber">2.5</span> <span class="toctext"><span>Symbole 4</span></span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Symbole_5"><span class="tocnumber">2.6</span> <span class="toctext"><span>Symbole 5</span></span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Symbole_6"><span class="tocnumber">2.7</span> <span class="toctext"><span>Symbole 6</span></span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#Numéral"><span class="tocnumber">2.8</span> <span class="toctext"><span>Numéral</span><span> </span></span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#Voir_aussi_2"><span class="tocnumber">2.9</span> <span class="toctext"><span>Voir aussi</span></span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#Références_2"><span class="tocnumber">2.10</span> <span class="toctext"><span>Références</span></span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-18"><a href="#Français"><span class="tocnumber">3</span> <span class="toctext"><span>Français</span></span></a>
+<ul>
+<li class="toclevel-2 tocsection-19"><a href="#Lettre"><span class="tocnumber">3.1</span> <span class="toctext"><span>Lettre</span><span> </span></span></a>
+<ul>
+<li class="toclevel-3 tocsection-20"><a href="#Notes_2"><span class="tocnumber">3.1.1</span> <span class="toctext"><span>Notes</span></span></a></li>
+<li class="toclevel-3 tocsection-21"><a href="#Transcriptions_dans_diverses_écritures"><span class="tocnumber">3.1.2</span> <span class="toctext"><span>Transcriptions dans diverses écritures</span></span></a></li>
+<li class="toclevel-3 tocsection-22"><a href="#Traductions"><span class="tocnumber">3.1.3</span> <span class="toctext"><span>Traductions</span></span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-23"><a href="#Prononciation"><span class="tocnumber">3.2</span> <span class="toctext"><span>Prononciation</span></span></a>
+<ul>
+<li class="toclevel-3 tocsection-24"><a href="#Homophones"><span class="tocnumber">3.2.1</span> <span class="toctext"><span>Homophones</span></span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-25"><a href="#Références_3"><span class="tocnumber">3.3</span> <span class="toctext"><span>Références</span></span></a></li>
+<li class="toclevel-2 tocsection-26"><a href="#Voir_aussi_3"><span class="tocnumber">3.4</span> <span class="toctext"><span>Voir aussi</span></span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-27"><a href="#Anglais"><span class="tocnumber">4</span> <span class="toctext"><span>Anglais</span></span></a>
+<ul>
+<li class="toclevel-2 tocsection-28"><a href="#Lettre_2"><span class="tocnumber">4.1</span> <span class="toctext"><span>Lettre</span><span> </span></span></a></li>
+<li class="toclevel-2 tocsection-29"><a href="#Prononciation_2"><span class="tocnumber">4.2</span> <span class="toctext"><span>Prononciation</span></span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-30"><a href="#Créole_haïtien"><span class="tocnumber">5</span> <span class="toctext"><span>Créole haïtien</span></span></a>
+<ul>
+<li class="toclevel-2 tocsection-31"><a href="#Étymologie_2"><span class="tocnumber">5.1</span> <span class="toctext"><span>Étymologie</span></span></a></li>
+<li class="toclevel-2 tocsection-32"><a href="#Forme_de_pronom_personnel"><span class="tocnumber">5.2</span> <span class="toctext"><span>Forme de pronom personnel</span><span> </span></span></a>
+<ul>
+<li class="toclevel-3 tocsection-33"><a href="#Variantes_orthographiques"><span class="tocnumber">5.2.1</span> <span class="toctext"><span>Variantes orthographiques</span></span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-34"><a href="#Dalécarlien"><span class="tocnumber">6</span> <span class="toctext"><span>Dalécarlien</span></span></a>
+<ul>
+<li class="toclevel-2 tocsection-35"><a href="#Lettre_3"><span class="tocnumber">6.1</span> <span class="toctext"><span>Lettre</span><span> </span></span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-36"><a href="#Espéranto"><span class="tocnumber">7</span> <span class="toctext"><span>Espéranto</span></span></a>
+<ul>
+<li class="toclevel-2 tocsection-37"><a href="#Lettre_4"><span class="tocnumber">7.1</span> <span class="toctext"><span>Lettre</span><span> </span></span></a></li>
+<li class="toclevel-2 tocsection-38"><a href="#Références_4"><span class="tocnumber">7.2</span> <span class="toctext"><span>Références</span></span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-39"><a href="#Finnois"><span class="tocnumber">8</span> <span class="toctext"><span>Finnois</span></span></a>
+<ul>
+<li class="toclevel-2 tocsection-40"><a href="#Lettre_5"><span class="tocnumber">8.1</span> <span class="toctext"><span>Lettre</span><span> </span></span></a></li>
+<li class="toclevel-2 tocsection-41"><a href="#Prononciation_3"><span class="tocnumber">8.2</span> <span class="toctext"><span>Prononciation</span></span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-42"><a href="#Flamand_occidental"><span class="tocnumber">9</span> <span class="toctext"><span>Flamand occidental</span></span></a>
+<ul>
+<li class="toclevel-2 tocsection-43"><a href="#Lettre_6"><span class="tocnumber">9.1</span> <span class="toctext"><span>Lettre</span><span> </span></span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-44"><a href="#Gaulois"><span class="tocnumber">10</span> <span class="toctext"><span>Gaulois</span></span></a>
+<ul>
+<li class="toclevel-2 tocsection-45"><a href="#Étymologie_3"><span class="tocnumber">10.1</span> <span class="toctext"><span>Étymologie</span></span></a></li>
+<li class="toclevel-2 tocsection-46"><a href="#Adjectif"><span class="tocnumber">10.2</span> <span class="toctext"><span>Adjectif</span><span> </span></span></a>
+<ul>
+<li class="toclevel-3 tocsection-47"><a href="#Variantes"><span class="tocnumber">10.2.1</span> <span class="toctext"><span>Variantes</span></span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-48"><a href="#Lettre_7"><span class="tocnumber">10.3</span> <span class="toctext"><span>Lettre</span><span> </span></span></a></li>
+<li class="toclevel-2 tocsection-49"><a href="#Nom_commun"><span class="tocnumber">10.4</span> <span class="toctext"><span>Nom commun</span><span> </span></span></a></li>
+<li class="toclevel-2 tocsection-50"><a href="#Références_5"><span class="tocnumber">10.5</span> <span class="toctext"><span>Références</span></span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-51"><a href="#Guarani"><span class="tocnumber">11</span> <span class="toctext"><span>Guarani</span></span></a>
+<ul>
+<li class="toclevel-2 tocsection-52"><a href="#Lettre_8"><span class="tocnumber">11.1</span> <span class="toctext"><span>Lettre</span><span> </span></span></a></li>
+<li class="toclevel-2 tocsection-53"><a href="#Voir_aussi_4"><span class="tocnumber">11.2</span> <span class="toctext"><span>Voir aussi</span></span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-54"><a href="#Latin"><span class="tocnumber">12</span> <span class="toctext"><span>Latin</span></span></a>
+<ul>
+<li class="toclevel-2 tocsection-55"><a href="#Étymologie_4"><span class="tocnumber">12.1</span> <span class="toctext"><span>Étymologie</span></span></a></li>
+<li class="toclevel-2 tocsection-56"><a href="#Lettre_9"><span class="tocnumber">12.2</span> <span class="toctext"><span>Lettre</span><span> </span></span></a></li>
+<li class="toclevel-2 tocsection-57"><a href="#Symbole"><span class="tocnumber">12.3</span> <span class="toctext"><span>Symbole</span><span> </span></span></a></li>
+<li class="toclevel-2 tocsection-58"><a href="#Références_6"><span class="tocnumber">12.4</span> <span class="toctext"><span>Références</span></span></a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+<h2><span id="Caract.C3.A8re"></span><span class="mw-headline" id="Caractère"><span id="caract">Caractère</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=1" title="Modifier la section : Caractère">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="flextable">
+<caption>
+</caption>
+<tbody><tr>
+<th>Minuscule</th>
+<th>Majuscule
+</th></tr>
+<tr>
+<td><a class="mw-selflink selflink">m</a>
+</td>
+<td><a href="/wiki/M" title="M">M</a>
+</td></tr></tbody></table><div class="thumb tright"><div class="thumbinner" style="width:102px;"><a href="/wiki/Fichier:Latin_M.svg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Latin_M.svg/100px-Latin_M.svg.png" decoding="async" width="100" height="99" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Latin_M.svg/150px-Latin_M.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/72/Latin_M.svg/200px-Latin_M.svg.png 2x" data-file-width="605" data-file-height="600" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/Fichier:Latin_M.svg" class="internal" title="Agrandir"></a></div>Les lettres <a href="/wiki/M" title="M">M</a> et <a class="mw-selflink selflink">m</a>.</div></div></div>
+<p><b>m</b>
+</p>
+<ol><li><a href="/wiki/treizi%C3%A8me" title="treizième">Treizième</a> <a href="/wiki/lettre" title="lettre">lettre</a> et <a href="/wiki/dixi%C3%A8me" title="dixième">dixième</a> <a href="/wiki/consonne" title="consonne">consonne</a> de l’<a href="/wiki/alphabet" title="alphabet">alphabet</a> <a href="/wiki/latin" title="latin">latin</a> (<a href="/wiki/minuscule" title="minuscule">minuscule</a>). <bdi lang="fr" class="lang-fr"><a href="/wiki/Unicode#fr" title="Unicode">Unicode</a></bdi>&#160;: U+006D.</li></ol>
+<h3><span class="mw-headline" id="Voir_aussi"><span class="titrevoir" title="">Voir aussi</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=2" title="Modifier la section : Voir aussi">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><a href="https://fr.wikipedia.org/wiki/M_(lettre)" class="extiw" title="w:M (lettre)"><span lang="fr" class="lang-fr"><bdi>m</bdi></span></a> sur l’encyclopédie Wikipédia <img alt="Wikipedia-logo-v2.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/20px-Wikipedia-logo-v2.svg.png" decoding="async" width="20" height="18" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/30px-Wikipedia-logo-v2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/40px-Wikipedia-logo-v2.svg.png 2x" data-file-width="103" data-file-height="94" /></li></ul>
+<div class="boite">
+<div class="NavFrame collapsed">
+<div class="NavHead"><b><a href="/wiki/alphabet" title="alphabet">Alphabet</a> <a href="/wiki/latin" title="latin">latin</a> de base (ISO/IEC 646)</b></div>
+<div class="NavContent">
+<div style="column-count: 1; -webkit-column-count: 1; -moz-column-count: 1; vertical-align: top; text-align: left;">
+<table class="wikitable" style="clear:both; margin:0.5em auto 0.5em auto; width:100%; border-collapse:collapse; background:GhostWhite; padding:0.5em; text-align:center">
+
+<tbody><tr>
+<td style="width:3.846%"><a href="/wiki/a" title="a">a</a> <a href="/wiki/A" title="A">A</a>
+</td>
+<td style="width:3.846%"><a href="/wiki/b" title="b">b</a> <a href="/wiki/B" title="B">B</a>
+</td>
+<td style="width:3.846%"><a href="/wiki/c" title="c">c</a> <a href="/wiki/C" title="C">C</a>
+</td>
+<td style="width:3.846%"><a href="/wiki/d" title="d">d</a> <a href="/wiki/D" title="D">D</a>
+</td>
+<td style="width:3.846%"><a href="/wiki/e" title="e">e</a> <a href="/wiki/E" title="E">E</a>
+</td>
+<td style="width:3.846%"><a href="/wiki/f" title="f">f</a> <a href="/wiki/F" title="F">F</a>
+</td>
+<td style="width:3.846%"><a href="/wiki/g" title="g">g</a> <a href="/wiki/G" title="G">G</a>
+</td>
+<td style="width:3.846%"><a href="/wiki/h" title="h">h</a> <a href="/wiki/H" title="H">H</a>
+</td>
+<td style="width:3.846%"><a href="/wiki/i" title="i"><small>&#160;</small>i<small>&#160;</small></a> <a href="/wiki/I" title="I"><small>&#160;</small>I<small>&#160;</small></a>
+</td>
+<td style="width:3.846%"><a href="/wiki/j" title="j"><small>&#160;</small>j<small>&#160;</small></a> <a href="/wiki/J" title="J">J</a>
+</td>
+<td style="width:3.846%"><a href="/wiki/k" title="k">k</a> <a href="/wiki/K" title="K">K</a>
+</td>
+<td style="width:3.846%"><a href="/wiki/l" title="l"><small>&#160;</small>l<small>&#160;</small></a> <a href="/wiki/L" title="L">L</a>
+</td>
+<td style="width:3.846%"><a class="mw-selflink selflink">m</a> <a href="/wiki/M" title="M">M</a>
+</td>
+<td style="width:3.846%"><a href="/wiki/n" title="n">n</a> <a href="/wiki/N" title="N">N</a>
+</td>
+<td style="width:3.846%"><a href="/wiki/o" title="o">o</a> <a href="/wiki/O" title="O">O</a>
+</td>
+<td style="width:3.846%"><a href="/wiki/p" title="p">p</a> <a href="/wiki/P" title="P">P</a>
+</td>
+<td style="width:3.846%"><a href="/wiki/q" title="q">q</a> <a href="/wiki/Q" title="Q">Q</a>
+</td>
+<td style="width:3.846%"><a href="/wiki/r" title="r">r</a> <a href="/wiki/R" title="R">R</a>
+</td>
+<td style="width:3.846%"><a href="/wiki/s" title="s">s</a> <a href="/wiki/S" title="S">S</a>
+</td>
+<td style="width:3.846%"><a href="/wiki/t" title="t">t</a> <a href="/wiki/T" title="T">T</a>
+</td>
+<td style="width:3.846%"><a href="/wiki/u" title="u">u</a> <a href="/wiki/U" title="U">U</a>
+</td>
+<td style="width:3.846%"><a href="/wiki/v" title="v">v</a> <a href="/wiki/V" title="V">V</a>
+</td>
+<td style="width:3.846%"><a href="/wiki/w" title="w">w</a> <a href="/wiki/W" title="W">W</a>
+</td>
+<td style="width:3.846%"><a href="/wiki/x" title="x">x</a> <a href="/wiki/X" title="X">X</a>
+</td>
+<td style="width:3.846%"><a href="/wiki/y" title="y">y</a> <a href="/wiki/Y" title="Y">Y</a>
+</td>
+<td style="width:3.846%"><a href="/wiki/z" title="z">z</a> <a href="/wiki/Z" title="Z">Z</a>
+</td></tr>
+<tr>
+<td colspan="26" class="Unicode">
+<div style="clear: both; background: #efefef; text-align: center"><b>Lettres supplémentaires</b></div><div style="text-align:center"><span style="float: left; width: 2.100000em"><a href="/wiki/%E2%B1%AD" title="Ɑ">Ɑ</a><a href="/wiki/%C9%91" title="ɑ">ɑ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%EA%9E%9A" title="Ꞛ">Ꞛ</a><a href="/wiki/%EA%9E%9B" title="ꞛ">ꞛ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%EA%9E%B4" title="Ꞵ">Ꞵ</a><a href="/wiki/%EA%9E%B5" title="ꞵ">ꞵ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%EA%9D%AE" title="Ꝯ">Ꝯ</a><a href="/wiki/%EA%9D%AF" title="ꝯ">ꝯ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%C3%90" title="Ð">Ð</a><a href="/wiki/%C3%B0" title="ð">ð</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%C6%89" title="Ɖ">Ɖ</a><a href="/wiki/%C9%96" title="ɖ">ɖ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%EA%9D%B9" title="Ꝺ">Ꝺ</a><a href="/wiki/%EA%9D%BA" title="ꝺ">ꝺ</a></span><span style="float: left; width: 2.1em"><a href="/wiki/%E1%BA%9F" title="ẟ">ẟ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%C6%8F" title="Ə">Ə</a><a href="/wiki/%C9%99" title="ə">ə</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%C6%90" title="Ɛ">Ɛ</a><a href="/wiki/%C9%9B" title="ɛ">ɛ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%EA%9D%AA" title="Ꝫ">Ꝫ</a><a href="/wiki/%EA%9D%AB" title="ꝫ">ꝫ</a></span><span style="float: left; width: 2.1em"><a href="/wiki/%EA%AD%A1" title="ꭡ">ꭡ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%E2%84%B2" title="Ⅎ">Ⅎ</a><a href="/wiki/%E2%85%8E" title="ⅎ">ⅎ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%EA%9D%BB" title="Ꝼ">Ꝼ</a><a href="/wiki/%EA%9D%BC" title="ꝼ">ꝼ</a></span><span style="float: left; width: 2.1em"><a href="/wiki/%C9%B8" title="ɸ">ɸ</a></span><span style="float: left; width: 2.1em"><a href="/wiki/%E2%B1%B7" title="ⱷ">ⱷ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%C6%94" title="Ɣ">Ɣ</a><a href="/wiki/%C9%A3" title="ɣ">ɣ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%EA%9D%BD" title="Ᵹ">Ᵹ</a><a href="/wiki/%E1%B5%B9" title="ᵹ">ᵹ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%C6%A2" title="Ƣ">Ƣ</a><a href="/wiki/%C6%A3" title="ƣ">ƣ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%EA%9C%A6" title="Ꜧ">Ꜧ</a><a href="/wiki/%EA%9C%A7" title="ꜧ">ꜧ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%C7%B6" title="Ƕ">Ƕ</a><a href="/wiki/%C6%95" title="ƕ">ƕ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%E2%B1%B5" title="Ⱶ">Ⱶ</a><a href="/wiki/%E2%B1%B6" title="ⱶ">ⱶ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%C6%96" title="Ɩ">Ɩ</a><a href="/wiki/%C9%A9" title="ɩ">ɩ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/K%CA%BC" title="Kʼ">Kʼ</a><a href="/wiki/%C4%B8" title="ĸ">ĸ</a></span><span style="float: left; width: 2.1em"><a href="/wiki/%C6%9B" title="ƛ">ƛ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%C5%8A" title="Ŋ">Ŋ</a><a href="/wiki/%C5%8B" title="ŋ">ŋ</a></span><span style="float: left; width: 2.1em"><a href="/wiki/%E1%B4%96" title="ᴖ">ᴖ</a></span><span style="float: left; width: 2.1em"><a href="/wiki/%E1%B4%97" title="ᴗ">ᴗ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%C6%86" title="Ɔ">Ɔ</a><a href="/wiki/%C9%94" title="ɔ">ɔ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%EA%9E%B6" title="Ꞷ">Ꞷ</a><a href="/wiki/%EA%9E%B7" title="ꞷ">ꞷ</a></span><span style="float: left; width: 2.1em"><a href="/wiki/%EA%AD%A5" title="ꭥ">ꭥ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%EA%9E%9C" title="Ꞝ">Ꞝ</a><a href="/wiki/%EA%9E%9D" title="ꞝ">ꞝ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%C8%A2" title="Ȣ">Ȣ</a><a href="/wiki/%C8%A3" title="ȣ">ȣ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%EA%9D%9A" title="Ꝛ">Ꝛ</a><a href="/wiki/%EA%9D%9B" title="ꝛ">ꝛ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%C6%A6" title="Ʀ">Ʀ</a><a href="/wiki/%CA%80" title="ʀ">ʀ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%EA%9E%82" title="Ꞃ">Ꞃ</a><a href="/wiki/%EA%9E%83" title="ꞃ">ꞃ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%EA%9D%9C" title="Ꝝ">Ꝝ</a><a href="/wiki/%EA%9D%9D" title="ꝝ">ꝝ</a></span><span style="float: left; width: 2.1em"><a href="/wiki/%EA%AD%85" title="ꭅ">ꭅ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%EA%9E%84" title="Ꞅ">Ꞅ</a><a href="/wiki/%EA%9E%85" title="ꞅ">ꞅ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%C6%A9" title="Ʃ">Ʃ</a><a href="/wiki/%CA%83" title="ʃ">ʃ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%EA%9D%AC" title="Ꝭ">Ꝭ</a><a href="/wiki/%EA%9D%AD" title="ꝭ">ꝭ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%E1%BA%9E" title="ẞ">ẞ</a><a href="/wiki/%C3%9F" title="ß">ß</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%EA%9E%86" title="Ꞇ">Ꞇ</a><a href="/wiki/%EA%9E%87" title="ꞇ">ꞇ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%C3%9E" title="Þ">Þ</a><a href="/wiki/%C3%BE" title="þ">þ</a></span><span style="float: left; width: 2.1em"><a href="/wiki/%EA%AD%90" title="ꭐ">ꭐ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%C6%B1" title="Ʊ">Ʊ</a><a href="/wiki/%CA%8A" title="ʊ">ʊ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%EA%9E%9E" title="Ꞟ">Ꞟ</a><a href="/wiki/%EA%9E%9F" title="ꞟ">ꞟ</a></span><span style="float: left; width: 2.1em"><a href="/wiki/%EA%9D%B8" title="ꝸ">ꝸ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%C6%B2" title="Ʋ">Ʋ</a><a href="/wiki/%CA%8B" title="ʋ">ʋ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%E1%BB%BC" title="Ỽ">Ỽ</a><a href="/wiki/%E1%BB%BD" title="ỽ">ỽ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%EA%9D%A8" title="Ꝩ">Ꝩ</a><a href="/wiki/%EA%9D%A9" title="ꝩ">ꝩ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%C7%B7" title="Ƿ">Ƿ</a><a href="/wiki/%C6%BF" title="ƿ">ƿ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%EA%9E%B3" title="Ꭓ">Ꭓ</a><a href="/wiki/%EA%AD%93" title="ꭓ">ꭓ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%C8%9C" title="Ȝ">Ȝ</a><a href="/wiki/%C8%9D" title="ȝ">ȝ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%EA%9D%A2" title="Ꝣ">Ꝣ</a><a href="/wiki/%EA%9D%A3" title="ꝣ">ꝣ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%C6%B7" title="Ʒ">Ʒ</a><a href="/wiki/%CA%92" title="ʒ">ʒ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%EA%9C%AA" title="Ꜫ">Ꜫ</a><a href="/wiki/%EA%9C%AB" title="ꜫ">ꜫ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%EA%9C%AC" title="Ꜭ">Ꜭ</a><a href="/wiki/%EA%9C%AD" title="ꜭ">ꜭ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%EA%9C%AE" title="Ꜯ">Ꜯ</a><a href="/wiki/%EA%9C%AF" title="ꜯ">ꜯ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%C6%A7" title="Ƨ">Ƨ</a><a href="/wiki/%C6%A8" title="ƨ">ƨ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%C6%BC" title="Ƽ">Ƽ</a><a href="/wiki/%C6%BD" title="ƽ">ƽ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%C9%81" title="Ɂ">Ɂ</a><a href="/wiki/%C9%82" title="ɂ">ɂ</a></span><span style="float: left; width: 2.1em"><a href="/wiki/%C7%80" title="ǀ">ǀ</a></span><span style="float: left; width: 2.1em"><a href="/wiki/%C7%81" title="ǁ">ǁ</a></span><span style="float: left; width: 2.1em"><a href="/wiki/%C7%82" title="ǂ">ǂ</a></span><span style="float: left; width: 2.1em"><a href="/wiki/%C7%83" title="ǃ">ǃ</a></span><span style="float: left; width: 2.1em"><a href="/wiki/%CA%98" title="ʘ">ʘ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%EA%9C%A2" title="Ꜣ">Ꜣ</a><a href="/wiki/%EA%9C%A3" title="ꜣ">ꜣ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%EA%9C%A4" title="Ꜥ">Ꜥ</a><a href="/wiki/%EA%9C%A5" title="ꜥ">ꜥ</a></span></div><div style="clear: both; background: #efefef; text-align: center"><b>Lettre M avec <bdi lang="fr" class="lang-fr"><a href="/wiki/diacritique#fr" title="diacritique">diacritiques</a></bdi></b></div><div style="text-align:center"><span style="float: left; width: 2.100000em"><a href="/wiki/%E1%B8%BE" title="Ḿ">Ḿ</a><a href="/wiki/%E1%B8%BF" title="ḿ">ḿ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/M%CC%80" title="M̀">M̀</a><a href="/wiki/m%CC%80" title="m̀">m̀</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/M%CC%82" title="M̂">M̂</a><a href="/wiki/m%CC%82" title="m̂">m̂</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/M%CC%88" title="M̈">M̈</a><a href="/wiki/m%CC%88" title="m̈">m̈</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/M%CC%A7" title="M̧">M̧</a><a href="/wiki/m%CC%A7" title="m̧">m̧</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/M%CC%83" title="M̃">M̃</a><a href="/wiki/m%CC%83" title="m̃">m̃</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/M%CC%84" title="M̄">M̄</a><a href="/wiki/m%CC%84" title="m̄">m̄</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%E1%B9%80" title="Ṁ">Ṁ</a><a href="/wiki/%E1%B9%81" title="ṁ">ṁ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/M%CC%8C" title="M̌">M̌</a><a href="/wiki/m%CC%8C" title="m̌">m̌</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/M%CC%8D" title="M̍">M̍</a><a href="/wiki/m%CC%8D" title="m̍">m̍</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/M%CC%90" title="M̐">M̐</a><a href="/wiki/m%CC%90" title="m̐">m̐</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%E1%B9%82" title="Ṃ">Ṃ</a><a href="/wiki/%E1%B9%83" title="ṃ">ṃ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/M%CC%A6" title="M̦">M̦</a><a href="/wiki/m%CC%A6" title="m̦">m̦</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/M%CC%A8" title="M̨">M̨</a><a href="/wiki/m%CC%A8" title="m̨">m̨</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/M%CC%AD" title="M̭">M̭</a><a href="/wiki/m%CC%AD" title="m̭">m̭</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/M%CC%B1" title="M̱">M̱</a><a href="/wiki/m%CC%B1" title="m̱">m̱</a></span><span style="float: left; width: 2.1em"><a href="/wiki/%EA%AC%BA" title="ꬺ">ꬺ</a></span><span style="float: left; width: 2.1em"><a href="/wiki/%E1%B6%86" title="ᶆ">ᶆ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%E2%B1%AE" title="Ɱ">Ɱ</a><a href="/wiki/%C9%B1" title="ɱ">ɱ</a></span><span style="float: left; width: 2.1em"><a href="/wiki/%E1%B5%AF" title="ᵯ">ᵯ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%E1%B9%82%CC%81" title="Ṃ́">Ṃ́</a><a href="/wiki/%E1%B9%83%CC%81" title="ṃ́">ṃ́</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%E1%B9%82%CC%93" title="Ṃ̓">Ṃ̓</a><a href="/wiki/%E1%B9%83%CC%93" title="ṃ̓">ṃ̓</a></span></div><div style="clear: both; background: #efefef; text-align: center"><b>Variantes de la lettre M</b></div><div style="text-align:center"><span style="float: left; width: 2.1em"><a href="/wiki/%E1%B4%8D" title="ᴍ">ᴍ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%C6%9C" title="Ɯ">Ɯ</a><a href="/wiki/%C9%AF" title="ɯ">ɯ</a></span><span style="float: left; width: 2.100000em"><a href="/wiki/%C6%9C%CC%83" title="Ɯ̃">Ɯ̃</a><a href="/wiki/%C9%AF%CC%83" title="ɯ̃">ɯ̃</a></span><span style="float: left; width: 2.1em"><a href="/wiki/%EA%9F%BA" title="ꟺ">ꟺ</a></span><span style="float: left; width: 2.1em"><a href="/wiki/%C9%B0" title="ɰ">ɰ</a></span><span style="float: left; width: 2.1em"><a href="/wiki/%E1%B4%9F" title="ᴟ">ᴟ</a></span><span style="float: left; width: 2.1em"><a href="/wiki/%EA%9F%BD" title="ꟽ">ꟽ</a></span><span style="float: left; width: 2.1em"><a href="/wiki/%EA%9F%BF" title="ꟿ">ꟿ</a></span></div><div style="clear:both;background:#efefef;text-align:center">
+<table style="margin:auto;width:100%;border:0;border-collapse:collapse">
+
+<tbody><tr>
+<th colspan="26" style="background:#efefef;border:0">Combinaisons de deux lettres
+</th></tr>
+<tr style="text-align:center">
+<td style="border:0"><a href="/wiki/ma" title="ma">ma</a>
+</td>
+<td style="border:0"><a href="/wiki/mb" title="mb">mb</a>
+</td>
+<td style="border:0"><a href="/wiki/mc" title="mc">mc</a>
+</td>
+<td style="border:0"><a href="/wiki/md" title="md">md</a>
+</td>
+<td style="border:0"><a href="/wiki/me" title="me">me</a>
+</td>
+<td style="border:0"><a href="/wiki/mf" title="mf">mf</a>
+</td>
+<td style="border:0"><a href="/wiki/mg" title="mg">mg</a>
+</td>
+<td style="border:0"><a href="/wiki/mh" title="mh">mh</a>
+</td>
+<td style="border:0"><a href="/wiki/mi" title="mi">mi</a>
+</td>
+<td style="border:0"><span style="color:#999">mj</span>
+</td>
+<td style="border:0"><a href="/wiki/mk" title="mk">mk</a>
+</td>
+<td style="border:0"><a href="/wiki/ml" title="ml">ml</a>
+</td>
+<td style="border:0"><a href="/wiki/mm" title="mm">mm</a>
+</td>
+<td style="border:0"><a href="/wiki/mn" title="mn">mn</a>
+</td>
+<td style="border:0"><a href="/wiki/mo" title="mo">mo</a>
+</td>
+<td style="border:0"><a href="/wiki/mp" title="mp">mp</a>
+</td>
+<td style="border:0"><span style="color:#999">mq</span>
+</td>
+<td style="border:0"><a href="/wiki/mr" title="mr">mr</a>
+</td>
+<td style="border:0"><a href="/wiki/ms" title="ms">ms</a>
+</td>
+<td style="border:0"><a href="/wiki/mt" title="mt">mt</a>
+</td>
+<td style="border:0"><a href="/wiki/mu" title="mu">mu</a>
+</td>
+<td style="border:0"><a href="/wiki/mv" title="mv">mv</a>
+</td>
+<td style="border:0"><span style="color:#999">mw</span>
+</td>
+<td style="border:0"><a href="/wiki/mx" title="mx">mx</a>
+</td>
+<td style="border:0"><a href="/wiki/my" title="my">my</a>
+</td>
+<td style="border:0"><span style="color:#999">mz</span>
+</td></tr>
+<tr style="text-align:center">
+<td style="border:0"><a href="/wiki/mA" title="mA">mA</a>
+</td>
+<td style="border:0"><a href="/wiki/mB" title="mB">mB</a>
+</td>
+<td style="border:0"><a href="/wiki/mC" title="mC">mC</a>
+</td>
+<td style="border:0"><span style="color:#999">mD</span>
+</td>
+<td style="border:0"><span style="color:#999">mE</span>
+</td>
+<td style="border:0"><a href="/wiki/mF" title="mF">mF</a>
+</td>
+<td style="border:0"><a href="/wiki/mG" title="mG">mG</a>
+</td>
+<td style="border:0"><a href="/wiki/mH" title="mH">mH</a>
+</td>
+<td style="border:0"><span style="color:#999">mI</span>
+</td>
+<td style="border:0"><a href="/wiki/mJ" title="mJ">mJ</a>
+</td>
+<td style="border:0"><a href="/wiki/mK" title="mK">mK</a>
+</td>
+<td style="border:0"><a href="/wiki/mL" title="mL">mL</a>
+</td>
+<td style="border:0"><a href="/wiki/mM" title="mM">mM</a>
+</td>
+<td style="border:0"><a href="/wiki/mN" title="mN">mN</a>
+</td>
+<td style="border:0"><span style="color:#999">mO</span>
+</td>
+<td style="border:0"><span style="color:#999">mP</span>
+</td>
+<td style="border:0"><span style="color:#999">mQ</span>
+</td>
+<td style="border:0"><span style="color:#999">mR</span>
+</td>
+<td style="border:0"><a href="/wiki/mS" title="mS">mS</a>
+</td>
+<td style="border:0"><a href="/wiki/mT" title="mT">mT</a>
+</td>
+<td style="border:0"><span style="color:#999">mU</span>
+</td>
+<td style="border:0"><a href="/wiki/mV" title="mV">mV</a>
+</td>
+<td style="border:0"><a href="/wiki/mW" title="mW">mW</a>
+</td>
+<td style="border:0"><span style="color:#999">mX</span>
+</td>
+<td style="border:0"><span style="color:#999">mY</span>
+</td>
+<td style="border:0"><span style="color:#999">mZ</span>
+</td></tr>
+<tr style="text-align:center">
+<td style="border:0"><a href="/wiki/Ma" title="Ma">Ma</a>
+</td>
+<td style="border:0"><a href="/wiki/Mb" title="Mb">Mb</a>
+</td>
+<td style="border:0"><a href="/wiki/Mc" title="Mc">Mc</a>
+</td>
+<td style="border:0"><a href="/wiki/Md" title="Md">Md</a>
+</td>
+<td style="border:0"><a href="/wiki/Me" title="Me">Me</a>
+</td>
+<td style="border:0"><span style="color:#999">Mf</span>
+</td>
+<td style="border:0"><a href="/wiki/Mg" title="Mg">Mg</a>
+</td>
+<td style="border:0"><span style="color:#999">Mh</span>
+</td>
+<td style="border:0"><a href="/wiki/Mi" title="Mi">Mi</a>
+</td>
+<td style="border:0"><span style="color:#999">Mj</span>
+</td>
+<td style="border:0"><span style="color:#999">Mk</span>
+</td>
+<td style="border:0"><a href="/wiki/Ml" title="Ml">Ml</a>
+</td>
+<td style="border:0"><a href="/wiki/Mm" title="Mm">Mm</a>
+</td>
+<td style="border:0"><a href="/wiki/Mn" title="Mn">Mn</a>
+</td>
+<td style="border:0"><a href="/wiki/Mo" title="Mo">Mo</a>
+</td>
+<td style="border:0"><span style="color:#999">Mp</span>
+</td>
+<td style="border:0"><span style="color:#999">Mq</span>
+</td>
+<td style="border:0"><a href="/wiki/Mr" title="Mr">Mr</a>
+</td>
+<td style="border:0"><a href="/wiki/Ms" title="Ms">Ms</a>
+</td>
+<td style="border:0"><a href="/wiki/Mt" title="Mt">Mt</a>
+</td>
+<td style="border:0"><a href="/wiki/Mu" title="Mu">Mu</a>
+</td>
+<td style="border:0"><a href="/wiki/Mv" title="Mv">Mv</a>
+</td>
+<td style="border:0"><span style="color:#999">Mw</span>
+</td>
+<td style="border:0"><a href="/wiki/Mx" title="Mx">Mx</a>
+</td>
+<td style="border:0"><a href="/wiki/My" title="My">My</a>
+</td>
+<td style="border:0"><span style="color:#999">Mz</span>
+</td></tr>
+<tr style="text-align:center">
+<td style="border:0"><a href="/wiki/MA" title="MA">MA</a>
+</td>
+<td style="border:0"><a href="/wiki/MB" title="MB">MB</a>
+</td>
+<td style="border:0"><a href="/wiki/MC" title="MC">MC</a>
+</td>
+<td style="border:0"><a href="/wiki/MD" title="MD">MD</a>
+</td>
+<td style="border:0"><a href="/wiki/ME" title="ME">ME</a>
+</td>
+<td style="border:0"><a href="/wiki/MF" title="MF">MF</a>
+</td>
+<td style="border:0"><a href="/wiki/MG" title="MG">MG</a>
+</td>
+<td style="border:0"><a href="/wiki/MH" title="MH">MH</a>
+</td>
+<td style="border:0"><a href="/wiki/MI" title="MI">MI</a>
+</td>
+<td style="border:0"><a href="/wiki/MJ" title="MJ">MJ</a>
+</td>
+<td style="border:0"><a href="/wiki/MK" title="MK">MK</a>
+</td>
+<td style="border:0"><a href="/wiki/ML" title="ML">ML</a>
+</td>
+<td style="border:0"><a href="/wiki/MM" title="MM">MM</a>
+</td>
+<td style="border:0"><a href="/wiki/MN" title="MN">MN</a>
+</td>
+<td style="border:0"><a href="/wiki/MO" title="MO">MO</a>
+</td>
+<td style="border:0"><a href="/wiki/MP" title="MP">MP</a>
+</td>
+<td style="border:0"><a href="/wiki/MQ" title="MQ">MQ</a>
+</td>
+<td style="border:0"><a href="/wiki/MR" title="MR">MR</a>
+</td>
+<td style="border:0"><a href="/wiki/MS" title="MS">MS</a>
+</td>
+<td style="border:0"><a href="/wiki/MT" title="MT">MT</a>
+</td>
+<td style="border:0"><a href="/wiki/MU" title="MU">MU</a>
+</td>
+<td style="border:0"><a href="/wiki/MV" title="MV">MV</a>
+</td>
+<td style="border:0"><a href="/wiki/MW" title="MW">MW</a>
+</td>
+<td style="border:0"><a href="/wiki/MX" title="MX">MX</a>
+</td>
+<td style="border:0"><a href="/wiki/MY" title="MY">MY</a>
+</td>
+<td style="border:0"><a href="/wiki/MZ" title="MZ">MZ</a>
+</td></tr>
+<tr>
+<th colspan="26" style="border:0;background:#efefef">Combinaisons comprenant une lettre et un chiffre
+</th></tr>
+<tr style="text-align:center">
+<td style="border:0" rowspan="2" colspan="2">&#160;
+</td>
+<td style="border:0"><span style="color:#999">m0</span>
+</td>
+<td style="border:0"><span style="color:#999">m1</span>
+</td>
+<td style="border:0"><a href="/wiki/m2" title="m2">m2</a>
+</td>
+<td style="border:0"><a href="/wiki/m3" title="m3">m3</a>
+</td>
+<td style="border:0"><span style="color:#999">m4</span>
+</td>
+<td style="border:0"><span style="color:#999">m5</span>
+</td>
+<td style="border:0"><span style="color:#999">m6</span>
+</td>
+<td style="border:0"><span style="color:#999">m7</span>
+</td>
+<td style="border:0"><a href="/wiki/m8" title="m8">m8</a>
+</td>
+<td style="border:0"><span style="color:#999">m9</span>
+</td>
+<td style="border:0" rowspan="2" colspan="2">&#160;
+</td>
+<td style="border:0"><span style="color:#999">0m</span>
+</td>
+<td style="border:0"><span style="color:#999">1m</span>
+</td>
+<td style="border:0"><span style="color:#999">2m</span>
+</td>
+<td style="border:0"><span style="color:#999">3m</span>
+</td>
+<td style="border:0"><span style="color:#999">4m</span>
+</td>
+<td style="border:0"><span style="color:#999">5m</span>
+</td>
+<td style="border:0"><span style="color:#999">6m</span>
+</td>
+<td style="border:0"><span style="color:#999">7m</span>
+</td>
+<td style="border:0"><span style="color:#999">8m</span>
+</td>
+<td style="border:0"><span style="color:#999">9m</span>
+</td>
+<td style="border:0" rowspan="2" colspan="2">&#160;
+</td></tr>
+<tr style="text-align:center">
+<td style="border:0"><span style="color:#999">M0</span>
+</td>
+<td style="border:0"><a href="/wiki/M1" title="M1">M1</a>
+</td>
+<td style="border:0"><a href="/wiki/M2" title="M2">M2</a>
+</td>
+<td style="border:0"><a href="/wiki/M3" title="M3">M3</a>
+</td>
+<td style="border:0"><a href="/wiki/M4" title="M4">M4</a>
+</td>
+<td style="border:0"><span style="color:#999">M5</span>
+</td>
+<td style="border:0"><span style="color:#999">M6</span>
+</td>
+<td style="border:0"><span style="color:#999">M7</span>
+</td>
+<td style="border:0"><span style="color:#999">M8</span>
+</td>
+<td style="border:0"><span style="color:#999">M9</span>
+</td>
+<td style="border:0"><span style="color:#999">0M</span>
+</td>
+<td style="border:0"><span style="color:#999">1M</span>
+</td>
+<td style="border:0"><span style="color:#999">2M</span>
+</td>
+<td style="border:0"><span style="color:#999">3M</span>
+</td>
+<td style="border:0"><span style="color:#999">4M</span>
+</td>
+<td style="border:0"><span style="color:#999">5M</span>
+</td>
+<td style="border:0"><span style="color:#999">6M</span>
+</td>
+<td style="border:0"><span style="color:#999">7M</span>
+</td>
+<td style="border:0"><span style="color:#999">8M</span>
+</td>
+<td style="border:0"><span style="color:#999">9M</span>
+</td></tr></tbody></table></div>
+</td></tr></tbody></table>
+</div></div><div style="clear:both"></div></div></div>
+<h3><span id="R.C3.A9f.C3.A9rences"></span><span class="mw-headline" id="Références"><span class="titreref" title="">Références</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=3" title="Modifier la section : Références">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li>Unicode, Inc., <i><a rel="nofollow" class="external text" href="https://web.archive.org/web/20190613202517/https://www.unicode.org/charts/PDF/U0000.pdf">Basic Latin</a></i>, The Unicode Standard, version 12.1, 2019</li></ul>
+<h2><span class="mw-headline" id="Conventions_internationales"><span class="sectionlangue" id="conv">Conventions internationales</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=4" title="Modifier la section : Conventions internationales">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span id=".C3.89tymologie"></span><span class="mw-headline" id="Étymologie"><span class="titreetym" title="">Étymologie</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=5" title="Modifier la section : Étymologie">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<dl><dd><i>(1. Linguistique)</i> Façon d’écrire ce son dans presque toutes les langues qui utilisent l’alphabet latin, adoptée par l’alphabet phonétique international en 1888.</dd>
+<dd><i>(2. Unité de longueur)</i> Initiale du français <i><bdi lang="fr" class="lang-fr"><a href="/wiki/m%C3%A8tre#fr" title="mètre">mètre</a></bdi></i>, défini en France en 1791, puis repris par la <a href="https://fr.wikipedia.org/wiki/Conf%C3%A9rence_g%C3%A9n%C3%A9rale_des_poids_et_mesures" class="extiw" title="w:Conférence générale des poids et mesures">Conférence générale des poids et mesures</a> à partir de 1875.</dd>
+<dd><i>(3. Milli-)</i> Initiale du français <i><bdi lang="fr" class="lang-fr"><a href="/wiki/milli-#fr" title="milli-">milli-</a></bdi></i>, défini en France en 1795, puis repris par la <a href="https://fr.wikipedia.org/wiki/Conf%C3%A9rence_g%C3%A9n%C3%A9rale_des_poids_et_mesures" class="extiw" title="w:Conférence générale des poids et mesures">Conférence générale des poids et mesures</a> à partir de 1875.</dd>
+<dd><i>(4. Angle plan)</i> Abréviation de <i><a href="/wiki/mil" title="mil">mil</a></i>.</dd>
+<dd><i>(5. Élement chimique)</i> Initiale de l’anglais <i><bdi lang="en" class="lang-en"><a href="/wiki/metastable#en" title="metastable">metastable</a></bdi></i><span id="ref-1c"><small>&#160;</small><sup><a href="#reference-1c">&#91;1c&#93;</a></sup></span>.</dd>
+<dd><i>(6. Masse)</i> Initiale aussi bien du français <i><a href="/wiki/masse" title="masse">masse</a></i> que le l’anglais <i><bdi lang="en" class="lang-en"><a href="/wiki/mass#en" title="mass">mass</a></bdi></i> et de l’allemand <i><bdi lang="de" class="lang-de"><a href="/wiki/Masse#de" title="Masse">Masse</a></bdi></i>.</dd></dl>
+<h3><span class="mw-headline" id="Symbole_1"><span class="titredef" id="conv-symb-1">Symbole 1</span><span id="conv-symb" style="font-size:0;"> </span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=6" title="Modifier la section : Symbole 1">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="thumb tright" style="width:300px;">
+<div class="thumbinner">
+<div class="illustration-audio"><div class="mediaContainer" style="width:220px"><audio id="mwe_player_0" controls="" preload="none" style="width:220px" class="kskin" data-durationhint="2.0127664399093" data-startoffset="0" data-mwtitle="Bilabial_nasal.ogg" data-mwprovider="wikimediacommons"><source src="//upload.wikimedia.org/wikipedia/commons/a/a9/Bilabial_nasal.ogg" type="audio/ogg; codecs=&quot;vorbis&quot;" data-title="Fichier original Ogg (99&#160;kbps)" data-shorttitle="Source Ogg" data-width="0" data-height="0" data-bandwidth="98674" /><source src="//upload.wikimedia.org/wikipedia/commons/transcoded/a/a9/Bilabial_nasal.ogg/Bilabial_nasal.ogg.mp3" type="audio/mpeg" data-title="MP3" data-shorttitle="MP3" data-transcodekey="mp3" data-width="0" data-height="0" data-bandwidth="163352" /></audio></div>
+</div>
+<div class="thumbcaption">Transcription&#160;: <span class="API" title="Prononciation API" style="white-space: nowrap;">[<b>m</b>a ʔa.<b>m</b>a]</span>
+</div>
+</div>
+</div>
+<p><b>m</b>
+</p>
+<ol><li>(<span title="La linguistique est l’étude du langage." id="conv-linguistique"><i>Linguistique</i></span>) <a href="/wiki/symbole" title="symbole">Symbole</a> de l’<a href="/wiki/API" title="API">API</a> correspondant à une <bdi lang="fr" class="lang-fr"><a href="/wiki/consonne#fr" title="consonne">consonne</a></bdi> <a href="/wiki/nasale" title="nasale">nasale</a> <a href="/wiki/bilabiale" title="bilabiale">bilabiale</a> <bdi lang="fr" class="lang-fr"><a href="/wiki/vois%C3%A9e#fr" title="voisée">voisée</a></bdi>.
+<ul><li>Je t’aime <i>se prononce <span class="API" title="Prononciation API" style="white-space: nowrap;">/ʒə.t‿ɛ<b>m</b>/</span>.</i></li></ul></li></ol>
+<h3><span class="mw-headline" id="Symbole_2"><span class="titredef" id="conv-symb-2">Symbole 2</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=7" title="Modifier la section : Symbole 2">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><b>m</b>
+</p>
+<ol><li>(<span title="La métrologie est la science des mesures." id="conv-métrologie"><i>Métrologie</i></span>) Symbole du <a href="/wiki/m%C3%A8tre" title="mètre">mètre</a>, <a href="/wiki/unit%C3%A9" title="unité">unité</a> de <a href="/wiki/mesure" title="mesure">mesure</a> de <a href="/wiki/longueur" title="longueur">longueur</a> du Système international (SI).
+<ul><li><i>À 1<b>m</b>30 au-dessus du faîtage de cet auvent on voit encore, sur les flancs des deux tours, de chaque côté, quatre entailles ou trous carrés au même niveau, les trois premiers au-dessus de ceux servant de points d’appui aux chevrons de l’auvent et le quatrième à 0<b>m</b>60 en avant.</i> <span class="sources"><span class="tiret">—&#160;</span>(<a href="https://fr.wikipedia.org/wiki/Eug%C3%A8ne_Viollet-le-Duc" class="extiw" title="w:Eugène Viollet-le-Duc">Eugène Viollet-le-Duc</a>, <i><a href="https://fr.wikisource.org/wiki/La_Cit%C3%A9_de_Carcassonne/%C3%A9d._1888/Description_des_d%C3%A9fenses" class="extiw" title="s:La Cité de Carcassonne/éd. 1888/Description des défenses">La Cité de Carcassonne</a></i>, 1888)</span></li></ul></li></ol>
+<h4><span class="mw-headline" id="Notes"><span class="" title="">Notes</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=8" title="Modifier la section : Notes">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h4>
+<dl><dd>En russe, le symbole <a href="/wiki/%D0%BC" title="м">м</a> (abréviation de <span lang="ru" class="lang-ru"><bdi><a href="https://fr.wikipedia.org/wiki/ru:%D0%BC%D0%B5%D1%82%D1%80" class="extiw" title="w:ru:метр">метр</a></bdi></span>, «&#160;mètre&#160;») est aussi utilisé comme synonyme du m du <a href="/wiki/m%C3%A8tre" title="mètre">mètre</a>.</dd></dl>
+<h4><span id="D.C3.A9riv.C3.A9s"></span><span class="mw-headline" id="Dérivés"><span class="titrederiv" title="">Dérivés</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=9" title="Modifier la section : Dérivés">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h4>
+<div class="boite">
+<div class="NavFrame">
+<div class="NavHead"><b>Mètre (sens 2)</b></div>
+<div class="NavContent">
+<div style="column-width: 26em; -webkit-column-width: 26em; -moz-column-width: 26em; vertical-align: top; text-align: left;">
+<ul><li><a href="/wiki/m%C2%B2" title="m²">m²</a> (mètre carré)</li>
+<li><a href="/wiki/m%C2%B3" title="m³">m³</a> (mètre cube)</li>
+<li><a href="/wiki/mam" title="mam">mam</a> (myriamètre) = 10<sup style="font-size:83.33%;line-height:1">4</sup> m <span class="emploi"><span id="désuet"></span><i>(<span class="texte"><a href="/wiki/Annexe:Glossaire_grammatical#D" title="Annexe:Glossaire grammatical">Désuet</a></span>)</i></span></li>
+<li><a href="/wiki/mom" title="mom">mom</a> (myriomètre) = 10<sup style="font-size:83.33%;line-height:1">&#8722;4</sup> m <span class="emploi"><span id="désuet"></span><i>(<span class="texte"><a href="/wiki/Annexe:Glossaire_grammatical#D" title="Annexe:Glossaire grammatical">Désuet</a></span>)</i></span></li>
+<li><a href="/wiki/m/s" title="m/s">m/s</a></li>
+<li><a href="/wiki/m/s%C2%B2" title="m/s²">m/s²</a></li></ul>
+</div></div><div style="clear:both"></div></div></div>
+<table class="wikitable" style="text-align:center">
+<caption>Symboles des unités de mesure de longueur  du Système international
+</caption>
+<tbody><tr>
+<td style="width:4%;">10<sup style="font-size:83.33%;line-height:1">&#8722;24</sup>
+</td>
+<td style="width:4%;">10<sup style="font-size:83.33%;line-height:1">&#8722;21</sup>
+</td>
+<td style="width:4%;">10<sup style="font-size:83.33%;line-height:1">&#8722;18</sup>
+</td>
+<td style="width:4%;">10<sup style="font-size:83.33%;line-height:1">&#8722;15</sup>
+</td>
+<td style="width:4%;">10<sup style="font-size:83.33%;line-height:1">&#8722;12</sup>
+</td>
+<td style="width:4%;">10<sup style="font-size:83.33%;line-height:1">&#8722;9</sup>
+</td>
+<td style="width:4%;">10<sup style="font-size:83.33%;line-height:1">&#8722;6</sup>
+</td>
+<td style="width:4%;">10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup>
+</td>
+<td style="width:4%;">10<sup style="font-size:83.33%;line-height:1">&#8722;2</sup>
+</td>
+<td style="width:4%;">10<sup style="font-size:83.33%;line-height:1">&#8722;1</sup>
+</td>
+<td style="width:4%; background-color:#CCF5AA">1
+</td>
+<td style="width:4%;">10<sup style="font-size:83.33%;line-height:1">1</sup>
+</td>
+<td style="width:4%;">10<sup style="font-size:83.33%;line-height:1">2</sup>
+</td>
+<td style="width:4%;">10<sup style="font-size:83.33%;line-height:1">3</sup>
+</td>
+<td style="width:4%;">10<sup style="font-size:83.33%;line-height:1">6</sup>
+</td>
+<td style="width:4%;">10<sup style="font-size:83.33%;line-height:1">9</sup>
+</td>
+<td style="width:4%;">10<sup style="font-size:83.33%;line-height:1">12</sup>
+</td>
+<td style="width:4%;">10<sup style="font-size:83.33%;line-height:1">15</sup>
+</td>
+<td style="width:4%;">10<sup style="font-size:83.33%;line-height:1">18</sup>
+</td>
+<td style="width:4%;">10<sup style="font-size:83.33%;line-height:1">21</sup>
+</td>
+<td style="width:4%;">10<sup style="font-size:83.33%;line-height:1">24</sup>
+</td></tr>
+<tr>
+<td style="width:4%;"><a href="/wiki/ym#conv" title="ym">ym</a>
+</td>
+<td style="width:4%;"><a href="/wiki/zm#conv" title="zm">zm</a>
+</td>
+<td style="width:4%;"><a href="/wiki/am#conv" title="am">am</a>
+</td>
+<td style="width:4%;"><a href="/wiki/fm#conv" title="fm">fm</a>
+</td>
+<td style="width:4%;"><a href="/wiki/pm#conv" title="pm">pm</a>
+</td>
+<td style="width:4%;"><a href="/wiki/nm#conv" title="nm">nm</a>
+</td>
+<td style="width:4%;"><a href="/wiki/%CE%BCm#conv" title="μm">μm</a>
+</td>
+<td style="width:4%;"><a href="/wiki/mm#conv" title="mm">mm</a>
+</td>
+<td style="width:4%;"><a href="/wiki/cm#conv" title="cm">cm</a>
+</td>
+<td style="width:4%;"><a href="/wiki/dm#conv" title="dm">dm</a>
+</td>
+<td style="width:4%; background-color:#CCF5AA"><a href="/wiki/m#conv" title="m">m</a>
+</td>
+<td style="width:4%;"><a href="/wiki/dam#conv" title="dam">dam</a>
+</td>
+<td style="width:4%;"><a href="/wiki/hm#conv" title="hm">hm</a>
+</td>
+<td style="width:4%;"><a href="/wiki/km#conv" title="km">km</a>
+</td>
+<td style="width:4%;"><a href="/wiki/Mm#conv" title="Mm">Mm</a>
+</td>
+<td style="width:4%;"><a href="/wiki/Gm#conv" title="Gm">Gm</a>
+</td>
+<td style="width:4%;"><a href="/wiki/Tm#conv" title="Tm">Tm</a>
+</td>
+<td style="width:4%;"><a href="/wiki/Pm#conv" title="Pm">Pm</a>
+</td>
+<td style="width:4%;"><a href="/wiki/Em#conv" title="Em">Em</a>
+</td>
+<td style="width:4%;"><a href="/wiki/Zm#conv" title="Zm">Zm</a>
+</td>
+<td style="width:4%;"><a href="/wiki/Ym#conv" title="Ym">Ym</a>
+</td></tr>
+<tr>
+<td colspan="10" style="text-align:left; border-right-style:none;">← Unités inférieures
+</td>
+<td style="border-left-style:none; border-right-style:none;">
+</td>
+<td colspan="10" style="text-align:right; border-left-style:none;">Unités supérieures →
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="Symbole_3"><span class="titredef" id="conv-symb-3">Symbole 3</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=10" title="Modifier la section : Symbole 3">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><b>m</b>
+</p>
+<ol><li>(<span title="La métrologie est la science des mesures." id="conv-métrologie"><i>Métrologie</i></span>) Symbole du <a href="/wiki/pr%C3%A9fixe" title="préfixe">préfixe</a> <a href="/wiki/milli-#conv" title="milli-">milli-</a> du <a href="/wiki/Syst%C3%A8me_international" title="Système international">Système international</a> (<a href="/wiki/SI" title="SI">SI</a>) (&#215;<a href="/wiki/Annexe:Principales_puissances_de_10" title="Annexe:Principales puissances de 10">10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup></a>), et également utilisé pour des unités non SI, ou dérivées du SI.
+<ul><li><i>1 A = 1000 <b>m</b>A</i>
+<dl><dd>Un ampère vaut mille milliampères.</dd></dl></li>
+<li><i>1 L = 1000 <b>m</b>L = 0,001 m<sup style="font-size:83.33%;line-height:1">3</sup></i>
+<dl><dd>Un litre vaut mille millilitres, soit un millième de <a href="/wiki/m%C3%A8tre_cube" title="mètre cube">mètre cube</a>.</dd></dl></li></ul></li></ol>
+<h4><span id="D.C3.A9riv.C3.A9s_2"></span><span class="mw-headline" id="Dérivés_2"><span class="titrederiv" title="">Dérivés</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=11" title="Modifier la section : Dérivés">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h4>
+<div class="boite">
+<div class="NavFrame">
+<div class="NavHead"><b>Milli-</b></div>
+<div class="NavContent">
+<div style="column-width: 26em; -webkit-column-width: 26em; -moz-column-width: 26em; vertical-align: top; text-align: left;">
+<ul><li><a href="/wiki/mA" title="mA">mA</a> (milliampère) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> A</li>
+<li><a href="/wiki/ma" title="ma">ma</a> (milliare) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> a</li>
+<li><a href="/wiki/mbar" title="mbar">mbar</a> (millibar) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> bar</li>
+<li><a href="/wiki/mB" title="mB">mB</a> (millibel) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> B</li>
+<li><a href="/wiki/mBq" title="mBq">mBq</a> (millibecquerel) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> Bq</li>
+<li><a href="/wiki/mC" title="mC">mC</a> (millicoulomb) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> C</li>
+<li><a href="/wiki/m%C2%B0C" title="m°C">m°C</a> (millidegré Celsius) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> °C</li>
+<li><a href="/w/index.php?title=mcal&amp;action=edit&amp;redlink=1" class="new" title="mcal (page inexistante)">mcal</a> (millicalorie) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> cal</li>
+<li><a href="/wiki/mcd" title="mcd">mcd</a> (millicandela) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> cd</li>
+<li><a href="/w/index.php?title=mCi&amp;action=edit&amp;redlink=1" class="new" title="mCi (page inexistante)">mCi</a> (millicurie) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> Ci</li>
+<li><a href="/wiki/meV" title="meV">meV</a> (milli-électron-volt) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> eV</li>
+<li><a href="/wiki/mF" title="mF">mF</a> (millifarad) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> F</li>
+<li><a href="/w/index.php?title=mFr&amp;action=edit&amp;redlink=1" class="new" title="mFr (page inexistante)">mFr</a> (millifranklin) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> Fr</li>
+<li><a href="/wiki/mg" title="mg">mg</a> (milligramme) = 10<sup style="font-size:83.33%;line-height:1">&#8722;6</sup> kg</li>
+<li><a href="/w/index.php?title=mGb&amp;action=edit&amp;redlink=1" class="new" title="mGb (page inexistante)">mGb</a> (milligilbert) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> Gb</li>
+<li><a href="/w/index.php?title=mGs&amp;action=edit&amp;redlink=1" class="new" title="mGs (page inexistante)">mGs</a> (milligauss) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> Gs</li>
+<li><a href="/wiki/mGy" title="mGy">mGy</a> (milligray) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> Gy</li>
+<li><a href="/wiki/mH" title="mH">mH</a> (millihenry) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> H</li>
+<li><a href="/wiki/mHz" title="mHz">mHz</a> (millihertz) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> Hz</li>
+<li><a href="/wiki/mJ" title="mJ">mJ</a> (millijoule) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> J</li>
+<li><a href="/w/index.php?title=mJy&amp;action=edit&amp;redlink=1" class="new" title="mJy (page inexistante)">mJy</a> (millijansky) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> Jy</li>
+<li><a href="/wiki/mK" title="mK">mK</a> (millikelvin) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> K</li>
+<li><a href="/wiki/mkat" title="mkat">mkat</a> (millikatal) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> kat</li>
+<li><a href="/wiki/ml" title="ml">ml</a> ou <a href="/wiki/mL" title="mL">mL</a> (millilitre) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> l ou L</li>
+<li><a href="/wiki/mlm" title="mlm">mlm</a> (millilumen) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> lm</li>
+<li><a href="/wiki/mlx" title="mlx">mlx</a> (millilux) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> lx</li>
+<li><a href="/wiki/mm" title="mm">mm</a> (millimètre) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> m</li>
+<li><a href="/wiki/mmol" title="mmol">mmol</a> (millimole) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> mol</li>
+<li><a href="/w/index.php?title=mMx&amp;action=edit&amp;redlink=1" class="new" title="mMx (page inexistante)">mMx</a> (millimaxwell) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> Mx</li>
+<li><a href="/wiki/mN" title="mN">mN</a> (millinewton) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> N</li>
+<li><a href="/w/index.php?title=mOe&amp;action=edit&amp;redlink=1" class="new" title="mOe (page inexistante)">mOe</a> (millioersted) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> Oe</li>
+<li><a href="/w/index.php?title=mP&amp;action=edit&amp;redlink=1" class="new" title="mP (page inexistante)">mP</a> (millipoise) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> P</li>
+<li><a href="/wiki/mPa" title="mPa">mPa</a> (millipascal) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> Pa</li>
+<li><a href="/w/index.php?title=mpc&amp;action=edit&amp;redlink=1" class="new" title="mpc (page inexistante)">mpc</a> (milliparsec) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> pc</li>
+<li><a href="/w/index.php?title=mPl&amp;action=edit&amp;redlink=1" class="new" title="mPl (page inexistante)">mPl</a> (millipoiseuille) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> Pl</li>
+<li><a href="/w/index.php?title=mR&amp;action=edit&amp;redlink=1" class="new" title="mR (page inexistante)">mR</a> (milliröntgen) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> R</li>
+<li><a href="/wiki/mrad" title="mrad">mrad</a> (milliradian) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> rad</li>
+<li><a href="/wiki/mrad" title="mrad">mrad</a> (millirad) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> rad</li>
+<li><a href="/w/index.php?title=mrem&amp;action=edit&amp;redlink=1" class="new" title="mrem (page inexistante)">mrem</a> (millirem) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> rem</li>
+<li><a href="/wiki/mS" title="mS">mS</a> (millisiemens) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> S</li>
+<li><a href="/wiki/ms" title="ms">ms</a> (milliseconde) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> s</li>
+<li><a href="/wiki/msr" title="msr">msr</a> (millistéradian) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> sr</li>
+<li><a href="/wiki/mSv" title="mSv">mSv</a> (millisievert) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> Sv</li>
+<li><a href="/wiki/mT" title="mT">mT</a> (millitesla) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> T</li>
+<li><a href="/wiki/mV" title="mV">mV</a> (millivolt) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> V</li>
+<li><a href="/wiki/mW" title="mW">mW</a> (milliwatt) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> W</li>
+<li><a href="/wiki/mWb" title="mWb">mWb</a> (milliweber) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> Wb</li>
+<li><a href="/w/index.php?title=mWh&amp;action=edit&amp;redlink=1" class="new" title="mWh (page inexistante)">mWh</a> (milliwatt-heure) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> Wh</li>
+<li><a href="/wiki/m%CE%A9" title="mΩ">mΩ</a> (milliohm) = 10<sup style="font-size:83.33%;line-height:1">&#8722;3</sup> Ω</li></ul>
+</div></div><div style="clear:both"></div></div></div>
+<h3><span class="mw-headline" id="Symbole_4"><span class="titredef" id="conv-symb-4">Symbole 4</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=12" title="Modifier la section : Symbole 4">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><b>m</b>
+</p>
+<ol><li>(<span title="La métrologie est la science des mesures." id="conv-métrologie"><i>Métrologie</i></span>) Symbole du <a href="/wiki/mil" title="mil">mil</a>, unité de mesure d’<a href="/wiki/angle" title="angle">angle</a> <a href="/wiki/plan" title="plan">plan</a>, valant 1/6400 de <a href="/wiki/cercle" title="cercle">cercle</a>. Le symbole <i>mil</i> est aussi utilisé.</li></ol>
+<h3><span class="mw-headline" id="Symbole_5"><span class="titredef" id="conv-symb-5">Symbole 5</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=13" title="Modifier la section : Symbole 5">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><b>m</b>
+</p>
+<ol><li>(<span title="La physique est l’étude des phénomènes naturels du monde." id="conv-physique"><i>Physique</i></span>) Symbole placé après le <a href="/wiki/nombre" title="nombre">nombre</a> de <a href="/wiki/nucl%C3%A9ons" title="nucléons">nucléons</a> du symbole d’un <a href="/wiki/%C3%A9l%C3%A9ment_chimique" title="élément chimique">élément chimique</a> pour <a href="/wiki/indiquer" title="indiquer">indiquer</a> que l’<a href="/wiki/isotope" title="isotope">isotope</a> est dans un <a href="/wiki/%C3%A9tat" title="état">état</a> <a href="/wiki/m%C3%A9tastable" title="métastable">métastable</a>.
+<ul><li><i><sup style="font-size:83.33%;line-height:1">99<b>m</b></sup>Tc est bien moins stable que le <sup style="font-size:83.33%;line-height:1">99</sup>Tc</i></li></ul></li></ol>
+<h3><span class="mw-headline" id="Symbole_6"><span class="titredef" id="conv-symb-6">Symbole 6</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=14" title="Modifier la section : Symbole 6">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><b>m</b>
+</p>
+<ol><li>(<span title="La physique est l’étude des phénomènes naturels du monde." id="conv-physique"><i>Physique</i></span>) <a href="/wiki/variable" title="variable">Variable</a> attribuée à une <a href="/wiki/masse" title="masse">masse</a>.
+<ul><li><i>Prenons un mobile de masse <b>m</b> = 10 kg.</i></li>
+<li><i>E = <b>m</b> c<sup style="font-size:83.33%;line-height:1">2</sup></i></li></ul></li></ol>
+<h3><span id="Num.C3.A9ral"></span><span class="mw-headline" id="Numéral"><span class="titredef" id="conv-numeral-1">Numéral</span><span id="conv-numeral" style="font-size:0;"> </span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=15" title="Modifier la section : Numéral">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><b>m</b>
+</p>
+<ol><li><a href="/wiki/1000" title="1000">1000</a> en <a href="/wiki/chiffre_romain" title="chiffre romain">chiffres romains</a> <a href="/wiki/minuscule" title="minuscule">minuscules</a>. Variante de <a href="/wiki/M" title="M">M</a>.</li></ol>
+<h3><span class="mw-headline" id="Voir_aussi_2"><span class="titrevoir" title="">Voir aussi</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=16" title="Modifier la section : Voir aussi">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>(Symbole 1)</i>
+</p>
+<ul><li><a href="https://fr.wikipedia.org/wiki/Consonne_nasale_bilabiale_vois%C3%A9e" class="extiw" title="w:Consonne nasale bilabiale voisée"><span lang="fr" class="lang-fr"><bdi>Consonne nasale bilabiale voisée</bdi></span></a> sur l’encyclopédie Wikipédia <img alt="Wikipedia-logo-v2.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/20px-Wikipedia-logo-v2.svg.png" decoding="async" width="20" height="18" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/30px-Wikipedia-logo-v2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/40px-Wikipedia-logo-v2.svg.png 2x" data-file-width="103" data-file-height="94" /></li></ul>
+<h3><span id="R.C3.A9f.C3.A9rences_2"></span><span class="mw-headline" id="Références_2"><span class="titreref" title="">Références</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=17" title="Modifier la section : Références">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><span id="reference-1c"><sup><a href="#ref-1c">&#91;1c&#93;</a></sup></span> Les notations des symboles chimiques sont définies par l’International Union of Pure and Applied Chemistry, dont la langue de travail est l’anglais.</li></ul>
+<h2><span id="Fran.C3.A7ais"></span><span class="mw-headline" id="Français"><span class="sectionlangue" id="fr"><a href="/wiki/Portail:Fran%C3%A7ais" title="Portail:Français">Français</a></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=18" title="Modifier la section : Français">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Lettre"><span class="titredef" id="fr-lettre-1">Lettre</span><span id="fr-lettre" style="font-size:0;"> </span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=19" title="Modifier la section : Lettre">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table class="flextable">
+<caption>
+</caption>
+<tbody><tr>
+<th>Minuscule
+</th>
+<th>Majuscule
+</th></tr>
+<tr>
+<td><b><span lang="fr" class="lang-fr"><bdi>m</bdi></span></b>
+</td>
+<td><bdi lang="fr" class="lang-fr"><a href="/wiki/M#fr" title="M">M</a></bdi>
+</td></tr>
+<tr>
+<td colspan="2"><a href="/wiki/Annexe:Prononciation/fran%C3%A7ais" title="Annexe:Prononciation/français"><span class="API" title="Prononciation API">\ɛm\</span></a><br />(<bdi lang="fr" class="lang-fr"><a href="/wiki/emme#fr" title="emme">emme</a></bdi>)
+</td></tr></tbody></table>
+<p><b>m</b> <a href="/wiki/Annexe:Prononciation/fran%C3%A7ais" title="Annexe:Prononciation/français"><span class="API" title="Prononciation API">\ɛm\</span></a> <span class="ligne-de-forme"><i>masculin</i></span> <span class="ligne-de-forme"><i><a href="/wiki/Annexe:Glossaire_grammatical#I" title="Annexe:Glossaire grammatical">invariable</a></i></span> (anciennement <span class="ligne-de-forme"><i>féminin</i></span>)
+</p>
+<ol><li>Treizième lettre et dixième consonne de l’alphabet (minuscule).
+<ul><li><i>Il n’y a qu’un <b>m</b> dans «&#160;je t’aime&#160;».</i></li>
+<li><span class="emploi"><span id="vieilli"></span><i>(<span class="texte"><a href="/wiki/Annexe:Glossaire_grammatical#V" title="Annexe:Glossaire grammatical">Vieilli</a></span>)</i></span> <i>Une <b>m</b>.</i> (jusque vers 1935).</li></ul></li></ol>
+<h4><span class="mw-headline" id="Notes_2"><span class="" title="">Notes</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=20" title="Modifier la section : Notes">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h4>
+<ul><li>Quand <b>m</b> est <a href="/wiki/pr%C3%A9c%C3%A9der" title="précéder">précédée</a> de <i>a</i>, <i>e</i>, <i>i</i> ou <i>y</i>, <i>o</i>, <i>u</i>, elle forme <a href="/wiki/souvent" title="souvent">souvent</a> <a href="/wiki/avec" title="avec">avec</a> cette lettre une <a href="/wiki/voyelle" title="voyelle">voyelle</a> <a href="/wiki/nasal" title="nasal">nasale</a> et, par <a href="/wiki/suite" title="suite">suite</a>, ne se <a href="/wiki/prononcer" title="prononcer">prononce</a> pas, comme dans <i><a href="/wiki/champ" title="champ">ch<b>am</b>p</a>, <a href="/wiki/chambre" title="chambre">ch<b>am</b>bre</a>, <a href="/wiki/temple" title="temple">t<b>em</b>ple</a>, <a href="/wiki/sembler" title="sembler">s<b>em</b>bler</a>, <a href="/wiki/faim" title="faim">f<b>aim</b></a>, <a href="/wiki/timbre" title="timbre">t<b>im</b>bre</a>, <a href="/wiki/thym" title="thym">th<b>ym</b></a>, <a href="/wiki/bombe" title="bombe">b<b>om</b>be</a>, <a href="/wiki/dompter" title="dompter">d<b>om</b>pter</a>, <a href="/wiki/ombre" title="ombre"><b>om</b>bre</a>, <a href="/wiki/parfum" title="parfum">parf<b>um</b></a></i>.</li>
+<li>Elle ne se prononce pas non plus dans <i><a href="/wiki/damn%C3%A9" title="damné">da<b>m</b>né</a>, <a href="/wiki/automne" title="automne">auto<b>m</b>ne</a></i>.</li>
+<li>Elle se prononce, au contraire, dans certains mots d’origine latine ou étrangère, comme <i><a href="/wiki/album" title="album">albu<b>m</b></a>, <a href="/wiki/ultimatum" title="ultimatum">ultimatu<b>m</b></a>, <a href="/wiki/pensum" title="pensum">pensu<b>m</b></a>, <a href="/wiki/Abraham" title="Abraham">Abraha<b>m</b></a>, <a href="/wiki/J%C3%A9rusalem" title="Jérusalem">Jérusale<b>m</b></a>, <a href="/wiki/%C3%89phra%C3%AFm" title="Éphraïm">Éphraï<b>m</b></a>, <a href="/wiki/Stockholm" title="Stockholm">Stockhol<b>m</b></a></i>.</li>
+<li>Quand l’<b>m</b> est <a href="/wiki/redoubler" title="redoubler">redoublée</a>, après <i>a</i>, <i>e</i>, <i>i</i> ou <i>y</i>, <i>o</i>, <i>u</i>, <a href="/wiki/tant%C3%B4t" title="tantôt">tantôt</a> la <a href="/wiki/second" title="second">seconde</a> <b>m</b> <a href="/wiki/seul" title="seul">seule</a> se prononce, comme dans <i><a href="/wiki/gramme" title="gramme">gram<b>m</b>e</a>, <a href="/wiki/femme" title="femme">fem<b>m</b>e</a>, <a href="/wiki/homme" title="homme">hom<b>m</b>e</a>, <a href="/wiki/somme" title="somme">som<b>m</b>e</a>,</i> tantôt les deux <b>m</b> se prononcent, comme dans <i><a href="/wiki/grammaire" title="grammaire">gra<b>mm</b>aire</a>, <a href="/wiki/imm%C3%A9diatement" title="immédiatement">i<b>mm</b>édiatement</a>, <a href="/wiki/immense" title="immense">i<b>mm</b>ense</a>, <a href="/wiki/comminatoire" title="comminatoire">co<b>mm</b>inatoire</a></i>.</li>
+<li><a href="/wiki/lorsque" title="lorsque">Lorsque</a> cette lettre est redoublée dans les mots <a href="/wiki/compos%C3%A9" title="composé">composés</a> de la <a href="/wiki/pr%C3%A9position" title="préposition">préposition</a> <i><a href="/wiki/en-" title="en-">en-</a></i>, la première <i><b>m</b></i> se prononce comme <i>n</i>&#160;; ainsi on prononce <i><a href="/wiki/emmener" title="emmener"><b>em</b>mener</a>, <a href="/wiki/emmailloter" title="emmailloter"><b>em</b>mailloter</a>,</i> etc., comme si on écrivait <i><b>en</b>mener, <b>en</b>mailloter</i>.</li>
+<li>Elle se prononce <a href="/wiki/%C3%A9galement" title="également">également</a> dans <a href="/wiki/certain" title="certain">certains</a> mots où cette lettre est <a href="/wiki/suivre" title="suivre">suivie</a> de l’<i>n</i> comme <i><a href="/wiki/amnistie" title="amnistie">a<b>m</b>nistie</a>, <a href="/wiki/somnif%C3%A8re" title="somnifère">so<b>m</b>nifère</a>, <a href="/w/index.php?title=memnon&amp;action=edit&amp;redlink=1" class="new" title="memnon (page inexistante)">me<b>m</b>non</a>.</i></li></ul>
+<h4><span id="Transcriptions_dans_diverses_.C3.A9critures"></span><span class="mw-headline" id="Transcriptions_dans_diverses_écritures"><span class="titretranscr" title="">Transcriptions dans diverses écritures</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=21" title="Modifier la section : Transcriptions dans diverses écritures">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h4>
+<div class="boite">
+<div>
+<div>
+<div style="column-width: 26em; -webkit-column-width: 26em; -moz-column-width: 26em; vertical-align: top; text-align: left;">
+<ul><li><span class="trad-ar">Arabe</span>&#160;: <bdi lang="ar" class="lang-ar"><a href="/wiki/%D9%85#ar" title="م">م</a></bdi>&#160;<span class="trad-exposant"><a href="https://ar.wiktionary.org/wiki/%D9%85" class="extiw" title="ar:م"><span class="trad-existe">(ar)</span></a></span> <bdi lang="ar-Latn" class="lang-ar-Latn">m</bdi></li>
+<li>braille&#160;: <b><a href="/wiki/%E2%A0%8D" title="⠍">⠍</a></b></li>
+<li><span class="trad-el">Grec</span>&#160;: <bdi lang="el" class="lang-el"><a href="/wiki/%CE%BC#el" title="μ">μ</a></bdi>&#160;<span class="trad-exposant"><a href="https://el.wiktionary.org/wiki/%CE%BC" class="extiw" title="el:μ"><span class="trad-existe">(el)</span></a></span> <bdi lang="el-Latn" class="lang-el-Latn">m</bdi></li>
+<li><span class="trad-hi">Hindi</span>&#160;: <bdi lang="hi" class="lang-hi"><a href="/wiki/%E0%A4%AE#hi" title="म">म</a></bdi>&#160;<span class="trad-exposant"><a href="https://hi.wiktionary.org/wiki/%E0%A4%AE" class="extiw" title="hi:म"><span class="trad-existe">(hi)</span></a></span> <bdi lang="hi-Latn" class="lang-hi-Latn">m</bdi></li>
+<li><span class="trad-ru">Russe</span>&#160;: <bdi lang="ru" class="lang-ru"><a href="/wiki/%D0%BC#ru" title="м">м</a></bdi>&#160;<span class="trad-exposant"><a href="https://ru.wiktionary.org/wiki/%D0%BC" class="extiw" title="ru:м"><span class="trad-existe">(ru)</span></a></span> <bdi lang="ru-Latn" class="lang-ru-Latn">m</bdi></li></ul>
+</div></div><div style="clear:both"></div></div></div>
+<h4><span class="mw-headline" id="Traductions"><span class="titretrad" title="">Traductions</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=22" title="Modifier la section : Traductions">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h4>
+<div class="boite">
+<div class="NavFrame">
+<div class="NavHead"><b><i></i></b></div>
+<div class="NavContent">
+<div style="column-width: 26em; -webkit-column-width: 26em; -moz-column-width: 26em; vertical-align: top; text-align: left;"><div class="translations">
+</div></div></div><div style="clear:both"></div></div></div>
+<h3><span class="mw-headline" id="Prononciation"><span class="titrepron" title="">Prononciation</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=23" title="Modifier la section : Prononciation">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Lettre</i>&#160;:
+</p>
+<ul><li>France (Paris)&#160;: écouter «&#160;m <a href="/wiki/Annexe:Prononciation/fran%C3%A7ais" title="Annexe:Prononciation/français"><span class="API" title="Prononciation API">[ɛm]</span></a>&#160;»<div class="mediaContainer" style="width:220px"><audio id="mwe_player_1" controls="" preload="none" style="width:220px" class="kskin" data-durationhint="1.4686621315193" data-startoffset="0" data-mwtitle="Fr-M-fr-Paris.ogg" data-mwprovider="wikimediacommons"><source src="//upload.wikimedia.org/wikipedia/commons/e/e9/Fr-M-fr-Paris.ogg" type="audio/ogg; codecs=&quot;vorbis&quot;" data-title="Fichier original Ogg (102&#160;kbps)" data-shorttitle="Source Ogg" data-width="0" data-height="0" data-bandwidth="102330" /><source src="//upload.wikimedia.org/wikipedia/commons/transcoded/e/e9/Fr-M-fr-Paris.ogg/Fr-M-fr-Paris.ogg.mp3" type="audio/mpeg" data-title="MP3" data-shorttitle="MP3" data-transcodekey="mp3" data-width="0" data-height="0" data-bandwidth="135720" /></audio></div></li></ul>
+<p><i>Dans les mots</i>&#160;:
+</p>
+<ul><li><a href="/wiki/Annexe:Prononciation/fran%C3%A7ais" title="Annexe:Prononciation/français"><span class="API" title="Prononciation API">\m\</span></a></li>
+<li><small>(Région à préciser)</small>&#160;: écouter «&#160;m <a href="/wiki/Annexe:Prononciation/fran%C3%A7ais" title="Annexe:Prononciation/français"><span class="API" title="Prononciation API">[ɛm]</span></a>&#160;»<div class="mediaContainer" style="width:220px"><audio id="mwe_player_2" controls="" preload="none" style="width:220px" class="kskin" data-durationhint="0.88266666666667" data-startoffset="0" data-mwtitle="LL-Q150_(fra)-Jules78120-m.wav" data-mwprovider="wikimediacommons"><source src="//upload.wikimedia.org/wikipedia/commons/transcoded/e/ea/LL-Q150_%28fra%29-Jules78120-m.wav/LL-Q150_%28fra%29-Jules78120-m.wav.mp3" type="audio/mpeg" data-title="MP3" data-shorttitle="MP3" data-transcodekey="mp3" data-width="0" data-height="0" data-bandwidth="97752" /><source src="//upload.wikimedia.org/wikipedia/commons/transcoded/e/ea/LL-Q150_%28fra%29-Jules78120-m.wav/LL-Q150_%28fra%29-Jules78120-m.wav.ogg" type="audio/ogg; codecs=&quot;vorbis&quot;" data-title="Ogg Vorbis" data-shorttitle="Ogg Vorbis" data-transcodekey="ogg" data-width="0" data-height="0" data-bandwidth="105056" /><source src="//upload.wikimedia.org/wikipedia/commons/e/ea/LL-Q150_%28fra%29-Jules78120-m.wav" type="audio/wav" data-title="Fichier original WAV (768&#160;kbps)" data-shorttitle="Source WAV" data-width="0" data-height="0" data-bandwidth="768000" /></audio></div></li>
+<li>France (Paris)&#160;: écouter «&#160;m <span title="Prononciation à préciser">[<small><span class="plainlinks stubedit"><a class="external text" href="https://fr.wiktionary.org/w/index.php?title=m&amp;action=edit">Prononciation&#160;?</a></span></small>]</span>&#160;»<div class="mediaContainer" style="width:220px"><audio id="mwe_player_3" controls="" preload="none" style="width:220px" class="kskin" data-durationhint="0.88266666666667" data-startoffset="0" data-mwtitle="LL-Q150_(fra)-Exilexi-m.wav" data-mwprovider="wikimediacommons"><source src="//upload.wikimedia.org/wikipedia/commons/transcoded/f/f3/LL-Q150_%28fra%29-Exilexi-m.wav/LL-Q150_%28fra%29-Exilexi-m.wav.ogg" type="audio/ogg; codecs=&quot;vorbis&quot;" data-title="Ogg Vorbis" data-shorttitle="Ogg Vorbis" data-transcodekey="ogg" data-width="0" data-height="0" data-bandwidth="118248" /><source src="//upload.wikimedia.org/wikipedia/commons/transcoded/f/f3/LL-Q150_%28fra%29-Exilexi-m.wav/LL-Q150_%28fra%29-Exilexi-m.wav.mp3" type="audio/mpeg" data-title="MP3" data-shorttitle="MP3" data-transcodekey="mp3" data-width="0" data-height="0" data-bandwidth="137424" /><source src="//upload.wikimedia.org/wikipedia/commons/f/f3/LL-Q150_%28fra%29-Exilexi-m.wav" type="audio/wav" data-title="Fichier original WAV (768&#160;kbps)" data-shorttitle="Source WAV" data-width="0" data-height="0" data-bandwidth="768000" /></audio></div></li></ul>
+<h4><span class="mw-headline" id="Homophones"><span class="" title="">Homophones</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=24" title="Modifier la section : Homophones">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h4>
+<ul><li><a href="/wiki/aime" title="aime">aime</a>, <a href="/wiki/aiment" title="aiment">aiment</a>, <a href="/wiki/aimes" title="aimes">aimes</a> → voir <i><a href="/wiki/aimer#fr" title="aimer">aimer</a></i></li>
+<li><a href="/wiki/Exmes" title="Exmes">Exmes</a></li>
+<li><a href="/wiki/h%C3%A8me" title="hème">hème</a>, <a href="/wiki/h%C3%A8mes" title="hèmes">hèmes</a></li></ul>
+<h3><span id="R.C3.A9f.C3.A9rences_3"></span><span class="mw-headline" id="Références_3"><span class="titreref" title="">Références</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=25" title="Modifier la section : Références">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><i><a href="/wiki/Wiktionnaire:Liste_des_r%C3%A9f%C3%A9rences#Dictionnaires_de_l’Académie_française" title="Wiktionnaire:Liste des références">Dictionnaire de l’Académie française, huitième édition</a></i>, 1932-1935&#160;(<a rel="nofollow" class="external text" href="http://www.cnrtl.fr/definition/academie8/m">m</a>)</li></ul>
+<h3><span class="mw-headline" id="Voir_aussi_3"><span class="titrevoir" title="">Voir aussi</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=26" title="Modifier la section : Voir aussi">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><a href="https://fr.wikipedia.org/wiki/m" class="extiw" title="w:m"><span lang="fr" class="lang-fr"><bdi>m</bdi></span></a> sur l’encyclopédie Wikipédia <img alt="Wikipedia-logo-v2.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/20px-Wikipedia-logo-v2.svg.png" decoding="async" width="20" height="18" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/30px-Wikipedia-logo-v2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/40px-Wikipedia-logo-v2.svg.png 2x" data-file-width="103" data-file-height="94" /></li></ul>
+<h2><span class="mw-headline" id="Anglais"><span class="sectionlangue" id="en"><a href="/wiki/Portail:Anglais" title="Portail:Anglais">Anglais</a></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=27" title="Modifier la section : Anglais">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Lettre_2"><span class="titredef" id="en-lettre-1">Lettre</span><span id="en-lettre" style="font-size:0;"> </span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=28" title="Modifier la section : Lettre">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table class="flextable">
+<caption>
+</caption>
+<tbody><tr>
+<th>Minuscule
+</th>
+<th>Majuscule
+</th></tr>
+<tr>
+<td><b><span lang="en" class="lang-en"><bdi>m</bdi></span></b>
+</td>
+<td><bdi lang="en" class="lang-en"><a href="/wiki/M#en" title="M">M</a></bdi>
+</td></tr>
+<tr>
+<td colspan="2"><a href="/wiki/Annexe:Prononciation/anglais" title="Annexe:Prononciation/anglais"><span class="API" title="Prononciation API">\ˈɛm\</span></a><br />(<bdi lang="en" class="lang-en"><a href="/wiki/em#en" title="em">em</a></bdi>)
+</td></tr></tbody></table>
+<table class="flextable flextable-en">
+
+<tbody><tr>
+<th>Singulier</th>
+<th>Pluriel
+</th></tr>
+<tr>
+<td><b><span lang="en" class="lang-en"><bdi>m</bdi></span></b><br /><a href="/wiki/Annexe:Prononciation/anglais" title="Annexe:Prononciation/anglais"><span class="API" title="Prononciation API">\ˈɛm\</span></a>
+</td>
+<td><bdi lang="en" class="lang-en"><a href="/wiki/m%E2%80%99s#en-flex-nom" title="m’s">m’s</a></bdi><br /><a href="/wiki/Annexe:Prononciation/anglais" title="Annexe:Prononciation/anglais"><span class="API" title="Prononciation API">\ˈɛmz\</span></a>
+</td></tr></tbody></table>
+<p><b>m</b>
+</p>
+<ol><li>Treizième lettre de l’alphabet (minuscule).</li></ol>
+<h3><span class="mw-headline" id="Prononciation_2"><span class="titrepron" title="">Prononciation</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=29" title="Modifier la section : Prononciation">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li>États-Unis&#160;: écouter «&#160;m <span title="Prononciation à préciser">[<small><span class="plainlinks stubedit"><a class="external text" href="https://fr.wiktionary.org/w/index.php?title=m&amp;action=edit">Prononciation&#160;?</a></span></small>]</span>&#160;»<div class="mediaContainer" style="width:220px"><audio id="mwe_player_4" controls="" preload="none" style="width:220px" class="kskin" data-durationhint="1.5758503401361" data-startoffset="0" data-mwtitle="En-us-m.ogg" data-mwprovider="wikimediacommons"><source src="//upload.wikimedia.org/wikipedia/commons/4/44/En-us-m.ogg" type="audio/ogg; codecs=&quot;vorbis&quot;" data-title="Fichier original Ogg (99&#160;kbps)" data-shorttitle="Source Ogg" data-width="0" data-height="0" data-bandwidth="99014" /><source src="//upload.wikimedia.org/wikipedia/commons/transcoded/4/44/En-us-m.ogg/En-us-m.ogg.mp3" type="audio/mpeg" data-title="MP3" data-shorttitle="MP3" data-transcodekey="mp3" data-width="0" data-height="0" data-bandwidth="131488" /></audio></div></li>
+<li>Royaume-Uni&#160;: écouter «&#160;m <span title="Prononciation à préciser">[<small><span class="plainlinks stubedit"><a class="external text" href="https://fr.wiktionary.org/w/index.php?title=m&amp;action=edit">Prononciation&#160;?</a></span></small>]</span>&#160;»<div class="mediaContainer" style="width:220px"><audio id="mwe_player_5" controls="" preload="none" style="width:220px" class="kskin" data-durationhint="0.80689342403628" data-startoffset="0" data-mwtitle="En-uk-m.ogg" data-mwprovider="wikimediacommons"><source src="//upload.wikimedia.org/wikipedia/commons/3/3b/En-uk-m.ogg" type="audio/ogg; codecs=&quot;vorbis&quot;" data-title="Fichier original Ogg (141&#160;kbps)" data-shorttitle="Source Ogg" data-width="0" data-height="0" data-bandwidth="141342" /><source src="//upload.wikimedia.org/wikipedia/commons/transcoded/3/3b/En-uk-m.ogg/En-uk-m.ogg.mp3" type="audio/mpeg" data-title="MP3" data-shorttitle="MP3" data-transcodekey="mp3" data-width="0" data-height="0" data-bandwidth="184072" /></audio></div></li></ul>
+<h2><span id="Cr.C3.A9ole_ha.C3.AFtien"></span><span class="mw-headline" id="Créole_haïtien"><span class="sectionlangue" id="ht"><a href="/wiki/cr%C3%A9ole_ha%C3%AFtien" title="créole haïtien">Créole haïtien</a></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=30" title="Modifier la section : Créole haïtien">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span id=".C3.89tymologie_2"></span><span class="mw-headline" id="Étymologie_2"><span class="titreetym" title="">Étymologie</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=31" title="Modifier la section : Étymologie">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<dl><dd>Contraction de <i><a href="/wiki/mwen" title="mwen">mwen</a></i>.</dd></dl>
+<h3><span class="mw-headline" id="Forme_de_pronom_personnel"><span class="titredef" id="ht-flex-pronom-pers-1">Forme de pronom personnel</span><span id="ht-flex-pronom-pers" style="font-size:0;"> </span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=32" title="Modifier la section : Forme de pronom personnel">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><b>m</b> <a href="/wiki/Annexe:Prononciation" title="Annexe:Prononciation"><span class="API" title="Prononciation API">\m\</span></a>
+</p>
+<ol><li><i>Forme contractée de</i> <i><a href="/wiki/mwen" title="mwen">mwen</a></i>.
+<ul><li><i><b>M</b> ap manje yon pòm.</i></li></ul>
+<dl><dd>Je mange une pomme.</dd></dl></li></ol>
+<h4><span class="mw-headline" id="Variantes_orthographiques"><span class="" title="">Variantes orthographiques</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=33" title="Modifier la section : Variantes orthographiques">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h4>
+<ul><li><a href="/wiki/m%E2%80%99#ht" title="m’">m’</a></li></ul>
+<h2><span id="Dal.C3.A9carlien"></span><span class="mw-headline" id="Dalécarlien"><span class="sectionlangue" id="dalécarlien"><a href="/wiki/dal%C3%A9carlien" title="dalécarlien">Dalécarlien</a></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=34" title="Modifier la section : Dalécarlien">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Lettre_3"><span class="titredef" id="dalécarlien-lettre-1">Lettre</span><span id="dalécarlien-lettre" style="font-size:0;"> </span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=35" title="Modifier la section : Lettre">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table class="flextable">
+<caption>
+</caption>
+<tbody><tr>
+<th>Minuscule
+</th>
+<th>Majuscule
+</th></tr>
+<tr>
+<td><b><span lang="dalécarlien" class="lang-dalécarlien"><bdi>m</bdi></span></b>
+</td>
+<td><bdi lang="dalécarlien" class="lang-dalécarlien"><a href="/wiki/M#dalécarlien" title="M">M</a></bdi>
+</td></tr>
+
+</tbody></table>
+<p><b>m</b> <span title="Prononciation à préciser">\<small><span class="plainlinks stubedit"><a class="external text" href="https://fr.wiktionary.org/w/index.php?title=m&amp;action=edit">Prononciation&#160;?</a></span></small>\</span> <span class="ligne-de-forme"><i> <a href="/wiki/minuscule#Nom_commun" title="minuscule">minuscule</a> </i></span>
+</p>
+<ol><li>Dix-septième lettre de l’alphabet <a href="/wiki/dal%C3%A9carlien" title="dalécarlien">dalécarlien</a>.</li></ol>
+<h2><span id="Esp.C3.A9ranto"></span><span class="mw-headline" id="Espéranto"><span class="sectionlangue" id="eo"><a href="/wiki/Portail:Esp%C3%A9ranto" title="Portail:Espéranto">Espéranto</a></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=36" title="Modifier la section : Espéranto">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="wikitable" style="clear:both; margin:0.5em auto 0.5em auto; border-collapse:collapse; background:GhostWhite; padding:0.5em; text-align:center">
+
+<tbody><tr style="vertical-align: top;">
+<td style="width:14.28%;"><bdi lang="eo" class="lang-eo"><a href="/wiki/a#eo" title="a">a</a></bdi> <bdi lang="eo" class="lang-eo"><a href="/wiki/A#eo" title="A">A</a></bdi>
+</td>
+<td style="width:14.28%;"><bdi lang="eo" class="lang-eo"><a href="/wiki/b#eo" title="b">b</a></bdi> <bdi lang="eo" class="lang-eo"><a href="/wiki/B#eo" title="B">B</a></bdi><br />(<bdi lang="eo" class="lang-eo"><a href="/wiki/bo#eo" title="bo">bo</a></bdi>)
+</td>
+<td style="width:14.28%;"><bdi lang="eo" class="lang-eo"><a href="/wiki/c#eo" title="c">c</a></bdi> <bdi lang="eo" class="lang-eo"><a href="/wiki/C#eo" title="C">C</a></bdi><br />(<bdi lang="eo" class="lang-eo"><a href="/wiki/co#eo" title="co">co</a></bdi>)
+</td>
+<td style="width:14.28%;"><bdi lang="eo" class="lang-eo"><a href="/wiki/%C4%89#eo" title="ĉ">ĉ</a></bdi> <bdi lang="eo" class="lang-eo"><a href="/wiki/%C4%88#eo" title="Ĉ">Ĉ</a></bdi><br />(<bdi lang="eo" class="lang-eo"><a href="/wiki/%C4%89o#eo" title="ĉo">ĉo</a></bdi>)
+</td>
+<td style="width:14.28%;"><bdi lang="eo" class="lang-eo"><a href="/wiki/d#eo" title="d">d</a></bdi> <bdi lang="eo" class="lang-eo"><a href="/wiki/D#eo" title="D">D</a></bdi><br />(<bdi lang="eo" class="lang-eo"><a href="/wiki/do#eo" title="do">do</a></bdi>)
+</td>
+<td style="width:14.28%;"><bdi lang="eo" class="lang-eo"><a href="/wiki/e#eo" title="e">e</a></bdi> <bdi lang="eo" class="lang-eo"><a href="/wiki/E#eo" title="E">E</a></bdi>
+</td>
+<td style="width:14.28%;"><bdi lang="eo" class="lang-eo"><a href="/wiki/f#eo" title="f">f</a></bdi> <bdi lang="eo" class="lang-eo"><a href="/wiki/F#eo" title="F">F</a></bdi><br />(<bdi lang="eo" class="lang-eo"><a href="/wiki/fo#eo" title="fo">fo</a></bdi>)
+</td></tr>
+<tr style="vertical-align: top;">
+<td><bdi lang="eo" class="lang-eo"><a href="/wiki/g#eo" title="g">g</a></bdi> <bdi lang="eo" class="lang-eo"><a href="/wiki/G#eo" title="G">G</a></bdi><br />(<bdi lang="eo" class="lang-eo"><a href="/wiki/go#eo" title="go">go</a></bdi>)
+</td>
+<td><bdi lang="eo" class="lang-eo"><a href="/wiki/%C4%9D#eo" title="ĝ">ĝ</a></bdi> <bdi lang="eo" class="lang-eo"><a href="/wiki/%C4%9C#eo" title="Ĝ">Ĝ</a></bdi><br />(<bdi lang="eo" class="lang-eo"><a href="/wiki/%C4%9Do#eo" title="ĝo">ĝo</a></bdi>)
+</td>
+<td><bdi lang="eo" class="lang-eo"><a href="/wiki/h#eo" title="h">h</a></bdi> <bdi lang="eo" class="lang-eo"><a href="/wiki/H#eo" title="H">H</a></bdi><br />(<bdi lang="eo" class="lang-eo"><a href="/wiki/ho#eo" title="ho">ho</a></bdi>)
+</td>
+<td><bdi lang="eo" class="lang-eo"><a href="/wiki/%C4%A5#eo" title="ĥ">ĥ</a></bdi> <bdi lang="eo" class="lang-eo"><a href="/wiki/%C4%A4#eo" title="Ĥ">Ĥ</a></bdi><br />(<bdi lang="eo" class="lang-eo"><a href="/wiki/%C4%A5o#eo" title="ĥo">ĥo</a></bdi>)
+</td>
+<td><bdi lang="eo" class="lang-eo"><a href="/wiki/i#eo" title="i">i</a></bdi> <bdi lang="eo" class="lang-eo"><a href="/wiki/I#eo" title="I">I</a></bdi>
+</td>
+<td><bdi lang="eo" class="lang-eo"><a href="/wiki/j#eo" title="j">j</a></bdi> <bdi lang="eo" class="lang-eo"><a href="/wiki/J#eo" title="J">J</a></bdi><br />(<bdi lang="eo" class="lang-eo"><a href="/wiki/jo#eo" title="jo">jo</a></bdi>)
+</td>
+<td><bdi lang="eo" class="lang-eo"><a href="/wiki/%C4%B5#eo" title="ĵ">ĵ</a></bdi> <bdi lang="eo" class="lang-eo"><a href="/wiki/%C4%B4#eo" title="Ĵ">Ĵ</a></bdi><br />(<bdi lang="eo" class="lang-eo"><a href="/wiki/%C4%B5o#eo" title="ĵo">ĵo</a></bdi>)
+</td></tr>
+<tr style="vertical-align: top;">
+<td><bdi lang="eo" class="lang-eo"><a href="/wiki/k#eo" title="k">k</a></bdi> <bdi lang="eo" class="lang-eo"><a href="/wiki/K#eo" title="K">K</a></bdi><br />(<bdi lang="eo" class="lang-eo"><a href="/wiki/ko#eo" title="ko">ko</a></bdi>)
+</td>
+<td><bdi lang="eo" class="lang-eo"><a href="/wiki/l#eo" title="l">l</a></bdi> <bdi lang="eo" class="lang-eo"><a href="/wiki/L#eo" title="L">L</a></bdi><br />(<bdi lang="eo" class="lang-eo"><a href="/wiki/lo#eo" title="lo">lo</a></bdi>)
+</td>
+<td><b><span lang="eo" class="lang-eo"><bdi>m</bdi></span></b> <bdi lang="eo" class="lang-eo"><a href="/wiki/M#eo" title="M">M</a></bdi><br />(<bdi lang="eo" class="lang-eo"><a href="/wiki/mo#eo" title="mo">mo</a></bdi>)
+</td>
+<td><bdi lang="eo" class="lang-eo"><a href="/wiki/n#eo" title="n">n</a></bdi> <bdi lang="eo" class="lang-eo"><a href="/wiki/N#eo" title="N">N</a></bdi><br />(<bdi lang="eo" class="lang-eo"><a href="/wiki/no#eo" title="no">no</a></bdi>)
+</td>
+<td><bdi lang="eo" class="lang-eo"><a href="/wiki/o#eo" title="o">o</a></bdi> <bdi lang="eo" class="lang-eo"><a href="/wiki/O#eo" title="O">O</a></bdi>
+</td>
+<td><bdi lang="eo" class="lang-eo"><a href="/wiki/p#eo" title="p">p</a></bdi> <bdi lang="eo" class="lang-eo"><a href="/wiki/P#eo" title="P">P</a></bdi><br />(<bdi lang="eo" class="lang-eo"><a href="/wiki/po#eo" title="po">po</a></bdi>)
+</td>
+<td><bdi lang="eo" class="lang-eo"><a href="/wiki/r#eo" title="r">r</a></bdi> <bdi lang="eo" class="lang-eo"><a href="/wiki/R#eo" title="R">R</a></bdi><br />(<bdi lang="eo" class="lang-eo"><a href="/wiki/ro#eo" title="ro">ro</a></bdi>)
+</td></tr>
+<tr style="vertical-align: top;">
+<td><bdi lang="eo" class="lang-eo"><a href="/wiki/s#eo" title="s">s</a></bdi> <bdi lang="eo" class="lang-eo"><a href="/wiki/S#eo" title="S">S</a></bdi><br />(<bdi lang="eo" class="lang-eo"><a href="/wiki/so#eo" title="so">so</a></bdi>)
+</td>
+<td><bdi lang="eo" class="lang-eo"><a href="/wiki/%C5%9D#eo" title="ŝ">ŝ</a></bdi> <bdi lang="eo" class="lang-eo"><a href="/wiki/%C5%9C#eo" title="Ŝ">Ŝ</a></bdi><br />(<bdi lang="eo" class="lang-eo"><a href="/wiki/%C5%9Do#eo" title="ŝo">ŝo</a></bdi>)
+</td>
+<td><bdi lang="eo" class="lang-eo"><a href="/wiki/t#eo" title="t">t</a></bdi> <bdi lang="eo" class="lang-eo"><a href="/wiki/T#eo" title="T">T</a></bdi><br />(<bdi lang="eo" class="lang-eo"><a href="/wiki/to#eo" title="to">to</a></bdi>)
+</td>
+<td><bdi lang="eo" class="lang-eo"><a href="/wiki/u#eo" title="u">u</a></bdi> <bdi lang="eo" class="lang-eo"><a href="/wiki/U#eo" title="U">U</a></bdi>
+</td>
+<td><bdi lang="eo" class="lang-eo"><a href="/wiki/%C5%AD#eo" title="ŭ">ŭ</a></bdi> <bdi lang="eo" class="lang-eo"><a href="/wiki/%C5%AC#eo" title="Ŭ">Ŭ</a></bdi><br />(<bdi lang="eo" class="lang-eo"><a href="/wiki/%C5%ADo#eo" title="ŭo">ŭo</a></bdi>)
+</td>
+<td><bdi lang="eo" class="lang-eo"><a href="/wiki/v#eo" title="v">v</a></bdi> <bdi lang="eo" class="lang-eo"><a href="/wiki/V#eo" title="V">V</a></bdi><br />(<bdi lang="eo" class="lang-eo"><a href="/wiki/vo#eo" title="vo">vo</a></bdi>)
+</td>
+<td><bdi lang="eo" class="lang-eo"><a href="/wiki/z#eo" title="z">z</a></bdi> <bdi lang="eo" class="lang-eo"><a href="/wiki/Z#eo" title="Z">Z</a></bdi><br />(<bdi lang="eo" class="lang-eo"><a href="/wiki/zo#eo" title="zo">zo</a></bdi>)
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="Lettre_4"><span class="titredef" id="eo-lettre-1">Lettre</span><span id="eo-lettre" style="font-size:0;"> </span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=37" title="Modifier la section : Lettre">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table class="flextable">
+<caption>
+</caption>
+<tbody><tr>
+<th>Minuscule
+</th>
+<th>Majuscule
+</th></tr>
+<tr>
+<td><b><span lang="eo" class="lang-eo"><bdi>m</bdi></span></b>
+</td>
+<td><bdi lang="eo" class="lang-eo"><a href="/wiki/M#eo" title="M">M</a></bdi>
+</td></tr>
+<tr>
+<td colspan="2"><a href="/wiki/Annexe:Prononciation/esp%C3%A9ranto" title="Annexe:Prononciation/espéranto"><span class="API" title="Prononciation API">\mo\</span></a><br />(<bdi lang="eo" class="lang-eo"><a href="/wiki/mo#eo" title="mo">mo</a></bdi>)
+</td></tr></tbody></table>
+<p><b>m</b> <a href="/wiki/Annexe:Prononciation/esp%C3%A9ranto" title="Annexe:Prononciation/espéranto"><span class="API" title="Prononciation API">\mo\</span></a>
+</p>
+<ol><li>Dix-septième lettre et quatorzième consonne de l’alphabet espéranto.</li></ol>
+<h3><span id="R.C3.A9f.C3.A9rences_4"></span><span class="mw-headline" id="Références_4"><span class="titreref" title="">Références</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=38" title="Modifier la section : Références">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><i>Plena Ilustrata Vortaro</i>, SAT, Paris, 1970 (selon Retavortaro)</li>
+<li><a rel="nofollow" class="external text" href="http://vortaro.net/#m">m</a>&#160;sur le site <i><a rel="nofollow" class="external text" href="http://vortaro.net/">Plena Ilustrita Vortaro de Esperanto</a></i> (PIV)</li>
+<li><a rel="nofollow" class="external text" href="http://reta-vortaro.de/revo/art/m.html">m</a>&#160;sur le site <i><a rel="nofollow" class="external text" href="http://reta-vortaro.de/revo/">Reta-vortaro.de</a></i> (RV)</li></ul>
+<h2><span class="mw-headline" id="Finnois"><span class="sectionlangue" id="fi"><a href="/wiki/finnois" title="finnois">Finnois</a></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=39" title="Modifier la section : Finnois">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Lettre_5"><span class="titredef" id="fi-lettre-1">Lettre</span><span id="fi-lettre" style="font-size:0;"> </span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=40" title="Modifier la section : Lettre">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><b>m</b> <a href="/wiki/Annexe:Prononciation/finnois" title="Annexe:Prononciation/finnois"><span class="API" title="Prononciation API">\æm\</span></a>, <a href="/wiki/Annexe:Prononciation/finnois" title="Annexe:Prononciation/finnois"><span class="API" title="Prononciation API">\em\</span></a>, <a href="/wiki/Annexe:Prononciation/finnois" title="Annexe:Prononciation/finnois"><span class="API" title="Prononciation API">\æ.mːæ\</span></a>
+</p>
+<ol><li>Treizième <a href="/wiki/lettre" title="lettre">lettre</a> et dixième <a href="/wiki/consonne" title="consonne">consonne</a> de l’<a href="/wiki/alphabet" title="alphabet">alphabet</a>&#160;; représente le son <a href="/wiki/Annexe:Prononciation/finnois" title="Annexe:Prononciation/finnois"><span class="API" title="Prononciation API">\m\</span></a>.</li></ol>
+<h3><span class="mw-headline" id="Prononciation_3"><span class="titrepron" title="">Prononciation</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=41" title="Modifier la section : Prononciation">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><small>(Région à préciser)</small>&#160;: écouter «&#160;m <a href="/wiki/Annexe:Prononciation/finnois" title="Annexe:Prononciation/finnois"><span class="API" title="Prononciation API">[æm]</span></a>&#160;»<div class="mediaContainer" style="width:220px"><audio id="mwe_player_6" controls="" preload="none" style="width:220px" class="kskin" data-durationhint="5.380022675737" data-startoffset="0" data-mwtitle="Fi-m.ogg" data-mwprovider="wikimediacommons"><source src="//upload.wikimedia.org/wikipedia/commons/f/fa/Fi-m.ogg" type="audio/ogg; codecs=&quot;vorbis&quot;" data-title="Fichier original Ogg (90&#160;kbps)" data-shorttitle="Source Ogg" data-width="0" data-height="0" data-bandwidth="90142" /><source src="//upload.wikimedia.org/wikipedia/commons/transcoded/f/fa/Fi-m.ogg/Fi-m.ogg.mp3" type="audio/mpeg" data-title="MP3" data-shorttitle="MP3" data-transcodekey="mp3" data-width="0" data-height="0" data-bandwidth="150848" /></audio></div></li></ul>
+<h2><span class="mw-headline" id="Flamand_occidental"><span class="sectionlangue" id="vls"><a href="/wiki/flamand_occidental" title="flamand occidental">Flamand occidental</a></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=42" title="Modifier la section : Flamand occidental">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Lettre_6"><span class="titredef" id="vls-lettre-1">Lettre</span><span id="vls-lettre" style="font-size:0;"> </span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=43" title="Modifier la section : Lettre">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table class="flextable">
+<caption>
+</caption>
+<tbody><tr>
+<th>Minuscule
+</th>
+<th>Majuscule
+</th></tr>
+<tr>
+<td><b><span lang="" class="lang-"><bdi>m</bdi></span></b>
+</td>
+<td><bdi lang="fr" class="lang-fr"><a href="/wiki/M#fr" title="M">M</a></bdi>
+</td></tr>
+
+</tbody></table>
+<p><b>m</b>
+</p>
+<ol><li>Treizième <a href="/wiki/lettre" title="lettre">lettre</a> et dixième <a href="/wiki/consonne" title="consonne">consonne</a> de l’<a href="/wiki/alphabet" title="alphabet">alphabet</a>.</li></ol>
+<h2><span class="mw-headline" id="Gaulois"><span class="sectionlangue" id="gaulois"><a href="/wiki/gaulois" title="gaulois">Gaulois</a></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=44" title="Modifier la section : Gaulois">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span id=".C3.89tymologie_3"></span><span class="mw-headline" id="Étymologie_3"><span class="titreetym" title="">Étymologie</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=45" title="Modifier la section : Étymologie">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<dl><dd>Mot lu dans l’inscription de Coligny pour qualifier les mois de trente jours.</dd></dl>
+<h3><span class="mw-headline" id="Adjectif"><span class="titredef" id="gaulois-adj-1">Adjectif</span><span id="gaulois-adj" style="font-size:0;"> </span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=46" title="Modifier la section : Adjectif">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><b>m</b> <span class="emploi"><span id="abréviation"></span><i>(<span class="texte"><a href="/wiki/abr%C3%A9viation" title="abréviation">Abréviation</a></span>)</i></span>
+</p>
+<ol><li><i>Abréviation de</i> <a href="/wiki/matu-" title="matu-">matu-</a>.</li></ol>
+<h4><span class="mw-headline" id="Variantes"><span class="" title="">Variantes</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=47" title="Modifier la section : Variantes">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h4>
+<ul><li><bdi lang="gaulois" class="lang-gaulois"><a href="/wiki/mat#gaulois" title="mat">mat</a></bdi></li></ul>
+<h3><span class="mw-headline" id="Lettre_7"><span class="titredef" id="gaulois-lettre-1">Lettre</span><span id="gaulois-lettre" style="font-size:0;"> </span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=48" title="Modifier la section : Lettre">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><b>m</b> <a href="/wiki/Annexe:Prononciation" title="Annexe:Prononciation"><span class="API" title="Prononciation API">\m\</span></a>
+</p>
+<ol><li><a href="/wiki/lettre" title="lettre">Lettre</a> utilisée dans l'alphabet latin du gaulois.</li></ol>
+<h3><span class="mw-headline" id="Nom_commun"><span class="titredef" id="gaulois-nom-1">Nom commun</span><span id="gaulois-nom" style="font-size:0;"> </span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=49" title="Modifier la section : Nom commun">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><b>m</b> <span class="emploi"><span id="abréviation"></span><i>(<span class="texte"><a href="/wiki/abr%C3%A9viation" title="abréviation">Abréviation</a></span>)</i></span>
+</p>
+<ol><li><i>Abréviation de</i> <a href="/wiki/mi%C4%91" title="miđ">miđ</a>.</li></ol>
+<h3><span id="R.C3.A9f.C3.A9rences_5"></span><span class="mw-headline" id="Références_5"><span class="titreref" title="">Références</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=50" title="Modifier la section : Références">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><cite style="font-style:normal" class="ouvrage" id="CITEREFDelamarre2003">Xavier Delamarre,&#32;<i>Dictionnaire de la langue gauloise&#160;: une approche linguistique du vieux-celtique continental</i>, préf. de Pierre-Yves Lambert, Errance, Paris,&#32;2003, 2<sup style="font-size:83.33%;line-height:1">e</sup>&#160;<abbr title="édition">éd.</abbr>&#32;<a href="https://fr.wikipedia.org/wiki/International_Standard_Book_Number" class="extiw" title="w:International Standard Book Number">ISBN</a> <a href="/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/2-87772-237-6" title="Spécial:Ouvrages de référence/2-87772-237-6">2-87772-237-6</a>&#32;<small>(ISSN&#160;0982-2720)</small>, page 220 et 226</cite></li>
+<li><cite style="font-style:normal" class="ouvrage" id="CITEREFSavignac2004">Jean-Paul Savignac,&#32;<i>Dictionnaire français-gaulois</i>, La Différence,&#32;2004&#32;<a href="https://fr.wikipedia.org/wiki/International_Standard_Book_Number" class="extiw" title="w:International Standard Book Number">ISBN</a> <a href="/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/978-2729115296" title="Spécial:Ouvrages de référence/978-2729115296">978-2729115296</a>, page 241</cite></li>
+<li>Les références et attestations sont présentes&#160;:
+<ul><li>dans l'<a href="/w/index.php?title=Annexe:Grammaire_gauloise&amp;action=edit&amp;redlink=1" class="new" title="Annexe:Grammaire gauloise (page inexistante)">annexe sur la grammaire gauloise</a>&#160;;</li>
+<li>dans l'<a href="/wiki/Annexe:Ouvrages_de_r%C3%A9f%C3%A9rence_pour_le_gaulois" title="Annexe:Ouvrages de référence pour le gaulois">annexe listant les ouvrages de référence en gaulois</a>.</li></ul></li></ul>
+<h2><span class="mw-headline" id="Guarani"><span class="sectionlangue" id="gn"><a href="/wiki/guarani" title="guarani">Guarani</a></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=51" title="Modifier la section : Guarani">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Lettre_8"><span class="titredef" id="gn-lettre-1">Lettre</span><span id="gn-lettre" style="font-size:0;"> </span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=52" title="Modifier la section : Lettre">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table class="flextable">
+<caption>
+</caption>
+<tbody><tr>
+<th>Minuscule
+</th>
+<th>Majuscule
+</th></tr>
+<tr>
+<td><b><span lang="gn" class="lang-gn"><bdi>m</bdi></span></b>
+</td>
+<td><bdi lang="gn" class="lang-gn"><a href="/wiki/M#gn" title="M">M</a></bdi>
+</td></tr>
+<tr>
+<td colspan="2"><a href="/wiki/Annexe:Prononciation/guarani" title="Annexe:Prononciation/guarani"><span class="API" title="Prononciation API">\m\</span></a>
+</td></tr></tbody></table>
+<p><b>m</b> <a href="/wiki/Annexe:Prononciation/guarani" title="Annexe:Prononciation/guarani"><span class="API" title="Prononciation API">\m\</span></a>
+</p>
+<ol><li>Quatorzième lettre de l’alphabet <a href="/wiki/guarani#fr" title="guarani">guarani</a> (<a href="/wiki/majuscule#fr" title="majuscule">majuscule</a>).</li></ol>
+<h3><span class="mw-headline" id="Voir_aussi_4"><span class="titrevoir" title="">Voir aussi</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=53" title="Modifier la section : Voir aussi">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><a href="https://fr.wikipedia.org/wiki/Guarani_(langue)#Écriture" class="extiw" title="w:Guarani (langue)"><span lang="fr" class="lang-fr"><bdi>Écriture du guarani</bdi></span></a> sur l’encyclopédie Wikipédia <img alt="Wikipedia-logo-v2.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/20px-Wikipedia-logo-v2.svg.png" decoding="async" width="20" height="18" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/30px-Wikipedia-logo-v2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/40px-Wikipedia-logo-v2.svg.png 2x" data-file-width="103" data-file-height="94" /></li></ul>
+<div align="center">
+<div class="boite">
+<div class="NavFrame collapsed">
+<div class="NavHead"><b>Alphabet guarani</b></div>
+<div class="NavContent">
+<div style="column-count: 1; -webkit-column-count: 1; -moz-column-count: 1; vertical-align: top; text-align: left;">
+<table class="wikitable" style="text-align: center">
+
+<tbody><tr>
+<td><a href="/wiki/A" title="A">A</a> <a href="/wiki/a" title="a">a</a></td>
+<td><a href="/wiki/%C3%83" title="Ã">Ã</a> <a href="/wiki/%C3%A3" title="ã">ã</a></td>
+<td><a href="/wiki/CH" title="CH">CH</a> <a href="/wiki/Ch" title="Ch">Ch</a> <a href="/wiki/ch" title="ch">ch</a></td>
+<td><a href="/wiki/E" title="E">E</a> <a href="/wiki/e" title="e">e</a></td>
+<td><a href="/wiki/%E1%BA%BC" title="Ẽ">Ẽ</a> <a href="/wiki/%E1%BA%BD" title="ẽ">ẽ</a>
+</td>
+<td><a href="/wiki/G" title="G">G</a> <a href="/wiki/g" title="g">g</a></td>
+<td><a href="/wiki/G%CC%83" title="G̃">G̃</a> <a href="/wiki/g%CC%83" title="g̃">g̃</a></td>
+<td><a href="/wiki/H" title="H">H</a> <a href="/wiki/h" title="h">h</a></td>
+<td><a href="/wiki/I" title="I">I</a> <a href="/wiki/i" title="i">i</a></td>
+<td><a href="/wiki/%C4%A8" title="Ĩ">Ĩ</a> <a href="/wiki/%C4%A9" title="ĩ">ĩ</a></td>
+<td><a href="/wiki/J" title="J">J</a> <a href="/wiki/j" title="j">j</a>
+</td></tr>
+<tr>
+<td colspan="17">
+</td></tr>
+<tr>
+<td><a href="/wiki/K" title="K">K</a> <a href="/wiki/k" title="k">k</a></td>
+<td><a href="/wiki/L" title="L">L</a> <a href="/wiki/l" title="l">l</a></td>
+<td><a href="/wiki/M" title="M">M</a> <a class="mw-selflink selflink">m</a></td>
+<td><a href="/wiki/MB" title="MB">MB</a> <a href="/wiki/Mb" title="Mb">Mb</a> <a href="/wiki/mb" title="mb">mb</a></td>
+<td><a href="/wiki/N" title="N">N</a> <a href="/wiki/n" title="n">n</a>
+</td>
+<td><a href="/wiki/ND" title="ND">ND</a> <a href="/wiki/Nd" title="Nd">Nd</a> <a href="/wiki/nd" title="nd">nd</a></td>
+<td><a href="/wiki/NG" title="NG">NG</a> <a href="/wiki/Ng" title="Ng">Ng</a> <a href="/wiki/ng" title="ng">ng</a></td>
+<td><a href="/wiki/NT" title="NT">NT</a> <a href="/wiki/Nt" title="Nt">Nt</a> <a href="/wiki/nt" title="nt">nt</a></td>
+<td><a href="/wiki/%C3%91" title="Ñ">Ñ</a> <a href="/wiki/%C3%B1" title="ñ">ñ</a></td>
+<td><a href="/wiki/O" title="O">O</a> <a href="/wiki/o" title="o">o</a></td>
+<td><a href="/wiki/%C3%95" title="Õ">Õ</a> <a href="/wiki/%C3%B5" title="õ">õ</a>
+</td></tr>
+<tr>
+<td colspan="17">
+</td></tr>
+<tr>
+<td><a href="/wiki/P" title="P">P</a> <a href="/wiki/p" title="p">p</a></td>
+<td><a href="/wiki/R" title="R">R</a> <a href="/wiki/r" title="r">r</a></td>
+<td><a href="/wiki/RR" title="RR">RR</a> <a href="/wiki/Rr" title="Rr">Rr</a> <a href="/wiki/rr" title="rr">rr</a></td>
+<td><a href="/wiki/S" title="S">S</a> <a href="/wiki/s" title="s">s</a></td>
+<td><a href="/wiki/T" title="T">T</a> <a href="/wiki/t" title="t">t</a>
+</td>
+<td><a href="/wiki/U" title="U">U</a> <a href="/wiki/u" title="u">u</a></td>
+<td><a href="/wiki/%C5%A8" title="Ũ">Ũ</a> <a href="/wiki/%C5%A9" title="ũ">ũ</a></td>
+<td><a href="/wiki/V" title="V">V</a> <a href="/wiki/v" title="v">v</a></td>
+<td><a href="/wiki/Y" title="Y">Y</a> <a href="/wiki/y" title="y">y</a></td>
+<td><a href="/wiki/%E1%BB%B8" title="Ỹ">Ỹ</a> <a href="/wiki/%E1%BB%B9" title="ỹ">ỹ</a></td>
+<td><a href="/wiki/%CA%BC" title="ʼ">ʼ</a>
+</td></tr></tbody></table>
+</div></div><div style="clear:both"></div></div></div>
+</div>
+<h2><span class="mw-headline" id="Latin"><span class="sectionlangue" id="la"><a href="/wiki/Portail:Latin" title="Portail:Latin">Latin</a></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=54" title="Modifier la section : Latin">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span id=".C3.89tymologie_4"></span><span class="mw-headline" id="Étymologie_4"><span class="titreetym" title="">Étymologie</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=55" title="Modifier la section : Étymologie">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<dl><dd>Pour la graphie, du grec ancien <bdi lang="grc" class="lang-grc"><a href="/wiki/%CE%9C#grc" title="Μ">Μ</a></bdi>, <i>m</i>.</dd></dl>
+<h3><span class="mw-headline" id="Lettre_9"><span class="titredef" id="la-lettre-1">Lettre</span><span id="la-lettre" style="font-size:0;"> </span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=56" title="Modifier la section : Lettre">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table class="flextable">
+<caption>
+</caption>
+<tbody><tr>
+<th>Minuscule
+</th>
+<th>Majuscule
+</th></tr>
+<tr>
+<td><b><span lang="la" class="lang-la"><bdi>m</bdi></span></b>
+</td>
+<td><bdi lang="la" class="lang-la"><a href="/wiki/M#la" title="M">M</a></bdi>
+</td></tr>
+
+</tbody></table>
+<p><b>m</b> <a href="/wiki/Annexe:Prononciation/latin" title="Annexe:Prononciation/latin"><span class="API" title="Prononciation API">\em\</span></a> <span class="ligne-de-forme"><i><a href="/wiki/Annexe:Glossaire_grammatical#N" title="Annexe:Glossaire grammatical">neutre</a></i></span> <span class="ligne-de-forme" id="indéclinable"><i><a href="/wiki/ind%C3%A9clinable" title="indéclinable">indéclinable</a></i></span>, <i>parfois</i> <span class="ligne-de-forme"><i>féminin</i></span> (sous-entendant <i>littera</i>)
+</p>
+<ol><li>Douzième lettre de l’<a href="/wiki/alphabet_latin" title="alphabet latin">alphabet latin</a>.</li>
+<li>(<span title="La linguistique est l’étude du langage." id="la-linguistique"><i>Linguistique</i></span>) Contrairement à d’autres langues de la famille indo-européenne, le latin refuse de faire suivre <a href="/wiki/Annexe:Prononciation/latin" title="Annexe:Prononciation/latin"><span class="API" title="Prononciation API">\m\</span></a> par une autre consonne et intercale une voyelle euphonique (le plus souvent <i><a href="/wiki/i#la" title="i">i</a></i>) dans le radical. Ainsi au grec <a href="/wiki/%CE%BC%CE%BD%E1%BE%B6" title="μνᾶ">μνᾶ</a> correspond le latin <i><a href="/wiki/mina#la" title="mina">mina</a></i>. Exception&#160;: les mots empruntés tardivement au grec&#160;: <i><a href="/wiki/Mnemosyne" title="Mnemosyne">Mnemosyne</a></i>, etc.</li>
+<li>Le son latin du <i>m</i> final ou initial est obscur&#160;: il est parfois élidé en poésie, remplacé par un <i><a href="/wiki/n#la" title="n">n</a></i>, etc. Ainsi on a&#160;:
+<ol><li>Élision&#160;:
+<ul><li><i><a href="/w/index.php?title=attinge&amp;action=edit&amp;redlink=1" class="new" title="attinge (page inexistante)">attinge</a>, <a href="/wiki/dice#la" title="dice">dice</a>, <a href="/w/index.php?title=ostende&amp;action=edit&amp;redlink=1" class="new" title="ostende (page inexistante)">ostende</a></i> pour <a href="/wiki/Aide:Formes_reconstruites" title="Aide:Formes reconstruites"><abbr title="Forme reconstruite">*</abbr></a><i>attingam, dicam, ostendam</i>.</li>
+<li><i><a href="/w/index.php?title=donec&amp;action=edit&amp;redlink=1" class="new" title="donec (page inexistante)">donec</a></i> pour <i><a href="/wiki/donicum" title="donicum">donicum</a></i></li>
+<li><i><a href="/wiki/circueo#la" title="circueo">circueo</a>, <a href="/wiki/circuitus#la" title="circuitus">circuitus</a></i> pour <a href="/wiki/Aide:Formes_reconstruites" title="Aide:Formes reconstruites"><abbr title="Forme reconstruite">*</abbr></a><i>circum-eo, circum-itus</i></li>
+<li><i><a href="/w/index.php?title=veneo&amp;action=edit&amp;redlink=1" class="new" title="veneo (page inexistante)">veneo</a></i> pour <a href="/wiki/Aide:Formes_reconstruites" title="Aide:Formes reconstruites"><abbr title="Forme reconstruite">*</abbr></a><i>venum eo</i> et <i><a href="/wiki/vendo#la" title="vendo">vendo</a></i> pour <a href="/wiki/Aide:Formes_reconstruites" title="Aide:Formes reconstruites"><abbr title="Forme reconstruite">*</abbr></a><i>venum do</i></li>
+<li><i><a href="/w/index.php?title=animadverto&amp;action=edit&amp;redlink=1" class="new" title="animadverto (page inexistante)">animadverto</a></i> pour <a href="/wiki/Aide:Formes_reconstruites" title="Aide:Formes reconstruites"><abbr title="Forme reconstruite">*</abbr></a><i>animum adverto</i></li></ul></li>
+<li>La lettre remplace un <i><a href="/wiki/p#la" title="p">p</a></i> ou un <i><a href="/wiki/b#la" title="b">b</a></i> <a href="/wiki/nasalis%C3%A9" title="nasalisé">nasalisé</a>&#160;:
+<ul><li><i><a href="/wiki/somnus#la" title="somnus">so-m-nus</a></i> → voir <i><a href="/wiki/sopor#la" title="sopor">sopor</a></i>&#32;et <i><a href="/wiki/sopio#la" title="sopio">sopio</a></i>&#160;;</li>
+<li><i><a href="/wiki/scamnum#la" title="scamnum">sca-m-num</a></i> → voir <i><a href="/wiki/scabellum#la" title="scabellum">scabellum</a></i>&#160;;</li>
+<li><i><a href="/wiki/Samnium#la" title="Samnium">Sa-m-nium</a></i> pour <a href="/wiki/Aide:Formes_reconstruites" title="Aide:Formes reconstruites"><abbr title="Forme reconstruite">*</abbr></a><i>Sabinium</i> → voir <i><a href="/wiki/Sabinus#la" title="Sabinus">Sabinus</a></i>&#160;;</li>
+<li><i><a href="/wiki/summus#la" title="summus">su-m-mus</a></i> pour <a href="/wiki/Aide:Formes_reconstruites" title="Aide:Formes reconstruites"><abbr title="Forme reconstruite">*</abbr></a><i>supremus</i> → voir <i><a href="/wiki/sub#la" title="sub">sub</a></i>&#32;et <i><a href="/wiki/super#la" title="super">super</a></i>.</li></ul></li>
+<li>La lettre remplace un <i><a href="/wiki/n#la" title="n">n</a></i> devant une <a href="/wiki/labiale" title="labiale">labiale</a> et dans certains autres cas&#160;:
+<ul><li><i><a href="/wiki/im-#la" title="im-">im-</a></i> pour <i><a href="/wiki/in-#la" title="in-">in-</a></i> devant /b, p/...</li>
+<li><i><a href="/wiki/eundem#la" title="eundem">eundem</a>, <a href="/wiki/eandem#la" title="eandem">eandem</a>, <a href="/wiki/quendam#la" title="quendam">quendam</a>, <a href="/wiki/quorundam#la" title="quorundam">quorundam</a></i> pour <a href="/wiki/Aide:Formes_reconstruites" title="Aide:Formes reconstruites"><abbr title="Forme reconstruite">*</abbr></a><i>eum, eam, quem, quorum</i>.</li></ul></li>
+<li><span class="emploi"><i>(<span class="texte"><a href="/wiki/Annexe:Glossaire_grammatical#P" title="Annexe:Glossaire grammatical">En particulier</a></span>)</i></span> La lettre remplace l'infixe <i><a href="/wiki/-n-#la" title="-n-">-n-</a></i> devant une labiale&#160;:
+<ul><li><i><a href="/wiki/rumpo#la" title="rumpo">ru-m-po</a></i> d'un radical <a href="/wiki/Aide:Formes_reconstruites" title="Aide:Formes reconstruites"><abbr title="Forme reconstruite">*</abbr></a><i>rup</i> → voir <i><a href="/wiki/rupes#la" title="rupes">rupes</a></i>&#160;;</li>
+<li><i><a href="/wiki/lambo#la" title="lambo">la-m-bo</a></i> d'un radical <a href="/wiki/Aide:Formes_reconstruites" title="Aide:Formes reconstruites"><abbr title="Forme reconstruite">*</abbr></a><i>lab</i> → voir <i><a href="/wiki/labor#la" title="labor">labor</a></i>.</li></ul></li></ol></li></ol>
+<h3><span class="mw-headline" id="Symbole"><span class="titredef" id="la-symb-1">Symbole</span><span id="la-symb" style="font-size:0;"> </span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=57" title="Modifier la section : Symbole">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><b>m</b> <span class="emploi"><span id="abréviation"></span><i>(<span class="texte"><a href="/wiki/abr%C3%A9viation" title="abréviation">Abréviation</a></span>)</i></span>
+</p>
+<ol><li>Dans les inscriptions, abréviation de&#160;:
+<ol><li><a href="/wiki/Marcus#la" title="Marcus">Marcus</a>.</li>
+<li>Moins fréquemment les mots&#160;: <a href="/wiki/magister#la" title="magister">magister</a>, <a href="/wiki/monumentum#la" title="monumentum">monumentum</a>, <a href="/wiki/municipium#la" title="municipium">municipium</a>.</li></ol></li></ol>
+<h3><span id="R.C3.A9f.C3.A9rences_6"></span><span class="mw-headline" id="Références_6"><span class="titreref" title="">Références</span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=m&amp;action=edit&amp;section=58" title="Modifier la section : Références">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li>«&#160;m&#160;», dans&#160;<a href="https://fr.wikipedia.org/wiki/F%C3%A9lix_Gaffiot" class="extiw" title="w:Félix Gaffiot">Félix Gaffiot</a>,&#160;<i>Dictionnaire latin français</i>, Hachette, 1934&#32;(page <a class="external text" href="https://commons.wikimedia.org/w/index.php?title=File%3AGaffiot_-_Dictionnaire_illustré_Latin-Français.djvu&amp;page=941">933</a>)</li>
+<li>«&#160;m&#160;», dans&#160;Charlton T. Lewis et Charles Short,&#160;<i><span lang="en" class="lang-en"><bdi>A Latin Dictionary</bdi></span></i>, <span lang="en" class="lang-en"><bdi>Clarendon Press</bdi></span>, Oxford, 1879&#160;<a rel="nofollow" class="external text" href="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0059:entry=m">→ consulter cet ouvrage</a></li></ul>
+<!--
+NewPP limit report
+Parsed by mw1360
+Cached time: 20211023131131
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: []
+CPU time usage: 1.481 seconds
+Real time usage: 1.725 seconds
+Preprocessor visited node count: 12540/1000000
+Post‐expand include size: 150515/2097152 bytes
+Template argument size: 7857/2097152 bytes
+Highest expansion depth: 14/40
+Expensive parser function count: 158/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+Lua time usage: 0.688/10.000 seconds
+Lua memory usage: 19261602/52428800 bytes
+Number of Wikibase entities loaded: 0/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00% 1404.507      1 -total
+ 29.85%  419.186     98 Modèle:lien_m
+ 24.59%  345.311     95 Modèle:lien
+ 24.22%  340.191      1 Modèle:alphabet_espéranto
+ 12.43%  174.537      1 Modèle:alphabet_latin
+ 11.64%  163.524      1 Modèle:alphabet_latin/étendu
+  8.51%  119.488      1 Modèle:digrammes_AZ
+  8.49%  119.254      7 Modèle:lettre
+  7.90%  110.943    107 Modèle:sans_balise
+  6.69%   93.896     46 Modèle:S
+-->
+
+<!-- Saved in parser cache with key frwiktionary:pcache:idhash:7338-0!canonical and timestamp 20211023131129 and revision id 28504292. Serialized with JSON.
+ -->
+</div><noscript><img src="//fr.wiktionary.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
+<div class="printfooter">Récupérée de «&#160;<a dir="ltr" href="https://fr.wiktionary.org/w/index.php?title=m&amp;oldid=28504292">https://fr.wiktionary.org/w/index.php?title=m&amp;oldid=28504292</a>&#160;»</div></div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Sp%C3%A9cial:Cat%C3%A9gories" title="Spécial:Catégories">Catégories</a> : <ul><li><a href="/wiki/Cat%C3%A9gorie:Caract%C3%A8res" title="Catégorie:Caractères">Caractères</a></li><li><a href="/wiki/Cat%C3%A9gorie:Alphabet_latin" title="Catégorie:Alphabet latin">Alphabet latin</a></li><li><a href="/wiki/Cat%C3%A9gorie:conventions_internationales" title="Catégorie:conventions internationales">conventions internationales</a></li><li><a href="/wiki/Cat%C3%A9gorie:Mots_en_conventions_internationales_issus_d%E2%80%99un_mot_en_fran%C3%A7ais" title="Catégorie:Mots en conventions internationales issus d’un mot en français">Mots en conventions internationales issus d’un mot en français</a></li><li><a href="/wiki/Cat%C3%A9gorie:Mots_en_conventions_internationales_issus_d%E2%80%99un_mot_en_anglais" title="Catégorie:Mots en conventions internationales issus d’un mot en anglais">Mots en conventions internationales issus d’un mot en anglais</a></li><li><a href="/wiki/Cat%C3%A9gorie:Symboles_en_conventions_internationales" title="Catégorie:Symboles en conventions internationales">Symboles en conventions internationales</a></li><li><a href="/wiki/Cat%C3%A9gorie:Lexique_en_conventions_internationales_de_la_linguistique" title="Catégorie:Lexique en conventions internationales de la linguistique">Lexique en conventions internationales de la linguistique</a></li><li><a href="/wiki/Cat%C3%A9gorie:Lexique_en_conventions_internationales_de_la_m%C3%A9trologie" title="Catégorie:Lexique en conventions internationales de la métrologie">Lexique en conventions internationales de la métrologie</a></li><li><a href="/wiki/Cat%C3%A9gorie:Lexique_en_conventions_internationales_de_la_physique" title="Catégorie:Lexique en conventions internationales de la physique">Lexique en conventions internationales de la physique</a></li><li><a href="/wiki/Cat%C3%A9gorie:Num%C3%A9raux" title="Catégorie:Numéraux">Numéraux</a></li><li><a href="/wiki/Cat%C3%A9gorie:fran%C3%A7ais" title="Catégorie:français">français</a></li><li><a href="/wiki/Cat%C3%A9gorie:Lemmes_en_fran%C3%A7ais" title="Catégorie:Lemmes en français">Lemmes en français</a></li><li><a href="/wiki/Cat%C3%A9gorie:Lettres_en_fran%C3%A7ais" title="Catégorie:Lettres en français">Lettres en français</a></li><li><a href="/wiki/Cat%C3%A9gorie:Termes_vieillis_en_fran%C3%A7ais" title="Catégorie:Termes vieillis en français">Termes vieillis en français</a></li><li><a href="/wiki/Cat%C3%A9gorie:Mots_ayant_des_homophones_en_fran%C3%A7ais" title="Catégorie:Mots ayant des homophones en français">Mots ayant des homophones en français</a></li><li><a href="/wiki/Cat%C3%A9gorie:anglais" title="Catégorie:anglais">anglais</a></li><li><a href="/wiki/Cat%C3%A9gorie:Lemmes_en_anglais" title="Catégorie:Lemmes en anglais">Lemmes en anglais</a></li><li><a href="/wiki/Cat%C3%A9gorie:Lettres_en_anglais" title="Catégorie:Lettres en anglais">Lettres en anglais</a></li><li><a href="/wiki/Cat%C3%A9gorie:cr%C3%A9ole_ha%C3%AFtien" title="Catégorie:créole haïtien">créole haïtien</a></li><li><a href="/wiki/Cat%C3%A9gorie:Formes_de_pronoms_personnels_en_cr%C3%A9ole_ha%C3%AFtien" title="Catégorie:Formes de pronoms personnels en créole haïtien">Formes de pronoms personnels en créole haïtien</a></li><li><a href="/wiki/Cat%C3%A9gorie:dal%C3%A9carlien" title="Catégorie:dalécarlien">dalécarlien</a></li><li><a href="/wiki/Cat%C3%A9gorie:Lettres_en_dal%C3%A9carlien" title="Catégorie:Lettres en dalécarlien">Lettres en dalécarlien</a></li><li><a href="/wiki/Cat%C3%A9gorie:esp%C3%A9ranto" title="Catégorie:espéranto">espéranto</a></li><li><a href="/wiki/Cat%C3%A9gorie:Lemmes_en_esp%C3%A9ranto" title="Catégorie:Lemmes en espéranto">Lemmes en espéranto</a></li><li><a href="/wiki/Cat%C3%A9gorie:Lettres_en_esp%C3%A9ranto" title="Catégorie:Lettres en espéranto">Lettres en espéranto</a></li><li><a href="/wiki/Cat%C3%A9gorie:Mots_en_esp%C3%A9ranto_inclus_dans_la_Plena_Ilustrata_Vortaro_(1970)" title="Catégorie:Mots en espéranto inclus dans la Plena Ilustrata Vortaro (1970)">Mots en espéranto inclus dans la Plena Ilustrata Vortaro (1970)</a></li><li><a href="/wiki/Cat%C3%A9gorie:finnois" title="Catégorie:finnois">finnois</a></li><li><a href="/wiki/Cat%C3%A9gorie:Lemmes_en_finnois" title="Catégorie:Lemmes en finnois">Lemmes en finnois</a></li><li><a href="/wiki/Cat%C3%A9gorie:Lettres_en_finnois" title="Catégorie:Lettres en finnois">Lettres en finnois</a></li><li><a href="/wiki/Cat%C3%A9gorie:flamand_occidental" title="Catégorie:flamand occidental">flamand occidental</a></li><li><a href="/wiki/Cat%C3%A9gorie:Lettres_en_flamand_occidental" title="Catégorie:Lettres en flamand occidental">Lettres en flamand occidental</a></li><li><a href="/wiki/Cat%C3%A9gorie:gaulois" title="Catégorie:gaulois">gaulois</a></li><li><a href="/wiki/Cat%C3%A9gorie:Adjectifs_en_gaulois" title="Catégorie:Adjectifs en gaulois">Adjectifs en gaulois</a></li><li><a href="/wiki/Cat%C3%A9gorie:Abr%C3%A9viations_en_gaulois" title="Catégorie:Abréviations en gaulois">Abréviations en gaulois</a></li><li><a href="/wiki/Cat%C3%A9gorie:Lettres_en_gaulois" title="Catégorie:Lettres en gaulois">Lettres en gaulois</a></li><li><a href="/wiki/Cat%C3%A9gorie:Noms_communs_en_gaulois" title="Catégorie:Noms communs en gaulois">Noms communs en gaulois</a></li><li><a href="/wiki/Cat%C3%A9gorie:Mots_attest%C3%A9s_en_gaulois" title="Catégorie:Mots attestés en gaulois">Mots attestés en gaulois</a></li><li><a href="/wiki/Cat%C3%A9gorie:guarani" title="Catégorie:guarani">guarani</a></li><li><a href="/wiki/Cat%C3%A9gorie:Lettres_en_guarani" title="Catégorie:Lettres en guarani">Lettres en guarani</a></li><li><a href="/wiki/Cat%C3%A9gorie:latin" title="Catégorie:latin">latin</a></li><li><a href="/wiki/Cat%C3%A9gorie:Mots_en_latin_issus_d%E2%80%99un_mot_en_grec_ancien" title="Catégorie:Mots en latin issus d’un mot en grec ancien">Mots en latin issus d’un mot en grec ancien</a></li><li><a href="/wiki/Cat%C3%A9gorie:Lemmes_en_latin" title="Catégorie:Lemmes en latin">Lemmes en latin</a></li><li><a href="/wiki/Cat%C3%A9gorie:Lettres_en_latin" title="Catégorie:Lettres en latin">Lettres en latin</a></li><li><a href="/wiki/Cat%C3%A9gorie:Mots_ind%C3%A9clinables_en_latin" title="Catégorie:Mots indéclinables en latin">Mots indéclinables en latin</a></li><li><a href="/wiki/Cat%C3%A9gorie:Lexique_en_latin_de_la_linguistique" title="Catégorie:Lexique en latin de la linguistique">Lexique en latin de la linguistique</a></li><li><a href="/wiki/Cat%C3%A9gorie:%C3%89tymologies_en_latin_incluant_une_reconstruction" title="Catégorie:Étymologies en latin incluant une reconstruction">Étymologies en latin incluant une reconstruction</a></li><li><a href="/wiki/Cat%C3%A9gorie:Symboles_en_latin" title="Catégorie:Symboles en latin">Symboles en latin</a></li><li><a href="/wiki/Cat%C3%A9gorie:Abr%C3%A9viations_en_latin" title="Catégorie:Abréviations en latin">Abréviations en latin</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Catégories cachées : <ul><li><a href="/wiki/Cat%C3%A9gorie:Pages_li%C3%A9es_%C3%A0_Wikip%C3%A9dia_en_fran%C3%A7ais" title="Catégorie:Pages liées à Wikipédia en français">Pages liées à Wikipédia en français</a></li><li><a href="/wiki/Cat%C3%A9gorie:Traductions_en_arabe" title="Catégorie:Traductions en arabe">Traductions en arabe</a></li><li><a href="/wiki/Cat%C3%A9gorie:Traductions_en_grec" title="Catégorie:Traductions en grec">Traductions en grec</a></li><li><a href="/wiki/Cat%C3%A9gorie:Traductions_en_hindi" title="Catégorie:Traductions en hindi">Traductions en hindi</a></li><li><a href="/wiki/Cat%C3%A9gorie:Traductions_en_russe" title="Catégorie:Traductions en russe">Traductions en russe</a></li><li><a href="/wiki/Cat%C3%A9gorie:Prononciations_audio_en_fran%C3%A7ais" title="Catégorie:Prononciations audio en français">Prononciations audio en français</a></li><li><a href="/wiki/Cat%C3%A9gorie:Wiktionnaire:Prononciations_phon%C3%A9tiques_manquantes_en_fran%C3%A7ais" title="Catégorie:Wiktionnaire:Prononciations phonétiques manquantes en français">Wiktionnaire:Prononciations phonétiques manquantes en français</a></li><li><a href="/wiki/Cat%C3%A9gorie:Prononciations_audio_en_anglais" title="Catégorie:Prononciations audio en anglais">Prononciations audio en anglais</a></li><li><a href="/wiki/Cat%C3%A9gorie:Wiktionnaire:Prononciations_phon%C3%A9tiques_manquantes_en_anglais" title="Catégorie:Wiktionnaire:Prononciations phonétiques manquantes en anglais">Wiktionnaire:Prononciations phonétiques manquantes en anglais</a></li><li><a href="/wiki/Cat%C3%A9gorie:Wiktionnaire:Prononciations_manquantes_en_dal%C3%A9carlien" title="Catégorie:Wiktionnaire:Prononciations manquantes en dalécarlien">Wiktionnaire:Prononciations manquantes en dalécarlien</a></li><li><a href="/wiki/Cat%C3%A9gorie:Prononciations_audio_en_finnois" title="Catégorie:Prononciations audio en finnois">Prononciations audio en finnois</a></li></ul></div></div>
+	</div>
+
+
+</main>
+
+	</div>
+</div>
+
+<div class="mw-workspace-container mw-footer-container">
+	<div class="mw-content-container">
+		<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> La dernière modification de cette page a été faite le 30 août 2020 à 09:46.</li>
+	<li id="footer-info-copyright">Les textes sont disponibles sous <a href="//creativecommons.org/licenses/by-sa/3.0/deed.fr">licence Creative Commons attribution partage à l’identique</a> ; d’autres termes peuvent s’appliquer. Voyez les <a href="//wikimediafoundation.org/wiki/Conditions_d'utilisation">termes d’utilisation</a> pour plus de détails.<br/>Pour les illustrations, cliquez sur chaque image ou consultez les <a class="internal" href="//fr.wiktionary.org/wiki/Wiktionnaire:Cr%C3%A9dits_graphiques" title="Droit d'auteur de certaines icônes">crédits graphiques</a>.<br/></li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://meta.wikimedia.org/wiki/Privacy_policy/fr" class="extiw" title="m:Privacy policy/fr">Politique de confidentialité</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wiktionnaire:%C3%80_propos_de" class="mw-redirect" title="Wiktionnaire:À propos de">À propos du Wiktionnaire</a></li>
+	<li id="footer-places-disclaimer"><a href="/wiki/Wiktionnaire:Licence" title="Wiktionnaire:Licence">Licence</a></li>
+	<li id="footer-places-mobileview"><a href="//fr.m.wiktionary.org/w/index.php?title=m&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Version mobile</a></li>
+	<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Développeurs</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/fr.wiktionary.org">Statistiques</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Déclaration sur les témoins (cookies)</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+</ul>
+
+</footer>
+
+	</div>
+</div>
+	</div>
+</div>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"1.481","walltime":"1.725","ppvisitednodes":{"value":12540,"limit":1000000},"postexpandincludesize":{"value":150515,"limit":2097152},"templateargumentsize":{"value":7857,"limit":2097152},"expansiondepth":{"value":14,"limit":40},"expensivefunctioncount":{"value":158,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":0,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 1404.507      1 -total"," 29.85%  419.186     98 Modèle:lien_m"," 24.59%  345.311     95 Modèle:lien"," 24.22%  340.191      1 Modèle:alphabet_espéranto"," 12.43%  174.537      1 Modèle:alphabet_latin"," 11.64%  163.524      1 Modèle:alphabet_latin/étendu","  8.51%  119.488      1 Modèle:digrammes_AZ","  8.49%  119.254      7 Modèle:lettre","  7.90%  110.943    107 Modèle:sans_balise","  6.69%   93.896     46 Modèle:S"]},"scribunto":{"limitreport-timeusage":{"value":"0.688","limit":"10.000"},"limitreport-memusage":{"value":19261602,"limit":52428800}},"cachereport":{"origin":"mw1360","timestamp":"20211023131131","ttl":1814400,"transientcontent":false}}});mw.config.set({"wgBackendResponseTime":159,"wgHostname":"mw1417"});});</script>
+</body></html>

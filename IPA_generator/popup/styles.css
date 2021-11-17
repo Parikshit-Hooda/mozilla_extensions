@@ -1,8 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
 body {
-  font-family: sans-serif;
+  font-family: 'Rubik', sans-serif;
+  width: 400px;
+  max-width: 400px;
 }
 
 #src_tgt_separator {
   width: 200px;
   text-align: center;
+}
+
+#container-div-ipa {
+  height: 400px;
+  max-height: 500px;
+  overflow: scroll;
 }

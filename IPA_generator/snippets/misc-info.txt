@@ -1,0 +1,72 @@
+DOM selctor that works for source text -> document.querySelector('[aria-label="Source text"]').nextElementSibling.innerHTML
+
+DOM selector that works for target text -(for french) -> document.querySelector('[lang="fr"]').childNodes[0].innerText
+
+UPDATE: For additional info, indirect selector for selecting source and target information added below.
+
+Source:
+var testvar;
+for (const a of document.querySelectorAll("h2")) {
+  if (a.textContent.includes("Source text")) {
+    testvar = a;
+  }
+}
+
+Target:
+var testvar;
+for (const a of document.querySelectorAll("h2")) {
+  if (a.textContent.includes("Translation results")) {
+    testvar = a;
+  }
+}
+
+--------------------------------------------------------
+
+DOM selector that works for target text -(for french) ->
+document.querySelector('[lang="es"]').childNodes[0].innerText
+
+flow
+content script listens for click of button from popup.html.
+when btn clicked, content script transfers values to popup.html
+then, popup produces received message from content script in popup.html
+then, popup script makes calls to APIs to retrieve IPA
+
+
+"content_scripts": [
+  {
+    "matches": ["*://translate.google.com/*"],
+    "js": ["content_script1.js"]
+  }
+],
+
+
+-----------------------------------
+get info about selected languages
+- on google translate
+ - get element details with id = i8, i9, i10, i11, i12, i13, i14. In normal window view,
+      ->Left panel<-
+       i8 -> 'detect language' tab
+       i9 - first tab
+       i10 - second tab
+       i11 - third tab
+      ->Right panel<-
+      i12 - first tab
+      i13 - second tab
+      i14 - third tab
+
+      ----------------------
+
+      getting target text
+      after finding currently select target language
+      select div with "data-language" attribute = target .
+      Then, do a nested element select for 1st child in nested div > 1st span > 1st span > 1st span.innerText
+
+      document.querySelectorAll('[data-foo="value"] > div > span > span > span ');
+
+
+----------------------
+var tgtTextListLength = document.querySelectorAll("[data-language=fr] > div > span > span > span").length
+var tgtText = "";
+console.log(tgtTextListLength);
+for(var i = 0 ; i < tgtTextListLength; i = i+1) {
+  tgtText = tgtText + document.querySelectorAll("[data-language=fr] > div > span > span > span")[i].textContent
