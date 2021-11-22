@@ -11,13 +11,13 @@ For https://translate.google.com, for English-French translations, generate IPA 
 
 ## What should the Extension do?
 
-- Match for the right address, i.e., https://translate.google.com .
-- Check that English and French are the two selected languages.
-- Present a button to user to generate IPA for all the eligible words in the English pane and the French pane.
+- [x] Match for the right address, i.e., https://translate.google.com .
+- [x] Check that English and French are the two selected languages.
+- [x] Present a button to user to generate IPA for all the eligible words in the English pane and the French pane.
+- [ ] Deploy an intermediate server to memoize results over time and build a key:value data store. This memoization will help in reducing Fetch calls to wiktionary.org website.
+- [ ] Implement feature for extension to work in medium or small size window.
 
 
 ## Contribute
 Feel free to raise a PR or an issue.
 
-## Notes
-- IPA is enclosed by forward brackets( / ). In case of fetching IPA for French words, Wiktionary returns IPA with backward bracket( \ ). Replace backward bracket with forward bracket by string manipulation.
