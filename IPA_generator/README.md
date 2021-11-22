@@ -2,6 +2,10 @@
 
 For https://translate.google.com, for English-French translations, generate IPA for English and French components.
 
+## Get Started
+To start/set up the extension, first requirement is a Mozilla Firefox browser on your computer. Then, follow the below steps:
+1. 
+
 ## Prospective APIs
 - [DictionaryAPI](https://dictionaryapi.dev/)
 - [Oxford Dictionaries API](https://developer.oxforddictionaries.com/)
